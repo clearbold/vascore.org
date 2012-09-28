@@ -100,6 +100,13 @@ p.subhead {
 	text-transform: uppercase;
 }
 
+@media only screen and (max-width: 1024px) {
+	#services .tabs h3 {
+		font-size: 1.5em;
+		overflow: hidden;
+	}
+}
+
 @media only screen and (max-width: 767px) {
 	.section {
 		padding-bottom: 2em;
@@ -108,5 +115,11 @@ p.subhead {
 	#intro h2 {
 		font-size: 4em;
 		margin-bottom: 1.6667em;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	#services .tabs h3 {
+		font-size: 1.3em;
 	}
 }

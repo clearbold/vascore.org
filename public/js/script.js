@@ -4,6 +4,8 @@ jQuery(document).ready(function($){
     $.Window = $(window);
     $.Slides = $('.section');
 
+    var slideheight = 1280;
+
     var eq = 0;
 
     /*alert('#intro: ' + $('#intro').height() + '\n' +
@@ -16,31 +18,43 @@ jQuery(document).ready(function($){
 
     var destinations = [];
     destinations[0] = 0;
-    destinations[1] = 1280; // #intro
+    destinations[1] = slideheight; // #intro
     destinations[2] = 4280; // #about
     destinations[3] = 5560; // #expertise
     destinations[4] = destinations[3] + 2200; // #services
-    destinations[5] = destinations[4] + 1280; // #clients
-    destinations[6] = destinations[5] + 1280; // #publications
-    destinations[7] = destinations[6] + 1280; // #contact
+    destinations[5] = destinations[4] + slideheight; // #clients
+    destinations[6] = destinations[5] + slideheight; // #publications
+    destinations[7] = destinations[6] + slideheight; // #contact
 
     var leftover = $.Window.height() - 0;
 
-    var bodyheight = destinations[6] + leftover;
-
-    $.Body = $('body');
-
-    $.Body.height(bodyheight);
-
-    $.Scroll = ($.browser.mozilla || $.browser.msie) ? $('html') : $.Body;
+    var bodyheight = destinations[6] + slideheight;
 
     var destinationslength = destinations.length;
 
-    $.Window.bind('scroll', function(e) {
-        pageScroll(e);
-    })
+    if ($(this).width() < 1025) {
+        return;
+    }
+    else
+    {
+        enhancePage();
+        $( ".accordion" ).accordion({
+            event: "click mouseover",
+            animated: "bounceslide"
+        });
+    }
+
+    function enhancePage() {
+        $.Body = $('body');
+        $.Body.height(bodyheight);
+        $.Scroll = ($.browser.mozilla || $.browser.msie) ? $('html') : $.Body;
+        $.Window.bind('scroll', function(e) {
+            pageScroll(e);
+        })
+    }
 
     function pageScroll(e) {
+
         var scrollTop = $(this).scrollTop();
 
         for (var x = -1; x < destinationslength; ++x)
@@ -55,7 +69,7 @@ jQuery(document).ready(function($){
         }
 
         //console.log(scrollTop);
-        //console.log($(activeSlide).attr('id'));
+        console.log($(activeSlide).attr('id'));
 
         $(activeSlide).stop().css({
             'margin-top' : (-scrollTop + destinations[eq]) + 'px'
@@ -76,7 +90,7 @@ jQuery(document).ready(function($){
         var height = $(activeSlide).height();
         var margintop = $(activeSlide).css('marginTop').replace('px', '');
 
-        if (height - Math.abs(margintop) < 500){inView = eq+1;}
+        if (height - Math.abs(margintop) < (slideheight/2)){inView = eq+1;}
 
         $.Slides.slice(eq+1, 7).hide();
         $.Slides.eq(eq+1).show();

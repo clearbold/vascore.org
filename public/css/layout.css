@@ -88,12 +88,39 @@ h1 {
 		background: rgb(170, 216, 221);
 		color: rgb(79, 110, 127);
 	}
-	#services .tabs h3 {
-		background: rgb(136, 191, 199) url('../images/bg_tab-services.png') repeat-y;
+	.accordion > h3,
+	.accordion > h3.ui-state-default {
+		background: rgb(136, 191, 199) url('../images/bg_tab-services.png') no-repeat;
+		height: 57px;
+		line-height: 57px;
 		margin-bottom: 1px;
-		padding-bottom: 10px;
 		padding-left: 78px;
-		padding-top: 10px;
+
+	}
+	.accordion > h3.expanded,
+	.accordion > h3.ui-state-active {
+		background: url('../images/bg_tab-expanded-services.png') no-repeat;
+	}
+	.accordion > div {
+		background: rgb(83, 117, 133);
+		margin-bottom: 1px;
+		padding-bottom: 1em;
+		padding-left: 78px;
+		padding-top: 1em;
+	}
+	.accordion > div ul {
+		float: left;
+		list-style-position: outside;
+		margin-right: 5%;
+		width: 40%;
+	}
+	.accordion > div ul li {
+		color: rgb(146, 205, 211);
+		font-size: 1.5em;
+		text-align: left;
+	}
+	.accordion > div ul li span {
+		color: rgb(255, 255, 255);
 	}
 
 #clients {
@@ -150,6 +177,12 @@ h1 {
 	padding-top: 20px;
 }
 
+@media only screen and (max-width: 1024px) {
+	.accordion > h3 {
+		background: url('../images/bg_tab-expanded-services.png') no-repeat;
+	}
+}
+
 @media only screen and (max-width: 767px) {
 	.section {
 		min-height: 0;
@@ -162,6 +195,12 @@ h1 {
     }
     #phone-fax > div {
 		width: 71.4%;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.accordion > div ul {
+		float: none;
 	}
 }
 

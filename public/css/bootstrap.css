@@ -39,9 +39,9 @@ input {
     width: 1000px;
 }
 /* Nicolas Gallagher's micro clearfix, via Zurb Foundation */
-.row { *zoom: 1; }
-.row:before, .row:after { content: ""; display: table; }
-.row:after { clear: both; }
+.clearfix, .row { *zoom: 1; }
+.clearfix:before, .clearfix:after, .row:before, .row:after { content: ""; display: table; }
+.clearfix:after,.row:after { clear: both; }
 
 .column, .columns {
     float: left;
@@ -163,19 +163,6 @@ input[type="search"] {
     width: auto;
 }
 
-/* Fixed footer support. Negative margin on wrapper matches footer height.
-Height of .push can match, or can pad bottom of preceding content. */
-html, body { height: 100%; }
-.wrapper { margin: 0 auto -100px; min-height: 100%; height: auto !important; height: 100%; }
-.push { z-index: 0; clear: both; height: 140px; }
-.pagefooter { height: 100px; width: 100%; }
-/* / Fixed footer support */
-
-.pagefooter p {
-    font-size: 1.2em;
-    line-height: 3em;
-}
-
 @media only screen and (max-width: 767px) {
     body {
         -webkit-text-size-adjust: none;
@@ -223,11 +210,6 @@ html, body { height: 100%; }
         float: none;
         margin-bottom: 1em;
     }
-
-    html, body { height: auto; }
-    .wrapper { margin: 0 auto; min-height: none; padding-bottom: 40px; height: auto !important; }
-    .push { height: 0; }
-    .pagefooter { height: auto; padding-bottom: 20px; width: 100%; }
 }
 
 @media only screen and (max-width: 1023px) {
