@@ -21,7 +21,7 @@ jQuery(document).ready(function($){
     destinations[1] = slideheight; // #intro
     destinations[2] = 4280; // #about
     destinations[3] = 5560; // #expertise
-    destinations[4] = destinations[3] + 2200; // #services
+    destinations[4] = destinations[3] + 1680; // #services
     destinations[5] = destinations[4] + slideheight; // #clients
     destinations[6] = destinations[5] + slideheight; // #publications
     destinations[7] = destinations[6] + slideheight; // #contact
@@ -32,7 +32,16 @@ jQuery(document).ready(function($){
 
     var destinationslength = destinations.length;
 
+    $.Body = $('body');
+    $.Body.height(bodyheight);
+    $.Scroll = ($.browser.mozilla || $.browser.msie) ? $('html') : $.Body;
+
     if ($(this).width() < 1025) {
+        $.Scroll.stop().animate({scrollTop: $( window.location.href.slice(-1*(window.location.href.length - window.location.href.indexOf('#'))) ).position().top+'px'});
+        $('div[role=navigation] a').click(function(e){
+            e.preventDefault();
+            $.Scroll.stop().animate({scrollTop: $( $(this).attr('href') ).position().top+'px'});
+        })
         return;
     }
     else
@@ -40,14 +49,16 @@ jQuery(document).ready(function($){
         enhancePage();
         $( ".accordion" ).accordion({
             event: "click mouseover",
-            animated: "bounceslide"
+            animated: "bounceslide",
+            collapsible: true,
+            active: 10
         });
     }
 
     function enhancePage() {
-        $.Body = $('body');
-        $.Body.height(bodyheight);
-        $.Scroll = ($.browser.mozilla || $.browser.msie) ? $('html') : $.Body;
+        pageindex = $('div[role=navigation] a').index( $('div[role=navigation] a[href='+window.location.href.slice(-1*(window.location.href.length - window.location.href.indexOf('#')))+']') );
+        $.Scroll.stop().animate({scrollTop: (destinations[pageindex+1])+'px'});
+
         $.Window.bind('scroll', function(e) {
             pageScroll(e);
         });
