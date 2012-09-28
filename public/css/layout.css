@@ -12,7 +12,16 @@ div[role=navigation] a {
 	padding: .4em .6em;
 	text-decoration: none;
 	text-transform: uppercase;
+
+	-webkit-transition: 0.2s all linear;
+	-moz-transition: 0.2s all linear;
+	-o-transition: 0.2s all linear;
+	transition: 0.2s all linear;
 }
+	div[role=navigation] a:hover {
+		background: rgb(246, 153, 7);
+		color: rgb(255, 255, 255);
+	}
 
 h1 {
 	background: rgb(214, 214, 211);

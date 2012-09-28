@@ -50,7 +50,14 @@ jQuery(document).ready(function($){
         $.Scroll = ($.browser.mozilla || $.browser.msie) ? $('html') : $.Body;
         $.Window.bind('scroll', function(e) {
             pageScroll(e);
-        })
+        });
+        $('.logo a').click(function(e){
+            $.Scroll.stop().animate({scrollTop: (destinations[0])+'px'});
+        });
+        $('div[role=navigation] a').click(function(e){
+            linkindex = $('div[role=navigation] a').index($(this));
+            $.Scroll.stop().animate({scrollTop: (destinations[linkindex+1])+'px'});
+        });
     }
 
     function pageScroll(e) {
@@ -69,7 +76,7 @@ jQuery(document).ready(function($){
         }
 
         //console.log(scrollTop);
-        console.log($(activeSlide).attr('id'));
+        //console.log($(activeSlide).attr('id'));
 
         $(activeSlide).stop().css({
             'margin-top' : (-scrollTop + destinations[eq]) + 'px'
