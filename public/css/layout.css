@@ -1,0 +1,198 @@
+.masthead {
+	background: rgb(255, 255, 255);
+	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2); -moz-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2); -webkit-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+	height: 88px;
+}
+div[role=navigation] a {
+	background: rgb(236, 234, 230);
+	color: rgb(115, 127, 131);
+	border-radius: 6px;
+	font-size: 1.1em;
+	margin-left: .4em;
+	padding: .4em .6em;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+h1 {
+	background: rgb(214, 214, 211);
+	color: rgb(255, 255, 255);
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	display: inline-block;
+	font-size: 1.4em;
+	line-height: 1em;
+	padding: 1.8em 0;
+	width: 18.5em;
+}
+
+.section {
+	min-height: 780px;
+	padding-bottom: 130px;
+	text-align: center;
+}
+	.section h1 {
+		margin-bottom: 100px;
+	}
+	.section h2,
+	.section p {
+		margin-bottom: 80px;
+	}
+	p.subhead {
+		margin-bottom: 25px;
+	}
+
+#intro {
+	background: url('../images/bg_intro-tiled.jpg');
+	padding-top: 140px;
+}
+
+#about {
+	background: rgb(83, 109, 127);
+}
+	#about h1 {
+		background: rgb(100, 136, 149);
+		color: rgb(206, 227, 235);
+	}
+	#about figure {
+
+	}
+		#about figure img {
+			display: block;
+			margin: 0 auto;
+		}
+	#about figcaption {
+		background: rgb(58, 82, 97);
+		height: 66px;
+		padding: 10px 18px;
+		text-align: left;
+		width: 100%;
+	}
+			#about span[itemprop=name],
+			#about span[itemprop=jobTitle] {
+				display: block;
+			}
+
+#expertise {
+	background: url('../images/bg_intro-tiled.jpg');
+}
+	#expertise h1 {
+		background: rgb(227, 234, 235);
+		color: rgb(116, 118, 120);
+	}
+
+#services {
+	background: rgb(146, 205, 211);
+}
+	#services h1 {
+		background: rgb(170, 216, 221);
+		color: rgb(79, 110, 127);
+	}
+	#services .tabs h3 {
+		background: rgb(136, 191, 199) url('../images/bg_tab-services.png') repeat-y;
+		margin-bottom: 1px;
+		padding-bottom: 10px;
+		padding-left: 78px;
+		padding-top: 10px;
+	}
+
+#clients {
+	background: rgb(236, 233, 229);
+}
+	#clients .logos .columns img {
+		margin: 0 8px 22px;
+	}
+
+#publications {
+	background: rgb(115, 127, 131);
+}
+	#publications h1 {
+		background: rgb(146, 155, 158);
+	}
+
+#contact {
+	background: url('../images/bg_contact-tiled.png');
+}
+	#contact h1 {
+		background: rgb(187, 224, 228);
+	}
+	.contact-row > div {
+		padding-top: 30px;
+		position: relative;
+	}
+	.contact-info {
+		background: rgb(255, 255, 255);
+		margin: 0 auto;
+		min-height: 100px;
+		padding-top: 60px;
+		width: 71.4%;
+	}
+		#phone-fax > div {
+			width: 83.333%;
+		}
+	#contact h3 {
+		position: absolute;
+		top: 0; left: 0;
+		background: url('../images/bg_h3-contact.png') no-repeat top center;
+		height: 78px;
+		line-height: 78px;
+		width: 100%;
+	}
+		#phone-fax h3 {
+			line-height: 1.2em;
+			padding-top: 26px;
+		}
+
+.footer {
+	background: rgb(84, 112, 128);
+	color: rgb(255, 255, 255);
+	height: 100px;
+	padding-top: 20px;
+}
+
+@media only screen and (max-width: 767px) {
+	.section {
+		min-height: 0;
+	}
+	.masthead {
+        height: auto;
+    }
+    #intro {
+    	padding-top: 0;
+    }
+    #phone-fax > div {
+		width: 71.4%;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	#about div.eighteen div.row {
+		background: url('../images/bg_figure-tiled.png');
+	}
+}
+
+@media only screen and (max-width: 1023px) {
+	.masthead,
+	.section,
+	.footer {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	#intro {
+		padding-top: 2em;
+	}
+		#about figure {
+			margin: 0 auto;
+			max-width: 450px; /*
+			min-height: 0;
+			padding-bottom: 0;*/
+		}
+}
+
+@media only screen and (min-width: 1024px) {
+	.masthead {
+		position: fixed;
+		width: 100%;
+		z-index: 9;
+	}
+}

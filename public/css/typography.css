@@ -1,0 +1,112 @@
+body {
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h2 {
+	font-size: 6em;
+	font-weight: normal;
+}
+
+p {
+	line-height: 1.875em;
+}
+figcaption p {
+	line-height: 1.3em;
+}
+p.subhead {
+	font-weight: bold;
+}
+
+#intro h2 {
+	color: rgb(146, 205, 211);
+	font-size: 8.6em;
+}
+#intro p {
+	color: rgb(80, 106, 122);
+	font-size: 1.6em;
+}
+#intro p strong {
+	color: rgb(58, 79, 91);
+}
+
+#about h1 {
+	background: rgb(100, 136, 149);
+	color: rgb(206, 227, 235);
+}
+#about h2 {
+	color: rgb(146, 205, 211);
+}
+#about p {
+	color: rgb(255, 255, 255);
+	font-size: 1.6em;
+}
+#about figcaption p {
+	font-weight: 600;
+	font-size: 1.3em;
+	text-align: left;
+}
+#about span[itemprop=name],
+#about span[itemprop=jobTitle] {
+	color: rgb(255, 255, 255);
+}
+#about span[itemprop=jobTitle] {
+	color: rgb(146, 205, 211);
+}
+
+#expertise h2 {
+	color: rgb(115, 127, 131);
+}
+#expertise p {
+	color: rgb(115, 127, 131);
+	font-size: 1.6em;
+}
+#expertise h3 {
+	color: rgb(116, 118, 120);
+	font-size: 1.9em;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+#services h2 {
+	color: rgb(255, 255, 255);
+}
+#services p {
+	color: rgb(70, 98, 116);
+	font-size: 1.7em;
+}
+#services .tabs h3 {
+	color: rgb(255, 255, 255);
+	font-size: 3em;
+	font-weight: normal;
+	text-align: left;
+}
+
+#clients h2 {
+	color: rgb(87, 114, 131);
+	font-weight: normal;
+}
+
+#publications h2 {
+	color: rgb(146, 205, 211);
+}
+
+#contact h2 {
+	color: rgb(115, 127, 131);
+}
+#contact h3 {
+	color: rgb(255, 255, 255);
+	font-size: 1.2em;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+@media only screen and (max-width: 767px) {
+	.section {
+		padding-bottom: 2em;
+	}
+	h2,
+	#intro h2 {
+		font-size: 4em;
+		margin-bottom: 1.6667em;
+	}
+}
