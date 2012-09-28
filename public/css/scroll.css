@@ -41,10 +41,4 @@
     #contact {
         z-index: 300;
     }
-    #blank {
-        z-index: 200;
-    }
-    .footer {
-        display: none;
-    }
 }

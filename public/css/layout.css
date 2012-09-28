@@ -27,7 +27,7 @@ h1 {
 }
 
 .section {
-	min-height: 780px;
+	/*min-height: 780px;*/
 	padding-bottom: 130px;
 	text-align: center;
 }
@@ -171,15 +171,31 @@ h1 {
 		}
 
 .footer {
+	position: fixed;
+	bottom: 0; left: 0;
 	background: rgb(84, 112, 128);
 	color: rgb(255, 255, 255);
 	height: 100px;
-	padding-top: 20px;
+	width: 100%;
 }
+	.footer .columns p {
+		margin-bottom: 0;
+		margin-top: 20px;
+		text-align: left;
+	}
 
 @media only screen and (max-width: 1024px) {
+	.row {
+
+	}
 	.accordion > h3 {
 		background: url('../images/bg_tab-expanded-services.png') no-repeat;
+	}
+	#contact {
+		padding-bottom: 0;
+	}
+	.footer {
+		position: static;
 	}
 }
 
@@ -217,6 +233,10 @@ h1 {
 		padding-left: 20px;
 		padding-right: 20px;
 	}
+		#contact {
+			padding-left: 0;
+			padding-right: 0;
+		}
 	#intro {
 		padding-top: 2em;
 	}
