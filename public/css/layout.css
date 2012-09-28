@@ -197,14 +197,16 @@ h1 {
 	.footer #scrolltotop {
 		position: fixed;
 		bottom: 20px; right: 20px;
-		background: url('../images/scroll-to-top.png') no-repeat;
+		background: url('../images/scroll-to-top.png') no-repeat top center;
+		color: rgb(255, 255, 255);
 		display: block;
+		font-size: 1.1em;
+		font-weight: bold;
 		height: 90px;
+		padding: 20px 26px 0;
+		text-align: center;
+		text-decoration: none;
 		width: 82px;
-
-		overflow: hidden;
-		text-indent: 100%;
-		white-space: nowrap;
 	}
 
 @media only screen and (max-width: 1024px) {
@@ -212,7 +214,7 @@ h1 {
 
 	}
 	.masthead,
-	.footer {
+	.footer p {
 		padding-left: 20px;
 		padding-right: 20px;
 	}
@@ -228,9 +230,12 @@ h1 {
 	.footer {
 		position: relative;
 	}
+	.footer p {
+		width: 70%;
+	}
 	.footer #scrolltotop {
 		position: absolute;
-		right: 0;
+		right: 20px;
 	}
 }
 
@@ -256,6 +261,9 @@ h1 {
 		list-style-position: outside;
 		margin-right: 5%;
 		width: 90%;
+	}
+	.footer #scrolltotop {
+		right: 0;
 	}
 }
 
