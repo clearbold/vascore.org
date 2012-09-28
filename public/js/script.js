@@ -33,15 +33,20 @@ jQuery(document).ready(function($){
     var destinationslength = destinations.length;
 
     $.Body = $('body');
-    $.Body.height(bodyheight);
     $.Scroll = ($.browser.mozilla || $.browser.msie) ? $('html') : $.Body;
 
+    $('#scrolltotop').click(function(e){
+        e.preventDefault();
+        $.Scroll.stop().animate({scrollTop: '0px'});
+    });
+
     if ($(this).width() < 1025) {
-        $.Scroll.stop().animate({scrollTop: $( window.location.href.slice(-1*(window.location.href.length - window.location.href.indexOf('#'))) ).position().top+'px'});
+        if (window.location.href.indexOf('#') > 0)
+            $.Scroll.stop().animate({scrollTop: $( window.location.href.slice(-1*(window.location.href.length - window.location.href.indexOf('#'))) ).position().top+'px'});
         $('div[role=navigation] a').click(function(e){
-            e.preventDefault();
+            //e.preventDefault();
             $.Scroll.stop().animate({scrollTop: $( $(this).attr('href') ).position().top+'px'});
-        })
+        });
         return;
     }
     else
@@ -56,8 +61,13 @@ jQuery(document).ready(function($){
     }
 
     function enhancePage() {
-        pageindex = $('div[role=navigation] a').index( $('div[role=navigation] a[href='+window.location.href.slice(-1*(window.location.href.length - window.location.href.indexOf('#')))+']') );
-        $.Scroll.stop().animate({scrollTop: (destinations[pageindex+1])+'px'});
+        $.Body.height(bodyheight);
+        if ( window.location.href.indexOf('#') > 0 )
+        {
+            requestedpage = window.location.href.slice(-1*(window.location.href.length - window.location.href.indexOf('#')));
+            pageindex = $('div[role=navigation] a').index( $('div[role=navigation] a[href='+requestedpage+']') );
+            $.Scroll.stop().animate({scrollTop: (destinations[pageindex+1])+'px'});
+        }
 
         $.Window.bind('scroll', function(e) {
             pageScroll(e);
