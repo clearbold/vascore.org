@@ -108,7 +108,7 @@ h1 {
 	}
 	.accordion > h3.expanded,
 	.accordion > h3.ui-state-active {
-		background: url('../images/bg_tab-expanded-services.png') no-repeat;
+		background: url('../images/bg_tab-expanded-services2.png');
 	}
 	.accordion > div {
 		background: rgb(83, 117, 133);
@@ -131,6 +131,9 @@ h1 {
 	.accordion > div ul li span {
 		color: rgb(255, 255, 255);
 	}
+	.accordion div.map {
+		padding: 0;
+	}
 
 #clients {
 	background: rgb(236, 233, 229);
@@ -144,6 +147,33 @@ h1 {
 }
 	#publications h1 {
 		background: rgb(146, 155, 158);
+	}
+	#publications .slideshowwrapper {
+		background: rgb(146, 205, 211) url('../images/bg_publications-slides.png');
+	}
+	.slideshowwrapper .row {
+		background: rgb(146, 205, 211);
+	}
+	.slideshowwrapper .slide {
+		background: rgb(146, 205, 211);
+		padding-top: 100px;
+	}
+
+	.slide h3 {
+		color: rgb(255, 255, 255);
+		font-size: 2.2em;
+		font-weight: normal;
+	}
+	.slide p {
+		font-size: 1.2em;
+		margin-bottom: 0;
+	}
+	.slide p.date {
+		font-weight: 600;
+	}
+	.slide h4 {
+		font-size: 1.6em;
+		font-weight: normal;
 	}
 
 #contact {
@@ -159,9 +189,15 @@ h1 {
 	.contact-info {
 		background: rgb(255, 255, 255);
 		margin: 0 auto;
-		min-height: 100px;
-		padding-top: 60px;
+		height: 290px;
+		padding-top: 70px;
 		width: 71.4%;
+	}
+	#phone-fax .contact-info {
+		padding-top: 140px;
+	}
+	#email .contact-info {
+		padding-top: 150px;
 	}
 		#phone-fax > div {
 			width: 83.333%;
@@ -178,6 +214,43 @@ h1 {
 			line-height: 1.2em;
 			padding-top: 26px;
 		}
+	.contact-info p {
+		color: rgb(115, 127, 131);
+		font-size: 1.7em;
+		margin-bottom: 1em;
+	}
+	.contact-info p > span,
+	.contact-info p > span[itemprop=streetAddress] > span {
+		display: block;
+	}
+	.contact-info p > span[itemprop=streetAddress] > span {
+		font-size: 48px;
+		margin-bottom: 17px;
+	}
+	.contact-info a {
+		position: relative;
+		color: rgb(116, 185, 193);
+		display: inline-block;
+		height: 34px;
+		line-height: 34px;
+		padding-right: 20px;
+		text-decoration: none;
+	}
+	span[itemprop=telephone] a,
+	span[itemprop=faxNumber] a {
+		color: rgb(115, 127, 131);
+	}
+	.contact-info a span {
+		position: absolute;
+		top: 0; right: 0;
+
+		display: inline-block;
+		font-size: 36px;
+		line-height: 26px;
+	}
+	#phone-fax span.label {
+		color: rgb(116, 185, 193);
+	}
 
 .footer {
 	position: fixed;
@@ -219,7 +292,7 @@ h1 {
 		padding-right: 20px;
 	}
 	.accordion > h3 {
-		background: url('../images/bg_tab-expanded-services.png') no-repeat;
+		background: url('../images/bg_tab-expanded-services2.png') no-repeat;
 	}
 	#contact {
 		padding-bottom: 0;

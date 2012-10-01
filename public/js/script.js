@@ -1,3 +1,10 @@
+$(window).load(function() {
+    $('.slideshowwrapper .row > div').orbit(
+    {
+        fluid: '16x9'
+    });
+});
+
 jQuery(document).ready(function($){
 
     var activeSlide = $('#intro');
