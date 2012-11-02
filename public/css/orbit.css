@@ -39,11 +39,11 @@ div.orbit-wrapper div.timer:hover span.pause, div.orbit-wrapper span.pause.activ
 /* Directional Nav ---------------------- */
 div.orbit-wrapper div.slider-nav { display: block; }
 
-div.orbit-wrapper div.slider-nav span { width: 39px; height: 50px; text-indent: -9999px; position: absolute; z-index: 430; top: 50%; margin-top: -25px; cursor: pointer; }
+div.orbit-wrapper div.slider-nav span { width: 26px; height: 49px; text-indent: -9999px; position: absolute; z-index: 430; bottom: 50px; /*margin-top: -25px;*/ cursor: pointer; }
 
-div.orbit-wrapper div.slider-nav span.right { background: url('../images/foundation/orbit/right-arrow.png'); background-size: 100%; right: 0; }
+div.orbit-wrapper div.slider-nav span.right { background: url('/images/slide_arrow-left.png'); background-size: 100%; right: 300px; }
 
-div.orbit-wrapper div.slider-nav span.left { background: url('../images/foundation/orbit/left-arrow.png'); background-size: 100%; left: 0; }
+div.orbit-wrapper div.slider-nav span.left { background: url('/images/slide_arrow-right.png'); background-size: 100%; left: 300px; }
 
 .lt-ie9 div.orbit-wrapper div.slider-nav span.right { background: url('../images/foundation/orbit/right-arrow-small.png'); }
 .lt-ie9 div.orbit-wrapper div.slider-nav span.left { background: url('../images/foundation/orbit/left-arrow-small.png'); }

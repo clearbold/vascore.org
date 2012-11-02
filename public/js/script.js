@@ -1,7 +1,8 @@
 $(window).load(function() {
     $('.slideshowwrapper .row > div').orbit(
     {
-        fluid: '16x9'
+        fluid: '16x6',
+        timer: false
     });
 });
 
@@ -29,7 +30,7 @@ jQuery(document).ready(function($){
     destinations[2] = 4280; // #about
     destinations[3] = 5560; // #expertise
     destinations[4] = destinations[3] + 1680; // #services
-    destinations[5] = destinations[4] + slideheight; // #clients
+    destinations[5] = destinations[4] + 1680; // #clients
     destinations[6] = destinations[5] + slideheight; // #publications
     destinations[7] = destinations[6] + slideheight; // #contact
 
@@ -60,10 +61,11 @@ jQuery(document).ready(function($){
     {
         enhancePage();
         $( ".accordion" ).accordion({
-            event: "click mouseover",
+            event: "click",
             animated: "bounceslide",
             collapsible: true,
-            active: 10
+            active: 10,
+            autoHeight: false
         });
     }
 

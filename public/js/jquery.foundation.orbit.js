@@ -20,7 +20,7 @@
   var ORBIT = {
 
     defaults: {
-      animation: 'horizontal-push',     // fade, horizontal-slide, vertical-slide, horizontal-push, vertical-push
+      animation: 'fade',     // fade, horizontal-slide, vertical-slide, horizontal-push, vertical-push
       animationSpeed: 600,        // how fast animtions are
       timer: true,            // true or false to have the timer
       advanceSpeed: 4000,         // if timer is enabled, time between transitions
@@ -52,7 +52,7 @@
     timerRunning: null,
     degrees: 0,
     wrapperHTML: '<div class="orbit-wrapper" />',
-    timerHTML: '<div class="timer"><span class="mask"><span class="rotator"></span></span><span class="pause"></span></div>',
+    timerHTML: '<!--div class="timer"><span class="mask"><span class="rotator"></span></span><span class="pause"></span></div>--',
     captionHTML: '<div class="orbit-caption"></div>',
     directionalNavHTML: '<div class="slider-nav"><span class="right"></span><span class="left"></span></div>',
     bulletHTML: '<ul class="orbit-bullets"></ul>',

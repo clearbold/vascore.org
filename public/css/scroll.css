@@ -33,6 +33,7 @@
     }
     #clients {
         z-index: 500;
+        height: 1680px !important;
     }
     #publications {
         z-index: 400;

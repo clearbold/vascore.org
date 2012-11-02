@@ -37,7 +37,7 @@ h1 {
 
 .section {
 	/*min-height: 780px;*/
-	padding-bottom: 130px;
+	/*padding-bottom: 130px;*/
 	text-align: center;
 }
 	.section h1 {
@@ -53,7 +53,7 @@ h1 {
 
 #intro {
 	background: url('../images/bg_intro-tiled.jpg');
-	padding-top: 140px;
+	padding-top: 122px;
 }
 
 #about {
@@ -109,6 +109,7 @@ h1 {
 	.accordion > h3.expanded,
 	.accordion > h3.ui-state-active {
 		background: url('../images/bg_tab-expanded-services2.png');
+		outline: none;
 	}
 	.accordion > div {
 		background: rgb(83, 117, 133);
@@ -156,7 +157,9 @@ h1 {
 	}
 	.slideshowwrapper .slide {
 		background: rgb(146, 205, 211);
-		padding-top: 100px;
+		padding-left: 120px;
+		padding-right: 120px;
+		padding-top: 60px;
 	}
 
 	.slide h3 {
