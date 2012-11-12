@@ -77,6 +77,12 @@ h1 {
 		text-align: left;
 		width: 100%;
 	}
+			#about a:hover figure {
+				background:url("../images/bg_figure-tiled.png") repeat 0 0;
+			}
+			#about a:hover figcaption {
+				background:url("../images/icon_arrow-right-orange.png") no-repeat 95% 50%;
+			}
 			#about span[itemprop=name],
 			#about span[itemprop=jobTitle] {
 				display: block;
@@ -285,6 +291,109 @@ h1 {
 		width: 82px;
 	}
 
+/* Reveal modal overlay styles */
+.reveal-modal-bg {
+	background-color:#273c4b;
+	z-index:1000;
+}
+.reveal-modal {
+	z-index:1001;
+	background-color:#628392;
+	padding:11px;
+}
+a.reveal {
+	text-decoration:none;
+}
+.modalinner {
+	/* background-color:#fff; */
+}
+.reveal-modal .close-reveal-modal {
+	background-color:#263641;
+	color:#91ccd2;
+	overflow:hidden;
+	width:40px;
+	height:0;
+	padding-top:40px;
+	top:17px;
+	right:17px;
+	font-weight:normal;
+	background:url("../images/sprite_modal_close.png") no-repeat 0 0;
+}
+	.reveal-modal .close-reveal-modal:hover {
+		background-position:0 -100px;
+	}
+.bioheader {
+	background:url("../images/bg_figure-tiled.png") repeat 0 0 #364b58;
+	color:#fff;
+	border-bottom:11px solid #f69907;
+}
+	.bioheader img {
+		display:block;
+	}
+	.bioheader h2 {
+		font-size:33px;
+		position:relative;
+		margin-bottom:-5px;
+	}
+	.bioheader .title,
+	.biocontent h3 {
+		color:#92cdd3;
+		text-transform:uppercase;
+		font-size:13px;
+		letter-spacing:1px;
+	}
+	.bioheader .twelve {
+		padding:3%;
+	}
+.biocontent {
+	font-size:12px;
+	line-height:1.66666666666667;
+	background-color:#fff;
+}
+	.biocontent .columns {
+		padding:3%;
+	}
+	.biocontent h3 {
+		color:#77b7bd;
+	}
+	.biocontent p {
+		margin-top:1.5em;
+	}
+		.biocontent p:first-child {
+			margin-top:0;
+		}
+	.biocontent ul.affiliations {
+		list-style:none;
+		margin:1em 0 0;
+		padding:0;
+	}
+	ul.affiliations li {
+		margin-bottom:.3em;
+	}
+
+.biofooter {
+	background-color:#628392;
+	color:#fff;
+	text-align:right;
+	padding:18px 10px 8px;
+}
+	.biofooter a {
+		display:inline-block;
+		color:#92cdd3;
+		font-family: "museo-sans-rounded", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-weight: 100;
+		font-size:25px;
+		padding-right:28px;
+		white-space:nowrap;
+		background:url("../images/sprite_modal_next.png") no-repeat 100% 1px;
+		text-decoration:none;
+		line-height:1;
+	}
+		.biofooter a:hover {
+			color:#7aa8b3;
+			background-position:100% -99px;
+		}
+
 @media only screen and (max-width: 1024px) {
 	.row {
 
@@ -312,6 +421,14 @@ h1 {
 	.footer #scrolltotop {
 		position: absolute;
 		right: 20px;
+	}
+	.bioheader h2 {
+		font-size:24px;
+	}
+	.biofooter a {
+		font-size:18px;
+		padding-top:3px;
+		padding-bottom:3px;
 	}
 }
 

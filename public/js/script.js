@@ -1,3 +1,5 @@
+// @codekit-prepend "jquery-1.8.2.js", jquery-ui-1.9.1.custom.js, plugins.js";
+
 $(window).load(function() {
     $('.slideshowwrapper .row > div').orbit(
     {
@@ -6,7 +8,29 @@ $(window).load(function() {
     });
 });
 
-jQuery(document).ready(function($){
+$(document).ready(function() {
+
+    var $modaldiv = $('<div>').addClass('reveal-modal').addClass('xlarge').appendTo('body');
+
+    /* Adding in Ajax functionality for Zurb Reveal */
+    $('a.reveal').click(function(event) {
+      event.preventDefault();
+      var $this = $(this);
+      $.get($this.attr('href'), function(data) {
+        return $modaldiv.empty().html(data).append('<a class="close-reveal-modal">&#215;</a>').reveal();
+      });
+    });
+
+    /* Code for in-modal links calling content into the same modal */
+    $(document).on("click", ".in-reveal", function() {
+        var $this = $(this);
+        $.get($this.attr('href'), function(data) {
+            $modaldiv.find(".modalinner").fadeTo(400, .01, function() {
+                $(this).empty().html(data).fadeTo(400, 1);
+            });
+        });
+        return false;
+    })
 
     var activeSlide = $('#intro');
     $.Window = $(window);
