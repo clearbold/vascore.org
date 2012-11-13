@@ -15,6 +15,126 @@ window.log = function(){
 {console.log();return window.console;}catch(err){return window.console={};}})());
 
 /*
+ * debouncedresize: special jQuery event that happens once after a window resize
+ *
+ * latest version and complete README available on Github:
+ * https://github.com/louisremi/jquery-smartresize
+ *
+ * Copyright 2012 @louis_remi
+ * Licensed under the MIT license.
+ *
+ * This saved you an hour of work?
+ * Send me music http://www.amazon.co.uk/wishlist/HNTU0468LQON
+ */
+(function($) {
+
+var $event = $.event,
+    $special,
+    resizeTimeout;
+
+$special = $event.special.debouncedresize = {
+    setup: function() {
+        $( this ).on( "resize", $special.handler );
+    },
+    teardown: function() {
+        $( this ).off( "resize", $special.handler );
+    },
+    handler: function( event, execAsap ) {
+        // Save the context
+        var context = this,
+            args = arguments,
+            dispatch = function() {
+                // set correct event type
+                event.type = "debouncedresize";
+                $event.dispatch.apply( context, args );
+            };
+
+        if ( resizeTimeout ) {
+            clearTimeout( resizeTimeout );
+        }
+
+        execAsap ?
+            dispatch() :
+            resizeTimeout = setTimeout( dispatch, $special.threshold );
+    },
+    threshold: 150
+};
+
+})(jQuery);
+
+/* Scrollstart/scrollstop */
+/* From http://james.padolsey.com/javascript/special-scroll-events-for-jquery/ */
+(function(){
+
+    var special = jQuery.event.special,
+        uid1 = 'D' + (+new Date()),
+        uid2 = 'D' + (+new Date() + 1);
+
+    special.scrollstart = {
+        setup: function() {
+
+            var timer,
+                handler =  function(evt) {
+
+                    var _self = this,
+                        _args = arguments;
+
+                    if (timer) {
+                        clearTimeout(timer);
+                    } else {
+                        evt.type = 'scrollstart';
+                        jQuery.event.handle.apply(_self, _args);
+                    }
+
+                    timer = setTimeout( function(){
+                        timer = null;
+                    }, special.scrollstop.latency);
+
+                };
+
+            jQuery(this).bind('scroll', handler).data(uid1, handler);
+
+        },
+        teardown: function(){
+            jQuery(this).unbind( 'scroll', jQuery(this).data(uid1) );
+        }
+    };
+
+    special.scrollstop = {
+        latency: 300,
+        setup: function() {
+
+            var timer,
+                    handler = function(evt) {
+
+                    var _self = this,
+                        _args = arguments;
+
+                    if (timer) {
+                        clearTimeout(timer);
+                    }
+
+                    timer = setTimeout( function(){
+
+                        timer = null;
+                        evt.type = 'scrollstop';
+                        jQuery.event.handle.apply(_self, _args);
+
+                    }, special.scrollstop.latency);
+
+                };
+
+            jQuery(this).bind('scroll', handler).data(uid2, handler);
+
+        },
+        teardown: function() {
+            jQuery(this).unbind( 'scroll', jQuery(this).data(uid2) );
+        }
+    };
+
+})();
+
+/*
  * jQuery Orbit Plugin 1.4.0
  * www.ZURB.com/playground
  * Copyright 2010, ZURB

@@ -88,24 +88,27 @@ $(document).ready(function() {
 
     var destinationslength = destinations.length;
 
+    var $scrolltotop = $("#scrolltotop"),
+        $scrollformore = $("#scrollformore"),
+        $logolink = $('.logo').find('a'),
+        $navlink = $('div[role=navigation]').find('a');
+
+
+
     $.Body = $('body');
     $.Scroll = ($.browser.mozilla || $.browser.msie) ? $('html') : $.Body;
-
-    $('#scrolltotop').click(function(e){
-        e.preventDefault();
-        $.Scroll.stop().animate({scrollTop: '0px'});
-    });
 
     if ($(this).width() < 1025) {
         if (window.location.href.indexOf('#') > 0)
             $.Scroll.stop().animate({scrollTop: $( window.location.href.slice(-1*(window.location.href.length - window.location.href.indexOf('#'))) ).position().top+'px'});
-        $('div[role=navigation] a').click(function(e){
+        $navlink.click(function(e){
             //e.preventDefault();
             $.Scroll.stop().animate({scrollTop: $( $(this).attr('href') ).position().top+'px'});
         });
     };
 
     function testPage() {
+        testWidth();
         if (tooNarrow) {
             resetPage();
             return;
@@ -124,6 +127,11 @@ $(document).ready(function() {
     function resetPage() {
         $.Slides.attr("style", "");
         $.Body.attr("style", "");
+        $.Window.unbind('scroll');
+        $logolink.unbind('click');
+        $navlink.unbind('click');
+        $scrolltotop.unbind('click');
+        $scrollformore.unbind('click');
     }
 
     function enhancePage() {
@@ -131,26 +139,34 @@ $(document).ready(function() {
         if ( window.location.href.indexOf('#') > 0 )
         {
             requestedpage = window.location.href.slice(-1*(window.location.href.length - window.location.href.indexOf('#')));
-            pageindex = $('div[role=navigation] a').index( $('div[role=navigation] a[href='+requestedpage+']') );
+            pageindex = $navlink.index( $('div[role=navigation] a[href='+requestedpage+']') );
             $.Scroll.stop().animate({scrollTop: (destinations[pageindex+1])+'px'});
         }
+        $scrolltotop.click(function(e){
+            e.preventDefault();
+            $.Scroll.stop().animate({scrollTop: '0px'});
+        });
+
+        $scrollformore.click(function(e){
+            e.preventDefault();
+            $.Scroll.stop().animate({scrollTop: (destinations[1])+'px'});
+        });
 
         $.Window.bind('scroll', function(e) {
             pageScroll(e);
         });
-        $('.logo a').click(function(e){
+        $logolink.click(function(e){
             $.Scroll.stop().animate({scrollTop: (destinations[0])+'px'});
         });
-        $('div[role=navigation] a').click(function(e){
-            linkindex = $('div[role=navigation] a').index($(this));
+        $navlink.click(function(e){
+            linkindex = $navlink.index($(this));
             $.Scroll.stop().animate({scrollTop: (destinations[linkindex+1])+'px'});
         });
     }
 
     testPage();
 
-    $.Window.bind('resize', function(){
-        testWidth();
+    $.Window.bind('debouncedresize', function(){
         testPage();
     });
 
