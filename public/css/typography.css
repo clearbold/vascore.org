@@ -52,21 +52,30 @@ p.subhead {
 #about h2 {
 	color: rgb(146, 205, 211);
 }
-#about p {
+#about p.intro {
 	color: rgb(255, 255, 255);
 	font-size: 1.6em;
+	-webkit-font-smoothing:antialiased;
 }
 #about figcaption p {
 	font-weight: 600;
-	font-size: 1.3em;
 	text-align: left;
+	line-height:1.4;
 }
 #about span[itemprop=name],
 #about span[itemprop=jobTitle] {
 	color: rgb(255, 255, 255);
 }
+#about span[itemprop=name] {
+	font-size: 1.3em;
+	-webkit-font-smoothing:antialiased;
+}
 #about span[itemprop=jobTitle] {
 	color: rgb(146, 205, 211);
+	font-weight:bold;
+	text-transform:uppercase;
+	font-size:1.1em;
+	letter-spacing:1px;
 }
 
 #expertise h2 {
@@ -133,6 +142,7 @@ p.subhead {
 .contact-info p {
 	font-family: "museo", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: 300;
+	-webkit-font-smoothing:antialiased;
 }
 .contact-info a {
 	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;

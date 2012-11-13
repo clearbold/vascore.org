@@ -2,17 +2,6 @@
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
   "creatorBuild" : "7839",
   "files" : {
-    "\/public\/images\/bg_infographic-circ-orange.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/images\/bg_infographic-circ-orange.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/public\/images\/bg_infographic-circ-orange.png",
-      "initialSize" : 100107,
-      "fileType" : 8192
-    },
     "\/public\/images\/photo_mary-ramos.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -24,15 +13,26 @@
       "initialSize" : 18923,
       "fileType" : 4096
     },
-    "\/public\/images\/bg_tab-expanded-services2.png" : {
+    "\/public\/js\/jquery-ui-1.9.1.custom.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/public\/js\/jquery-ui-1.9.1.custom.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/public\/js\/jquery-ui-1.9.1.custom-min.js",
+      "fileType" : 64
+    },
+    "\/public\/images\/bg_infographic-circ-orange.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/images\/bg_tab-expanded-services2.png",
+      "inputAbbreviatedPath" : "\/public\/images\/bg_infographic-circ-orange.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/public\/images\/bg_tab-expanded-services2.png",
-      "initialSize" : 2417,
+      "outputAbbreviatedPath" : "\/public\/images\/bg_infographic-circ-orange.png",
+      "initialSize" : 100107,
       "fileType" : 8192
     },
     "\/public\/images\/foundation\/orbit\/rotator-black.png" : {
@@ -57,15 +57,6 @@
       "initialSize" : 527,
       "fileType" : 8192
     },
-    "\/public\/css\/bootstrap.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/css\/bootstrap.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
     "\/public\/images\/logo_cordis.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -76,6 +67,15 @@
       "outputAbbreviatedPath" : "\/public\/images\/logo_cordis.png",
       "initialSize" : 3409,
       "fileType" : 8192
+    },
+    "\/public\/css\/bootstrap.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/public\/css\/bootstrap.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/public\/index.html" : {
       "ignoreWasSetByUser" : 0,
@@ -247,27 +247,25 @@
       "initialSize" : 4354,
       "fileType" : 8192
     },
-    "\/public\/images\/photo_debra-jaff.jpg" : {
+    "\/public\/images\/photo_victoria-sova.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/images\/photo_debra-jaff.jpg",
+      "inputAbbreviatedPath" : "\/public\/images\/photo_victoria-sova.jpg",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/public\/images\/photo_debra-jaff.jpg",
-      "initialSize" : 31945,
+      "outputAbbreviatedPath" : "\/public\/images\/photo_victoria-sova.jpg",
+      "initialSize" : 27069,
       "fileType" : 4096
     },
-    "\/public\/images\/bg_publications-slides.png" : {
+    "\/public\/bio_gail-hadley.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/images\/bg_publications-slides.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/public\/images\/bg_publications-slides.png",
-      "initialSize" : 1149,
-      "fileType" : 8192
+      "inputAbbreviatedPath" : "\/public\/bio_gail-hadley.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/public\/images\/logo_cardiosonics.png" : {
       "ignoreWasSetByUser" : 0,
@@ -302,25 +300,27 @@
       "initialSize" : 1023,
       "fileType" : 8192
     },
-    "\/public\/images\/photo_victoria-sova.jpg" : {
+    "\/public\/images\/bg_publications-slides.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/images\/photo_victoria-sova.jpg",
+      "inputAbbreviatedPath" : "\/public\/images\/bg_publications-slides.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/public\/images\/photo_victoria-sova.jpg",
-      "initialSize" : 27069,
-      "fileType" : 4096
+      "outputAbbreviatedPath" : "\/public\/images\/bg_publications-slides.png",
+      "initialSize" : 1149,
+      "fileType" : 8192
     },
-    "\/public\/bio_gail-hadley.html" : {
+    "\/public\/images\/photo_debra-jaff.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/bio_gail-hadley.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/public\/images\/photo_debra-jaff.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/public\/images\/photo_debra-jaff.jpg",
+      "initialSize" : 31945,
+      "fileType" : 4096
     },
     "\/public\/images\/logo_silkroad.png" : {
       "ignoreWasSetByUser" : 0,
@@ -331,6 +331,26 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/public\/images\/logo_silkroad.png",
       "initialSize" : 4591,
+      "fileType" : 8192
+    },
+    "\/public\/css\/layout.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/public\/css\/layout.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/public\/images\/logo_vessix-vascular.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/public\/images\/logo_vessix-vascular.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/public\/images\/logo_vessix-vascular.png",
+      "initialSize" : 2584,
       "fileType" : 8192
     },
     "\/public\/images\/foundation\/orbit\/bullets.jpg" : {
@@ -344,15 +364,26 @@
       "initialSize" : 658,
       "fileType" : 4096
     },
-    "\/public\/images\/logo_vessix-vascular.png" : {
+    "\/public\/images\/logo_daiichi-sankyo.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/images\/logo_vessix-vascular.png",
+      "inputAbbreviatedPath" : "\/public\/images\/logo_daiichi-sankyo.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/public\/images\/logo_vessix-vascular.png",
-      "initialSize" : 2584,
+      "outputAbbreviatedPath" : "\/public\/images\/logo_daiichi-sankyo.png",
+      "initialSize" : 5659,
+      "fileType" : 8192
+    },
+    "\/public\/images\/foundation\/orbit\/right-arrow.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/public\/images\/foundation\/orbit\/right-arrow.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/public\/images\/foundation\/orbit\/right-arrow.png",
+      "initialSize" : 3243,
       "fileType" : 8192
     },
     "\/public\/images\/foundation\/orbit\/left-arrow.png" : {
@@ -366,17 +397,6 @@
       "initialSize" : 523,
       "fileType" : 8192
     },
-    "\/public\/images\/logo_daiichi-sankyo.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/images\/logo_daiichi-sankyo.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/public\/images\/logo_daiichi-sankyo.png",
-      "initialSize" : 5659,
-      "fileType" : 8192
-    },
     "\/public\/images\/logo_cook-medical.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -386,28 +406,6 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/public\/images\/logo_cook-medical.png",
       "initialSize" : 4108,
-      "fileType" : 8192
-    },
-    "\/public\/images\/logo_pervasis.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/images\/logo_pervasis.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/public\/images\/logo_pervasis.png",
-      "initialSize" : 4432,
-      "fileType" : 8192
-    },
-    "\/public\/images\/logo_flexible-stenting-solutions.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/images\/logo_flexible-stenting-solutions.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/public\/images\/logo_flexible-stenting-solutions.png",
-      "initialSize" : 2836,
       "fileType" : 8192
     },
     "\/public\/js\/plugins.js" : {
@@ -421,26 +419,6 @@
       "outputAbbreviatedPath" : "\/public\/js\/plugins-min.js",
       "fileType" : 64
     },
-    "\/public\/images\/foundation\/orbit\/right-arrow.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/images\/foundation\/orbit\/right-arrow.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/public\/images\/foundation\/orbit\/right-arrow.png",
-      "initialSize" : 3243,
-      "fileType" : 8192
-    },
-    "\/public\/css\/layout.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/css\/layout.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
     "\/public\/images\/logo_biotronik.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -450,6 +428,26 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/public\/images\/logo_biotronik.png",
       "initialSize" : 2541,
+      "fileType" : 8192
+    },
+    "\/public\/bio_michael-jaff.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/public\/bio_michael-jaff.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/public\/images\/logo_flexible-stenting-solutions.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/public\/images\/logo_flexible-stenting-solutions.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/public\/images\/logo_flexible-stenting-solutions.png",
+      "initialSize" : 2836,
       "fileType" : 8192
     },
     "\/public\/images\/logo_idev.png" : {
@@ -463,14 +461,16 @@
       "initialSize" : 6539,
       "fileType" : 8192
     },
-    "\/public\/bio_michael-jaff.html" : {
+    "\/public\/images\/logo_pervasis.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/bio_michael-jaff.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/public\/images\/logo_pervasis.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/public\/images\/logo_pervasis.png",
+      "initialSize" : 4432,
+      "fileType" : 8192
     },
     "\/public\/images\/logo_otsuka.png" : {
       "ignoreWasSetByUser" : 0,
@@ -481,6 +481,17 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/public\/images\/logo_otsuka.png",
       "initialSize" : 3849,
+      "fileType" : 8192
+    },
+    "\/public\/images\/bg_tab-services.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/public\/images\/bg_tab-services.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/public\/images\/bg_tab-services.png",
+      "initialSize" : 1367,
       "fileType" : 8192
     },
     "\/public\/images\/bg_h3-contact.png" : {
@@ -502,17 +513,6 @@
       "inputAbbreviatedPath" : "\/public\/bio_justin-mcneil.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
-    },
-    "\/public\/images\/bg_tab-services.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/images\/bg_tab-services.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/public\/images\/bg_tab-services.png",
-      "initialSize" : 1367,
-      "fileType" : 8192
     },
     "\/public\/bio_victoria-sova.html" : {
       "ignoreWasSetByUser" : 0,
@@ -545,15 +545,6 @@
       "initialSize" : 1139,
       "fileType" : 8192
     },
-    "\/public\/bio_josh-beckman.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/bio_josh-beckman.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/public\/images\/logo_theravasc.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -564,6 +555,15 @@
       "outputAbbreviatedPath" : "\/public\/images\/logo_theravasc.png",
       "initialSize" : 2301,
       "fileType" : 8192
+    },
+    "\/public\/bio_josh-beckman.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/public\/bio_josh-beckman.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/public\/images\/photo_sandra-croteau.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -598,17 +598,6 @@
       "initialSize" : 3814,
       "fileType" : 8192
     },
-    "\/public\/images\/foundation\/orbit\/timer-black.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/images\/foundation\/orbit\/timer-black.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/public\/images\/foundation\/orbit\/timer-black.png",
-      "initialSize" : 527,
-      "fileType" : 8192
-    },
     "\/public\/images\/foundation\/orbit\/right-arrow-small.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -619,6 +608,17 @@
       "outputAbbreviatedPath" : "\/public\/images\/foundation\/orbit\/right-arrow-small.png",
       "initialSize" : 3170,
       "fileType" : 8192
+    },
+    "\/public\/images\/photo_gail-hadley.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/public\/images\/photo_gail-hadley.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/public\/images\/photo_gail-hadley.jpg",
+      "initialSize" : 51534,
+      "fileType" : 4096
     },
     "\/public\/images\/slide_arrow-left.png" : {
       "ignoreWasSetByUser" : 0,
@@ -642,16 +642,16 @@
       "initialSize" : 2476,
       "fileType" : 8192
     },
-    "\/public\/images\/photo_gail-hadley.jpg" : {
+    "\/public\/images\/foundation\/orbit\/timer-black.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/images\/photo_gail-hadley.jpg",
+      "inputAbbreviatedPath" : "\/public\/images\/foundation\/orbit\/timer-black.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/public\/images\/photo_gail-hadley.jpg",
-      "initialSize" : 51534,
-      "fileType" : 4096
+      "outputAbbreviatedPath" : "\/public\/images\/foundation\/orbit\/timer-black.png",
+      "initialSize" : 527,
+      "fileType" : 8192
     },
     "\/public\/css\/reveal.css" : {
       "ignoreWasSetByUser" : 0,
@@ -680,17 +680,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/public\/js\/script.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/js\/script.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/public\/js\/script-min.js",
-      "fileType" : 64
-    },
     "\/public\/images\/icon_arrow-right-orange.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -701,6 +690,17 @@
       "outputAbbreviatedPath" : "\/public\/images\/icon_arrow-right-orange.png",
       "initialSize" : 315,
       "fileType" : 8192
+    },
+    "\/public\/js\/script.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/public\/js\/script.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/public\/js\/script-min.js",
+      "fileType" : 64
     },
     "\/public\/css\/orbit.css" : {
       "ignoreWasSetByUser" : 0,
@@ -722,16 +722,14 @@
       "initialSize" : 366,
       "fileType" : 8192
     },
-    "\/public\/images\/scroll-to-learn-more.png" : {
+    "\/public\/bio_sandra-croteau.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/images\/scroll-to-learn-more.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/public\/images\/scroll-to-learn-more.png",
-      "initialSize" : 4260,
-      "fileType" : 8192
+      "inputAbbreviatedPath" : "\/public\/bio_sandra-croteau.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/public\/images\/scroll-to-top.png" : {
       "ignoreWasSetByUser" : 0,
@@ -766,15 +764,15 @@
       "initialSize" : 1307,
       "fileType" : 8192
     },
-    "\/public\/images\/logo_proteon.png" : {
+    "\/public\/images\/scroll-to-learn-more.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/images\/logo_proteon.png",
+      "inputAbbreviatedPath" : "\/public\/images\/scroll-to-learn-more.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/public\/images\/logo_proteon.png",
-      "initialSize" : 5159,
+      "outputAbbreviatedPath" : "\/public\/images\/scroll-to-learn-more.png",
+      "initialSize" : 4260,
       "fileType" : 8192
     },
     "\/public\/js\/script-min.js" : {
@@ -788,14 +786,16 @@
       "outputAbbreviatedPath" : "\/public\/js\/script-min-min.js",
       "fileType" : 64
     },
-    "\/public\/bio_sandra-croteau.html" : {
+    "\/public\/images\/logo_proteon.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/bio_sandra-croteau.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/public\/images\/logo_proteon.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/public\/images\/logo_proteon.png",
+      "initialSize" : 5159,
+      "fileType" : 8192
     },
     "\/public\/images\/logo_cardiva.png" : {
       "ignoreWasSetByUser" : 0,
@@ -852,17 +852,6 @@
       "outputAbbreviatedPath" : "\/public\/js\/jquery-1.8.2-min.js",
       "fileType" : 64
     },
-    "\/public\/images\/logo_bard.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/images\/logo_bard.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/public\/images\/logo_bard.png",
-      "initialSize" : 2597,
-      "fileType" : 8192
-    },
     "\/public\/css\/scroll.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -871,17 +860,6 @@
       "inputAbbreviatedPath" : "\/public\/css\/scroll.css",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
-    },
-    "\/public\/images\/logo_terumo.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/images\/logo_terumo.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/public\/images\/logo_terumo.png",
-      "initialSize" : 2510,
-      "fileType" : 8192
     },
     "\/public\/images\/logo_intact-vascular.png" : {
       "ignoreWasSetByUser" : 0,
@@ -894,16 +872,38 @@
       "initialSize" : 5309,
       "fileType" : 8192
     },
-    "\/public\/js\/jquery-ui-1.9.1.custom.js" : {
+    "\/public\/images\/logo_terumo.png" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/js\/jquery-ui-1.9.1.custom.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/public\/js\/jquery-ui-1.9.1.custom-min.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/public\/images\/logo_terumo.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/public\/images\/logo_terumo.png",
+      "initialSize" : 2510,
+      "fileType" : 8192
+    },
+    "\/public\/images\/logo_bard.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/public\/images\/logo_bard.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/public\/images\/logo_bard.png",
+      "initialSize" : 2597,
+      "fileType" : 8192
+    },
+    "\/public\/images\/bg_tab-expanded-services2.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/public\/images\/bg_tab-expanded-services2.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/public\/images\/bg_tab-expanded-services2.png",
+      "initialSize" : 2417,
+      "fileType" : 8192
     }
   },
   "manualImportLinks" : [

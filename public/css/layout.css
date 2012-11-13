@@ -192,11 +192,14 @@ h1 {
 	.accordion > div ul {
 		float: left;
 		list-style-position: outside;
-		margin-right: 5%;
-		width: 40%;
+		margin-right: 7%;
+		width: 45%;
 		padding-bottom: 1em;
 		padding-top: 1em;
 	}
+		.accordion > div ul + ul {
+			margin-right:0;
+		}
 		.accordion > div ul.single {
 			width:95%;
 		}
@@ -287,8 +290,11 @@ h1 {
 	#contact h1 {
 		background: rgb(187, 224, 228);
 	}
+	#location {
+		margin-left:5%;
+	}
 	.contact-row > div {
-		padding-top: 30px;
+		padding-top: 46px;
 		position: relative;
 	}
 	.contact-info {
@@ -296,33 +302,42 @@ h1 {
 		margin: 0 auto;
 		height: 290px;
 		padding-top: 70px;
-		width: 71.4%;
+		/* width: 71.4%; */
+		width: 83.333%;
 	}
 	#phone-fax .contact-info {
-		padding-top: 140px;
+		padding-top: 120px;
+	}
+	#email {
+		margin-right:5%;
 	}
 	#email .contact-info {
-		padding-top: 150px;
+		padding-top: 130px;
 	}
-		#phone-fax > div {
+		/* #phone-fax > div {
 			width: 83.333%;
-		}
+		} */
 	#contact h3 {
 		position: absolute;
 		top: 0; left: 0;
 		background: url('../images/bg_h3-contact.png') no-repeat top center;
-		height: 78px;
-		line-height: 78px;
+		height: 92px;
+		line-height: 92px;
 		width: 100%;
+		-webkit-font-smoothing:antialiased;
 	}
 		#phone-fax h3 {
-			line-height: 1.2em;
-			padding-top: 26px;
+			line-height: 1.33333333333333;
+			padding-top: 32px;
 		}
 	.contact-info p {
 		color: rgb(115, 127, 131);
+	}
+	#location p,
+	#email p {
 		font-size: 1.7em;
-		margin-bottom: 1em;
+		margin-bottom: .9em;
+		line-height:1.41176470588235;
 	}
 	.contact-info p > span,
 	.contact-info p > span[itemprop=streetAddress] > span {
@@ -330,7 +345,8 @@ h1 {
 	}
 	.contact-info p > span[itemprop=streetAddress] > span {
 		font-size: 48px;
-		margin-bottom: 17px;
+		margin-bottom: 5px;
+		line-height:1;
 	}
 	.contact-info a {
 		position: relative;
@@ -338,13 +354,28 @@ h1 {
 		display: inline-block;
 		height: 34px;
 		line-height: 34px;
-		padding-right: 20px;
 		text-decoration: none;
 	}
+		.contact-info a:hover {
+			color: rgb(246, 153, 7);
+		}
 	span[itemprop=telephone] a,
 	span[itemprop=faxNumber] a {
 		color: rgb(115, 127, 131);
+		font-size:22px;
 	}
+	.contact-info a.arrow:after {
+		content:"";
+		display:inline-block;
+		vertical-align:text-bottom;
+		height:21px;
+		width:12px;
+		background:url("../images/sprite_arrow-right.png") no-repeat 0 0;
+		margin-left:8px;
+	}
+		.contact-info a.arrow:hover:after {
+			background-position:0 -100px;
+		}
 	.contact-info a span {
 		position: absolute;
 		top: 0; right: 0;
@@ -353,8 +384,17 @@ h1 {
 		font-size: 36px;
 		line-height: 26px;
 	}
+	#phone-fax p {
+		line-height:30px;
+		letter-spacing:1px;
+	}
 	#phone-fax span.label {
 		color: rgb(116, 185, 193);
+		font-size:1.9em;
+	}
+	#phone-fax span[itemprop=telephone],
+	#phone-fax span[itemprop=faxNumber] {
+		font-size:2.2em;
 	}
 
 .footer {
@@ -370,7 +410,9 @@ h1 {
 	.footer .columns p {
 		margin-bottom: 0;
 		margin-top: 20px;
+		font-size: 1.1em;
 		text-align: left;
+		letter-spacing:1px;
 	}
 	.footer #scrolltotop {
 		position: fixed;
@@ -543,6 +585,12 @@ a.reveal {
 		padding-top:3px;
 		padding-bottom:3px;
 	}
+	#location {
+		margin-left:0;
+	}
+	#email {
+		margin-right:0;
+	}
 }
 
 @media only screen and (max-width: 767px) {
@@ -559,9 +607,6 @@ a.reveal {
     #intro {
     	padding-top: 0;
     }
-    #phone-fax > div {
-		width: 71.4%;
-	}
 	.accordion > div ul {
 		float: left;
 		list-style-position: outside;
