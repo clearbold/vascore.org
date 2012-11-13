@@ -30,7 +30,8 @@ figcaption p {
 	line-height: 1.3em;
 }
 p.subhead {
-	font-weight: bold;
+	font-weight: 600;
+	letter-spacing:1px;
 }
 
 #intro h2 {
