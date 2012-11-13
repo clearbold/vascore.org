@@ -1,10 +1,20 @@
 // @codekit-prepend "jquery-1.8.2.js", jquery-ui-1.9.1.custom.js, plugins.js";
 
 $(window).load(function() {
-    $('.slideshowwrapper .row > div').orbit(
+    var $publicationslidenumber = $('#publicationslideshow').find('.slide').length;
+    var $publicationsslidecurrentlabel = $("#publication-currentslide");
+    var $publicationslidetotallabel = $("#publication-totalslides");
+    $publicationslidetotallabel.html($publicationslidenumber);
+    $('#publicationslideshow').find('.slides').orbit(
     {
         fluid: '16x6',
-        timer: false
+        timer: false,
+        afterSlideChange: function() {
+            var totalSlides = this.$slides.length;
+            var currentSlide = this.activeSlide + 1;
+            $publicationsslidecurrentlabel.html(currentSlide);
+            $publicationslidetotallabel.html(totalSlides);
+        }
     });
 });
 
@@ -35,6 +45,19 @@ $(document).ready(function() {
     var activeSlide = $('#intro');
     $.Window = $(window);
     $.Slides = $('.section');
+    var tooNarrow = 0;
+    var howwide;
+
+    function testWidth() {
+        howwide = $.Window.width();
+        if(howwide < 1025){
+            tooNarrow = 1;
+        } else {
+            tooNarrow = 0;
+        }
+    }
+
+    testWidth();
 
     var slideheight = 1280;
 
@@ -56,11 +79,12 @@ $(document).ready(function() {
     destinations[4] = destinations[3] + 1680; // #services
     destinations[5] = destinations[4] + 1680; // #clients
     destinations[6] = destinations[5] + slideheight; // #publications
-    destinations[7] = destinations[6] + slideheight; // #contact
+    //destinations[7] = destinations[6] + slideheight; // #contact
+    destinations[7] = destinations[6] + slideheight;
 
     var leftover = $.Window.height() - 0;
 
-    var bodyheight = destinations[6] + slideheight;
+    var bodyheight = destinations[6] + slideheight - 140;
 
     var destinationslength = destinations.length;
 
@@ -79,18 +103,27 @@ $(document).ready(function() {
             //e.preventDefault();
             $.Scroll.stop().animate({scrollTop: $( $(this).attr('href') ).position().top+'px'});
         });
-        return;
+    };
+
+    function testPage() {
+        if (tooNarrow) {
+            resetPage();
+            return;
+        } else {
+            $( ".accordion" ).accordion({
+                event: "click",
+                animated: true,
+                collapsible: true,
+                active: 10,
+                autoHeight: false
+            });
+            enhancePage();
+        }
     }
-    else
-    {
-        enhancePage();
-        $( ".accordion" ).accordion({
-            event: "click",
-            animated: "bounceslide",
-            collapsible: true,
-            active: 10,
-            autoHeight: false
-        });
+
+    function resetPage() {
+        $.Slides.attr("style", "");
+        $.Body.attr("style", "");
     }
 
     function enhancePage() {
@@ -114,7 +147,18 @@ $(document).ready(function() {
         });
     }
 
+    testPage();
+
+    $.Window.bind('resize', function(){
+        testWidth();
+        testPage();
+    });
+
     function pageScroll(e) {
+
+        if(tooNarrow){
+            return;
+        } // Don't do this if it's too narrow.
 
         var scrollTop = $(this).scrollTop();
 
