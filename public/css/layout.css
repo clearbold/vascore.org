@@ -9,7 +9,8 @@ div[role=navigation] a {
 	border-radius: 6px;
 	font-size: 1.1em;
 	margin-left: .4em;
-	padding: .4em .6em;
+	/* padding: .4em .6em; */
+	padding:.45em .6em .35em;
 	text-decoration: none;
 	text-transform: uppercase;
 
