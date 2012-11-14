@@ -1,10 +1,10 @@
 // @codekit-prepend "jquery-1.8.2.js", jquery-ui-1.9.1.custom.js, plugins.js";
 
 $(window).load(function() {
-    var $publicationslidenumber = $('#publicationslideshow').find('.slide').length;
+    var publicationslidenumber = $('#publicationslideshow').find('.slide').length;
     var $publicationsslidecurrentlabel = $("#publication-currentslide");
     var $publicationslidetotallabel = $("#publication-totalslides");
-    $publicationslidetotallabel.html($publicationslidenumber);
+    $publicationslidetotallabel.html(publicationslidenumber);
     $('#publicationslideshow').find('.slides').orbit(
     {
         fluid: '16x6',
@@ -14,6 +14,22 @@ $(window).load(function() {
             var currentSlide = this.activeSlide + 1;
             $publicationsslidecurrentlabel.html(currentSlide);
             $publicationslidetotallabel.html(totalSlides);
+        }
+    });
+
+    var trialslidenumber = $('#trialslideshow').find('.slide').length;
+    var $trialslidecurrentlabel = $("#trial-currentslide");
+    var $trialslidetotallabel = $("#trial-totalslides");
+    $trialslidetotallabel.html(trialslidenumber);
+    $('#trialslideshow').find('.slides').orbit(
+    {
+        fluid: '16x9',
+        timer: false,
+        afterSlideChange: function() {
+            var totalSlides = this.$slides.length;
+            var currentSlide = this.activeSlide + 1;
+            $trialslidecurrentlabel.html(currentSlide);
+            $trialslidetotallabel.html(totalSlides);
         }
     });
 });
@@ -75,7 +91,7 @@ $(document).ready(function() {
     destinations[0] = 0;
     destinations[1] = slideheight; // #intro
     destinations[2] = 4280; // #about
-    destinations[3] = 5560; // #expertise
+    destinations[3] = destinations[2] + 1396; // #expertise
     destinations[4] = destinations[3] + 1680; // #services
     destinations[5] = destinations[4] + 1680; // #clients
     destinations[6] = destinations[5] + slideheight; // #publications

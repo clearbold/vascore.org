@@ -33,8 +33,8 @@
 }
 
 @media only screen and (max-width: 910px) {
-    #publications .slideshowwrapper img {
-        height:390px;
+    .slideshowwrapper .slides > img {
+        min-height:390px;
     }
 }
 
@@ -207,6 +207,12 @@
         font-size:.8em;
         padding-top:5%;
     }
+    .csfooter div.slider-nav a.right {
+        right: 10px;
+    }
+    .csfooter div.slider-nav a.left {
+        left: 10px;
+    }
 }
 
 @media only screen and (max-width: 480px) {
@@ -223,8 +229,12 @@
     div.orbit-wrapper div.slider-nav {
         width:100%; margin-left:-50%;
     }
-    div.orbit-wrapper div.slider-nav span.right { right: 0; }
-    div.orbit-wrapper div.slider-nav span.left { left: 0; }
+    div.orbit-wrapper div.slider-nav span.right {
+        right: 0;
+    }
+    div.orbit-wrapper div.slider-nav span.left {
+        left: 0;
+    }
     .infographic .circle {
         float:none;
         width:100% !important;
@@ -236,25 +246,32 @@
     .infographic .circle.result:before {
         display:none;
     }
+    .mobilehide {
+        display:none;
+    }
 }
 
-
+@media only screen and (min-width: 768px) {
+    .modalheader .twelve.columns {
+        position:absolute;
+        bottom:0;
+        left:40%;
+    }
+}
 @media only screen and (min-width: 769px) {
     #about div.eighteen div.row {
         background: url('../images/bg_figure-tiled.png');
     }
+
 }
 
-@media only screen and (min-width: 1024px) {
+/* Scrolling */
+@media only screen and (min-width: 1025px) {
     .masthead {
         position: fixed;
         width: 100%;
         z-index: 9;
     }
-}
-
-/* Scrolling */
-@media only screen and (min-width: 1025px) {
     .wrapper {
         position: fixed;
         height: 1000px;
@@ -282,6 +299,7 @@
     }
     #expertise {
         z-index: 700;
+        height: 1396px !important;
     }
     #services {
         z-index: 600;

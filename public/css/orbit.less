@@ -41,6 +41,7 @@ div.orbit-wrapper div.slider-nav { display: block; width:80%; position:absolute;
 #publications div.orbit-wrapper div.slider-nav {
     border-color:rgb(146, 191, 196);
 }
+#trialslideshow div.orbit-wrapper div.slider-nav {bottom: 10px;}
 
 div.orbit-wrapper div.slider-nav span { width: 26px; height: 49px; text-indent: -9999px; position: absolute; z-index: 430; bottom: 0; /*margin-top: -25px;*/ cursor: pointer; }
 
@@ -48,8 +49,17 @@ div.orbit-wrapper div.slider-nav span.right { background: url('/images/slide_arr
 
 div.orbit-wrapper div.slider-nav span.left { background: url('/images/slide_arrow-right.png'); background-size: 100%; left: 20%; }
 
-.lt-ie9 div.orbit-wrapper div.slider-nav span.right { background: url('../images/foundation/orbit/right-arrow-small.png'); }
-.lt-ie9 div.orbit-wrapper div.slider-nav span.left { background: url('../images/foundation/orbit/left-arrow-small.png'); }
+div.orbit-wrapper div.slider-nav span.right:hover,
+div.orbit-wrapper div.slider-nav span.left:hover {
+    background-position:0 -100px;
+}
+#trialslideshow div.orbit-wrapper div.slider-nav span.right:hover,
+#trialslideshow div.orbit-wrapper div.slider-nav span.left:hover {
+    background-position:0 -200px;
+}
+
+.ie8 div.orbit-wrapper div.slider-nav span.right { background: url('../images/foundation/orbit/right-arrow-small.png'); }
+.ie8 div.orbit-wrapper div.slider-nav span.left { background: url('../images/foundation/orbit/left-arrow-small.png'); }
 
 /* Bullet Nav ---------------------- */
 ul.orbit-bullets { position: absolute; z-index: 430; list-style: none; bottom: -40px; left: 50%; margin-left: -50px; padding: 0; }
