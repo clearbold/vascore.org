@@ -136,6 +136,7 @@ h1 {
 		webkit-border-radius: 12px;
 		border-radius: 12px;
 		padding:1em;
+		margin-bottom:4em;
 	}
 	.bubble:after, .bubble:before {
 		top: 100%;
@@ -160,6 +161,78 @@ h1 {
 		left: 50%;
 		margin-left: -11px;
 	}
+	.infographic {
+		max-width:906px;
+		margin:0 auto;
+		overflow:hidden;
+	}
+		.infographic .circle {
+			float:left;
+			width:36%;
+			position:relative;
+			color:#fff;
+		}
+			.infographic .circle.challenge {
+				margin-right:-4.5%;
+				z-index:2;
+			}
+				.infographic .circle.challenge:after,
+				.infographic .circle.result:before {
+					font-size:36px;
+					position:absolute;
+					width:12%;
+					text-align:center;
+					top:50%;
+					margin-top:-.5em;
+					line-height:1;
+					right:0;
+					font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+					-webkit-font-smoothing:antialiased;
+				}
+				.infographic .circle.challenge:after {
+					content:"+";
+				}
+				.infographic .circle.result:before {
+					content:"=";
+					right:auto;
+					left:0;
+				}
+			.infographic .circle.solution {
+				z-index:1;
+			}
+			.infographic .circle.result {
+				margin-left:-4.5%;
+				z-index:2;
+			}
+		.infographic .circle .circlecontent {
+			position:absolute;
+			text-align:center;
+			width:70%;
+			top:15%;
+			left:15%;
+		}
+		.circlecontent h4 {
+			font-size:1.9em;
+			font-family: "museo", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+			font-weight: 100;
+			margin-bottom:2em;
+			text-transform:uppercase;
+			letter-spacing:1px;
+		}
+		.circlecontent p {
+			color:#fff;
+			line-height:1.41176470588235;
+			font-size:1.7em;
+			-webkit-font-smoothing:antialiased;
+			margin-bottom:1em;
+		}
+			.result .circlecontent h4 {
+				margin-bottom:1.5em;
+			}
+			.result .circlecontent p {
+				font-size:3.2em;
+				line-height:1.1875;
+			}
 
 #services {
 	background: rgb(146, 205, 211);
@@ -284,6 +357,13 @@ h1 {
 		font-size: 1.6em;
 		font-weight: normal;
 	}
+	.slideactions {
+		padding-top:5%;
+		padding-bottom:2%;
+	}
+		.slideactions .btn {
+			margin:0 3px 10px;
+		}
 
 #contact {
 	background: url('../images/bg_contact-tiled.png');
@@ -533,137 +613,3 @@ a.reveal {
 			color:#7aa8b3;
 			background-position:100% -99px;
 		}
-
-@media only screen and (max-width: 1024px) {
-	.scrolldown {
-		display:none;
-	}
-	.row {
-
-	}
-	.masthead,
-	.footer p {
-		padding-left: 20px;
-		padding-right: 20px;
-	}
-	.accordion > h3 {
-		background: url('../images/bg_tab-expanded-services2.png') no-repeat;
-	}
-	#contact {
-		padding-bottom: 0;
-	}
-	.footer {
-		position: relative;
-		bottom: auto; left: auto;
-	}
-	.footer #scrolltotop {
-		position:absolute;
-	}
-}
-
-@media only screen and (max-width: 910px) {
-	#publications .slideshowwrapper img {
-		height:390px;
-	}
-}
-
-@media only screen and (max-width: 768px) {
-	.footer {
-		position: relative;
-	}
-	.footer p {
-		width: 70%;
-	}
-	.footer #scrolltotop {
-		position: absolute;
-		right: 20px;
-	}
-	.bioheader h2 {
-		font-size:24px;
-	}
-	.biofooter a {
-		font-size:18px;
-		padding-top:3px;
-		padding-bottom:3px;
-	}
-	#location {
-		margin-left:0;
-	}
-	#email {
-		margin-right:0;
-	}
-}
-
-@media only screen and (max-width: 767px) {
-	.section {
-		min-height: 0;
-	}
-	.row {
-		padding-left: 20px;
-		padding-right: 20px;
-	}
-	.masthead {
-        height: auto;
-    }
-    #intro {
-    	padding-top: 0;
-    }
-	.accordion > div ul {
-		float: left;
-		list-style-position: outside;
-		margin-right: 5%;
-		width: 90%;
-	}
-	.footer #scrolltotop {
-		right: 0;
-	}
-	#contact {
-		padding-left: 0;
-		padding-right: 0;
-	}
-	#intro {
-		padding-top: 2em;
-	}
-	#about figure {
-		margin: 0 auto;
-		max-width: 450px; /*
-		min-height: 0;
-		padding-bottom: 0;*/
-	}
-}
-
-@media only screen and (max-width: 620px) {
-	.slide {
-		font-size:.8em;
-		padding-top:5%;
-	}
-}
-
-@media only screen and (max-width: 480px) {
-	.accordion > div ul {
-		float: none;
-	}
-	.slidecount.four {
-		width:80%;
-		margin-left:-40%;
-	}
-	div.orbit-wrapper div.slider-nav {
-		width:100%; margin-left:-50%;
-	}
-	div.orbit-wrapper div.slider-nav span.right { right: 0; }
-	div.orbit-wrapper div.slider-nav span.left { left: 0; }
-}
-
-@media only screen and (min-width: 769px) {
-	#about div.eighteen div.row {
-		background: url('../images/bg_figure-tiled.png');
-	}
-}
-
-@media only screen and (min-width: 1024px) {
-	.masthead {
-		position: fixed;
-		width: 100%;
-		z-index: 9;
-	}
-}

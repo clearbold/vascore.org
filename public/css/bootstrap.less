@@ -162,51 +162,45 @@ input[type="search"] {
     width: auto;
 }
 
-@media only screen and (max-width: 767px) {
-    body {
-        -webkit-text-size-adjust: none;
-        -ms-text-size-adjust: none;
-        margin-left: 0;
-        margin-right: 0;
-        padding-left: 0;
-        padding-right: 0;
-        min-width: 0;
-        width: 100%;
-    }
-    .row { margin-left: 0; margin-right: 0; min-width: 0; width: auto; }
-    .column, .columns { float: none; width: auto !important; }
-    .column:last-child, .columns:last-child { float: none; }
-    [class*="column"] + [class*="column"]:last-child { float: none; }
-    .column:before, .columns:before, .column:after, .columns:after { content: ""; display: table; }
-    .column:after, .columns:after { clear: both; }
-    .offset-by-one, .offset-by-two, .offset-by-three, .offset-by-four, .offset-by-five, .offset-by-six, .offset-by-seven, .offset-by-eight, .offset-by-nine, .offset-by-ten { margin-left: 0 !important; }
-    .push-two, .push-three, .push-four, .push-five, .push-six, .push-seven, .push-eight, .push-nine, .push-ten { left: auto; }
-    .pull-two, .pull-three, .pull-four, .pull-five, .pull-six, .pull-seven, .pull-eight, .pull-nine, .pull-ten { right: auto; }
+/* Buttons =================================================== */
 
-    .logo {
-        padding-bottom: 25px;
-        text-align: center;
-    }
-    .logo img {
-        /* Logo is a 640x320 transparent png with the logo centered. This gives us a 320px-wide
-        HiDPI-friendly image, but it's 320px tall on a w<768px display. We constrain the height
-        there at 50% for HiDPI */
-        max-height: 30px;
-    }
+.btn {
+    display : inline-block;
+    padding : 8px 34px 8px;
+    margin-bottom : 0;
+    font-family : "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    font-size:1.3em;
+    color : #fff;
+    text-align : center;
+    vertical-align : middle;
+    background: #628194; /* Old browsers */
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzYyODE5NCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM0MDU4NjYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top,  #628194 0%, #405866 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#628194), color-stop(100%,#405866)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #628194 0%,#405866 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #628194 0%,#405866 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #628194 0%,#405866 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #628194 0%,#405866 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#628194', endColorstr='#405866',GradientType=0 ); /* IE6-8 */
+    border : 1px solid rgb(80,103,116);
+    -webkit-border-radius:7px;
+    border-radius:7px;
+    cursor : pointer;
+    *margin-left : .3em;
+    text-decoration:none;
+    -webkit-font-smoothing:antialiased;
+}
 
-    .nav {
-        padding: 0 20px;
-        text-align: center;
-    }
-    .nav div[role=navigation] {
-        position: static;
-        float: none;
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-    }
-    .nav div[role=navigation] a {
-        float: none;
-        margin-bottom: 1em;
-    }
+.btn:hover {
+    opacity:.5;
+    text-decoration : none;
+}
+.no-opacity .btn:hover {
+    border-color:rgb(42,55,62);
+}
+
+.ie9 .btn {
+    filter:none !important;
 }

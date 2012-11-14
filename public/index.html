@@ -1,11 +1,15 @@
 <!doctype html>
-<html lang="en">
+<!--[if IEMobile 7]><html class="no-js iem7" lang="en"><![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js ie7" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js ie8" lang="en"><![endif]-->
+<!--[if (IE 9)&!(IEMobile)]><html class="no-js ie9" lang="en"><![endif]-->
+<!--[if (gt IEMobile 7)|!(IEMobile)|(gt IE 9)]><!--> <html class="no-js modern" lang="en"><!--<![endif]-->
 <head>
     <meta charset="utf-8" />
     <meta name="description" content="" />
     <meta name="author" name="Mark J. Reeves / Clearbold, LLC" />
 
-    <meta name="viewport" content="width=device-width" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Vascore</title>
 
@@ -16,18 +20,21 @@
 
     <!--[if gte IE 8]><!-->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="css/bootstrap.css" />
-    <link rel="stylesheet" href="css/orbit.css" />
-    <link rel="stylesheet" href="css/reveal.css" />
-    <link rel="stylesheet" href="css/typography.css" />
-    <link rel="stylesheet" href="css/layout.css" />
-    <link rel="stylesheet" href="css/scroll.css" />
+    <link rel="stylesheet" href="css/styles.css" />
     <!-- <![endif]-->
 
     <meta name="viewport" content="width=device-width" />
 
     <script type="text/javascript" src="//use.typekit.net/lyf6dbd.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+    <script src="js/modernizr-2.6.2-min.js"></script>
+
+    <!--[if (lt IE 9) & (!IEMobile)]>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+
+    <meta http-equiv="cleartype" content="on" />
 
 </head>
 <body>
@@ -144,15 +151,12 @@
             </div>
             <div class="row">
                 <div class="thirteen columns centered">
-                    <p>Few core labs offer the high level of expertise and thorough, friendly customer service as does VasCore. Maybe that’s why we’re considered the leader in everything from the development of multicenter vascular device imaging protocols, to the analysis of ultrasound and radiographic images, to the reporting of data to sponsors and regulatory groups across the globe.</p>
+                    <p class="intro">Few core labs offer the high level of expertise and thorough, friendly customer service as does VasCore. Maybe that’s why we’re considered the leader in everything from the development of multicenter vascular device imaging protocols, to the analysis of ultrasound and radiographic images, to the reporting of data to sponsors and regulatory groups across the globe.</p>
                 </div>
             </div>
             <div class="row">
                 <div class="eighteen columns centered">
                     <h3 class="bubble">Some of the trials in which we've been involved</h3>
-
-
-
                 </div>
             </div>
 
@@ -160,12 +164,33 @@
                 <div class="trialslides">
                     <div class="trialslide">
                         <div class="infographic">
-
+                            <div class="circle challenge">
+                                <img src="images/infographic-circ-orange.png" alt="" />
+                                <div class="circlecontent">
+                                    <h4>Challenge</h4>
+                                    <p>A sponsor wants to design a clinical trial to result in approval of their iliac artery stent by the US Food and Drug Administration.</p>
+                                </div>
+                            </div>
+                            <div class="circle solution">
+                                <img src="images/infographic-circ-aqua.png" alt="" />
+                                <div class="circlecontent">
+                                    <h4>Solution</h4>
+                                    <p>We designed the duplex ultrasound imaging protocol and trained the sites in the performance of this imaging protocol.</p>
+                                </div>
+                            </div>
+                            <div class="circle result">
+                                <img src="images/infographic-circ-blue.png" alt="" />
+                                <div class="circlecontent">
+                                    <h4>Result</h4>
+                                    <p>First Iliac Artery Stent Approved in the U.S.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slideactions">
+                            <a href="#" class="btn">View on PubMed</a>
+                            <a href="#" class="btn">View Trial Images</a>
                         </div>
                     </div>
-                </div>
-                <div class="trialslidenav">
-
                 </div>
             </div>
 

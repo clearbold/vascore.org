@@ -1,0 +1,300 @@
+@media only screen and (max-width: 1024px) {
+    .footer {
+        position: relative;
+    }
+    .scrolldown {
+        display:none;
+    }
+    .row {
+
+    }
+    .masthead,
+    .footer p {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .accordion > h3 {
+        background: url('../images/bg_tab-expanded-services2.png') no-repeat;
+    }
+    #contact {
+        padding-bottom: 0;
+    }
+    .footer {
+        position: relative;
+        bottom: auto; left: auto;
+    }
+    .footer #scrolltotop {
+        position:absolute;
+    }
+    #services .tabs h3 {
+        font-size: 1.5em;
+        overflow: hidden;
+    }
+}
+
+@media only screen and (max-width: 910px) {
+    #publications .slideshowwrapper img {
+        height:390px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .footer p {
+        width: 70%;
+    }
+    .footer #scrolltotop {
+        position: absolute;
+        right: 20px;
+    }
+    .bioheader h2 {
+        font-size:24px;
+    }
+    .biofooter a {
+        font-size:18px;
+        padding-top:3px;
+        padding-bottom:3px;
+    }
+    #location {
+        margin-left:0;
+    }
+    #email {
+        margin-right:0;
+        float:left;
+    }
+    .contact-row .six {
+        width:33%;
+    }
+    .infographic .circle {
+        width:33%;
+        padding-left:5%;
+        padding-right:5%;
+    }
+    .infographic .circle.result,
+    .infographic .circle.challenge {
+        margin:0;
+    }
+    .infographic .circle,
+    .infographic .circle p {
+        color:#737F83;
+    }
+    .infographic .circle img {
+        display:none;
+    }
+    .infographic .circle .circlecontent {
+        position:static;
+        width:100%;
+    }
+    .infographic .circle h4 {
+        font-size:1.6em;
+    }
+    .result .circlecontent h4 {
+        margin-bottom:2em;
+    }
+    .infographic .circle p {
+        font-size:1.4em;
+    }
+    .infographic .circle.challenge:after,
+    .infographic .circle.result:before {
+        font-size:24px;
+        width:1em;
+        top:-.1em;
+        margin-top:0;
+    }
+    .infographic .circle.challenge:after {
+        right:-.5em;
+        margin-top:0;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    body {
+        -webkit-text-size-adjust: none;
+        -ms-text-size-adjust: none;
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 0;
+        padding-right: 0;
+        min-width: 0;
+        width: 100%;
+    }
+
+    .row {
+        margin-left: 0;
+        margin-right: 0;
+        min-width: 0;
+        width: auto;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .masthead {
+        height: auto;
+    }
+    .column, .columns { float: none; width: auto !important; }
+    .column:last-child, .columns:last-child { float: none; }
+    [class*="column"] + [class*="column"]:last-child { float: none; }
+    .column:before, .columns:before, .column:after, .columns:after { content: ""; display: table; }
+    .column:after, .columns:after { clear: both; }
+    .offset-by-one, .offset-by-two, .offset-by-three, .offset-by-four, .offset-by-five, .offset-by-six, .offset-by-seven, .offset-by-eight, .offset-by-nine, .offset-by-ten { margin-left: 0 !important; }
+    .push-two, .push-three, .push-four, .push-five, .push-six, .push-seven, .push-eight, .push-nine, .push-ten { left: auto; }
+    .pull-two, .pull-three, .pull-four, .pull-five, .pull-six, .pull-seven, .pull-eight, .pull-nine, .pull-ten { right: auto; }
+
+    .logo {
+        padding-bottom: 25px;
+        text-align: center;
+    }
+    .logo img {
+        /* Logo is a 640x320 transparent png with the logo centered. This gives us a 320px-wide
+        HiDPI-friendly image, but it's 320px tall on a w<768px display. We constrain the height
+        there at 50% for HiDPI */
+        max-height: 30px;
+    }
+    .nav {
+        padding: 0 20px;
+        text-align: center;
+    }
+    .nav div[role=navigation] {
+        position: static;
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .nav div[role=navigation] a {
+        float: none;
+        margin-bottom: 1em;
+    }
+    .section {
+        padding-bottom: 2em;
+        min-height: 0;
+    }
+    #intro {
+        padding-top: 2em;
+    }
+    h2,
+    #intro h2 {
+        font-size: 4em;
+        margin-bottom: 1.6667em;
+    }
+    #intro {
+        padding-top: 0;
+    }
+    #about figure {
+        margin: 0 auto;
+        max-width: 450px; /*
+        min-height: 0;
+        padding-bottom: 0;*/
+    }
+    .accordion > div ul {
+        float: left;
+        list-style-position: outside;
+        margin-right: 5%;
+        width: 90%;
+    }
+    .footer #scrolltotop {
+        right: 0;
+    }
+    #contact {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    #email {
+        float:none;
+    }
+}
+
+@media only screen and (max-width: 620px) {
+    .slide {
+        font-size:.8em;
+        padding-top:5%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    #services .tabs h3 {
+        font-size: 1.3em;
+    }
+    .accordion > div ul {
+        float: none;
+    }
+    .slidecount.four {
+        width:80%;
+        margin-left:-40%;
+    }
+    div.orbit-wrapper div.slider-nav {
+        width:100%; margin-left:-50%;
+    }
+    div.orbit-wrapper div.slider-nav span.right { right: 0; }
+    div.orbit-wrapper div.slider-nav span.left { left: 0; }
+    .infographic .circle {
+        float:none;
+        width:100% !important;
+    }
+    .infographic .circle h4 {
+        margin-bottom:.5em !important;
+    }
+    .infographic .circle.challenge:after,
+    .infographic .circle.result:before {
+        display:none;
+    }
+}
+
+
+@media only screen and (min-width: 769px) {
+    #about div.eighteen div.row {
+        background: url('../images/bg_figure-tiled.png');
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .masthead {
+        position: fixed;
+        width: 100%;
+        z-index: 9;
+    }
+}
+
+/* Scrolling */
+@media only screen and (min-width: 1025px) {
+    .wrapper {
+        position: fixed;
+        height: 1000px;
+        overflow: hidden;
+        top: 88px;
+        width: 100%;
+    }
+    .section {
+        position: absolute;
+        box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2); -moz-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2); -webkit-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+        height: 1280px !important;
+        overflow: hidden;
+        top: 0;
+        width: 100%;
+    }
+    .masthead {
+        z-index: 999;
+    }
+    #intro {
+        z-index: 900;
+    }
+    #about {
+        z-index: 800;
+        height : 3000px !important;
+    }
+    #expertise {
+        z-index: 700;
+    }
+    #services {
+        z-index: 600;
+        height: 1680px !important;
+    }
+    #clients {
+        z-index: 500;
+        height: 1680px !important;
+    }
+    #publications {
+        z-index: 400;
+    }
+    #contact {
+        z-index: 300;
+    }
+}
