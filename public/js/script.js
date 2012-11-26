@@ -75,7 +75,7 @@ $(document).ready(function() {
 
     testWidth();
 
-    var slideheight = 1280;
+    var slideheight = 1075;
 
     var eq = 0;
 
@@ -90,17 +90,16 @@ $(document).ready(function() {
     var destinations = [];
     destinations[0] = 0;
     destinations[1] = slideheight; // #intro
-    destinations[2] = 4280; // #about
+    destinations[2] = destinations[1] + 2800; // #about
     destinations[3] = destinations[2] + 1396; // #expertise
-    destinations[4] = destinations[3] + 1680; // #services
+    destinations[4] = destinations[3] + 1425; // #services
     destinations[5] = destinations[4] + 1680; // #clients
     destinations[6] = destinations[5] + slideheight; // #publications
-    //destinations[7] = destinations[6] + slideheight; // #contact
-    destinations[7] = destinations[6] + slideheight;
+    destinations[7] = destinations[6] + slideheight; // #contact
 
     var leftover = $.Window.height() - 0;
 
-    var bodyheight = destinations[6] + slideheight - 140;
+    var bodyheight = destinations[7] - 140;
 
     var destinationslength = destinations.length;
 

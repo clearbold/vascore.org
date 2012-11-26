@@ -1,6 +1,6 @@
 {
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
-  "creatorBuild" : "7839",
+  "creatorBuild" : "7978",
   "files" : {
     "\/public\/css\/mediaqueries.less" : {
       "ignoreWasSetByUser" : 0,
@@ -47,6 +47,17 @@
       "outputAbbreviatedPath" : "\/public\/images\/logo_480-biomedical.png",
       "initialSize" : 4354,
       "fileType" : 8192
+    },
+    "\/public\/images\/photo_gail-hadley@2x.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/public\/images\/photo_gail-hadley@2x.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/public\/images\/photo_gail-hadley@2x.jpg",
+      "initialSize" : 169685,
+      "fileType" : 4096
     },
     "\/public\/images\/casestudy3_image2.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -134,6 +145,42 @@
       "outputAbbreviatedPath" : "\/public\/js\/plugins-min.js",
       "fileType" : 64
     },
+    "\/public\/casestudy5_image1.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/public\/casestudy5_image1.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/public\/casestudy4_image1.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/public\/casestudy4_image1.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/public\/casestudy3_image1.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/public\/casestudy3_image1.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/public\/casestudy2_image1.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/public\/casestudy2_image1.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/public\/casestudy1_image1.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -142,6 +189,17 @@
       "inputAbbreviatedPath" : "\/public\/casestudy1_image1.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
+    },
+    "\/public\/images\/photo_debra-jaff@2x.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/public\/images\/photo_debra-jaff@2x.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/public\/images\/photo_debra-jaff@2x.jpg",
+      "initialSize" : 104037,
+      "fileType" : 4096
     },
     "\/public\/images\/bg_h3-contact.png" : {
       "ignoreWasSetByUser" : 0,
@@ -220,17 +278,6 @@
       "initialSize" : 3164,
       "fileType" : 8192
     },
-    "\/public\/images\/bg_contact-tiled.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/images\/bg_contact-tiled.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/public\/images\/bg_contact-tiled.png",
-      "initialSize" : 1023,
-      "fileType" : 8192
-    },
     "\/public\/images\/photo_debra-jaff.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -242,16 +289,27 @@
       "initialSize" : 31945,
       "fileType" : 4096
     },
-    "\/public\/images\/sprite_modal_next.png" : {
+    "\/public\/images\/bg_contact-tiled.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/images\/sprite_modal_next.png",
+      "inputAbbreviatedPath" : "\/public\/images\/bg_contact-tiled.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/public\/images\/sprite_modal_next.png",
-      "initialSize" : 366,
+      "outputAbbreviatedPath" : "\/public\/images\/bg_contact-tiled.png",
+      "initialSize" : 1023,
       "fileType" : 8192
+    },
+    "\/public\/images\/photo_gail-hadley.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/public\/images\/photo_gail-hadley.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/public\/images\/photo_gail-hadley.jpg",
+      "initialSize" : 51534,
+      "fileType" : 4096
     },
     "\/public\/images\/casestudy3_image1.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -275,6 +333,17 @@
       "initialSize" : 3814,
       "fileType" : 8192
     },
+    "\/public\/images\/sprite_modal_next.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/public\/images\/sprite_modal_next.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/public\/images\/sprite_modal_next.png",
+      "initialSize" : 366,
+      "fileType" : 8192
+    },
     "\/public\/images\/logo_terumo.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -285,17 +354,6 @@
       "outputAbbreviatedPath" : "\/public\/images\/logo_terumo.png",
       "initialSize" : 2510,
       "fileType" : 8192
-    },
-    "\/public\/images\/photo_gail-hadley.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/images\/photo_gail-hadley.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/public\/images\/photo_gail-hadley.jpg",
-      "initialSize" : 51534,
-      "fileType" : 4096
     },
     "\/public\/images\/photo_justin-mcneil.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -319,6 +377,17 @@
       "initialSize" : 40756,
       "fileType" : 4096
     },
+    "\/public\/images\/bg_infographic_circles.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/public\/images\/bg_infographic_circles.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/public\/images\/bg_infographic_circles.png",
+      "initialSize" : 42131,
+      "fileType" : 8192
+    },
     "\/public\/images\/logo_getinge-group.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -330,6 +399,17 @@
       "initialSize" : 3752,
       "fileType" : 8192
     },
+    "\/public\/images\/photo_justin-mcneil@2x.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/public\/images\/photo_justin-mcneil@2x.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/public\/images\/photo_justin-mcneil@2x.jpg",
+      "initialSize" : 71870,
+      "fileType" : 4096
+    },
     "\/public\/bio_gail-hadley.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -339,15 +419,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/public\/images\/foundation\/orbit\/right-arrow-small.png" : {
+    "\/public\/images\/bg_figure-tiled.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/images\/foundation\/orbit\/right-arrow-small.png",
+      "inputAbbreviatedPath" : "\/public\/images\/bg_figure-tiled.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/public\/images\/foundation\/orbit\/right-arrow-small.png",
-      "initialSize" : 3170,
+      "outputAbbreviatedPath" : "\/public\/images\/bg_figure-tiled.png",
+      "initialSize" : 1139,
       "fileType" : 8192
     },
     "\/public\/images\/photo_victoria-sova.jpg" : {
@@ -372,15 +452,15 @@
       "initialSize" : 4591,
       "fileType" : 8192
     },
-    "\/public\/images\/bg_figure-tiled.png" : {
+    "\/public\/images\/foundation\/orbit\/right-arrow-small.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/images\/bg_figure-tiled.png",
+      "inputAbbreviatedPath" : "\/public\/images\/foundation\/orbit\/right-arrow-small.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/public\/images\/bg_figure-tiled.png",
-      "initialSize" : 1139,
+      "outputAbbreviatedPath" : "\/public\/images\/foundation\/orbit\/right-arrow-small.png",
+      "initialSize" : 3170,
       "fileType" : 8192
     },
     "\/public\/images\/logo_proteon.png" : {
@@ -429,6 +509,17 @@
       "initialSize" : 1723,
       "fileType" : 4096
     },
+    "\/public\/images\/photo_josh-beckman@2x.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/public\/images\/photo_josh-beckman@2x.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/public\/images\/photo_josh-beckman@2x.jpg",
+      "initialSize" : 76433,
+      "fileType" : 4096
+    },
     "\/public\/images\/infographic-circ-blue.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -438,6 +529,28 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/public\/images\/infographic-circ-blue.png",
       "initialSize" : 98561,
+      "fileType" : 8192
+    },
+    "\/public\/images\/photo_michael-jaff@2x.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/public\/images\/photo_michael-jaff@2x.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/public\/images\/photo_michael-jaff@2x.jpg",
+      "initialSize" : 67384,
+      "fileType" : 4096
+    },
+    "\/public\/images\/foundation\/orbit\/right-arrow.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/public\/images\/foundation\/orbit\/right-arrow.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/public\/images\/foundation\/orbit\/right-arrow.png",
+      "initialSize" : 3243,
       "fileType" : 8192
     },
     "\/public\/images\/logo_covidien.png" : {
@@ -451,17 +564,6 @@
       "initialSize" : 2481,
       "fileType" : 8192
     },
-    "\/public\/images\/foundation\/orbit\/right-arrow.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/images\/foundation\/orbit\/right-arrow.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/public\/images\/foundation\/orbit\/right-arrow.png",
-      "initialSize" : 3243,
-      "fileType" : 8192
-    },
     "\/public\/bio_debra-jaff.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -470,17 +572,6 @@
       "inputAbbreviatedPath" : "\/public\/bio_debra-jaff.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
-    },
-    "\/public\/images\/logo_vascore.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/images\/logo_vascore.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/public\/images\/logo_vascore.png",
-      "initialSize" : 1307,
-      "fileType" : 8192
     },
     "\/public\/js\/modernizr-2.6.2-min.js" : {
       "ignoreWasSetByUser" : 1,
@@ -491,17 +582,6 @@
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/public\/js\/modernizr-2.6.2-min-min.js",
-      "fileType" : 64
-    },
-    "\/public\/js\/respond.min.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/js\/respond.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/public\/js\/respond.min-min.js",
       "fileType" : 64
     },
     "\/public\/images\/logo_pervasis.png" : {
@@ -526,16 +606,27 @@
       "initialSize" : 369,
       "fileType" : 8192
     },
-    "\/public\/images\/logo_spectranetics.png" : {
+    "\/public\/images\/logo_vascore.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/images\/logo_spectranetics.png",
+      "inputAbbreviatedPath" : "\/public\/images\/logo_vascore.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/public\/images\/logo_spectranetics.png",
-      "initialSize" : 2476,
+      "outputAbbreviatedPath" : "\/public\/images\/logo_vascore.png",
+      "initialSize" : 1307,
       "fileType" : 8192
+    },
+    "\/public\/js\/respond.min.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/public\/js\/respond.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/public\/js\/respond.min-min.js",
+      "fileType" : 64
     },
     "\/public\/images\/logo_gore.png" : {
       "ignoreWasSetByUser" : 0,
@@ -546,6 +637,17 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/public\/images\/logo_gore.png",
       "initialSize" : 5122,
+      "fileType" : 8192
+    },
+    "\/public\/images\/logo_spectranetics.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/public\/images\/logo_spectranetics.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/public\/images\/logo_spectranetics.png",
+      "initialSize" : 2476,
       "fileType" : 8192
     },
     "\/public\/css\/bootstrap.less" : {
@@ -746,16 +848,23 @@
       "initialSize" : 2479,
       "fileType" : 8192
     },
-    "\/public\/images\/logo_otsuka.png" : {
+    "\/public\/casestudy4_image2.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/images\/logo_otsuka.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/public\/images\/logo_otsuka.png",
-      "initialSize" : 3849,
-      "fileType" : 8192
+      "inputAbbreviatedPath" : "\/public\/casestudy4_image2.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/public\/casestudy3_image2.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/public\/casestudy3_image2.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/public\/images\/logo_idev.png" : {
       "ignoreWasSetByUser" : 0,
@@ -776,6 +885,17 @@
       "inputAbbreviatedPath" : "\/public\/casestudy1_image2.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
+    },
+    "\/public\/images\/logo_otsuka.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/public\/images\/logo_otsuka.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/public\/images\/logo_otsuka.png",
+      "initialSize" : 3849,
+      "fileType" : 8192
     },
     "\/public\/bio_sandra-croteau.html" : {
       "ignoreWasSetByUser" : 0,
@@ -861,16 +981,16 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/public\/js\/script-min.js" : {
+    "\/public\/images\/photo_mary-ramos@2x.jpg" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/js\/script-min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/public\/js\/script-min-min.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/public\/images\/photo_mary-ramos@2x.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/public\/images\/photo_mary-ramos@2x.jpg",
+      "initialSize" : 102682,
+      "fileType" : 4096
     },
     "\/public\/images\/logo_bard.png" : {
       "ignoreWasSetByUser" : 0,
@@ -882,6 +1002,17 @@
       "outputAbbreviatedPath" : "\/public\/images\/logo_bard.png",
       "initialSize" : 2597,
       "fileType" : 8192
+    },
+    "\/public\/js\/script-min.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/public\/js\/script-min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/public\/js\/script-min-min.js",
+      "fileType" : 64
     },
     "\/public\/images\/logo_cardiva.png" : {
       "ignoreWasSetByUser" : 0,
@@ -938,24 +1069,26 @@
       "initialSize" : 1260,
       "fileType" : 8192
     },
-    "\/public\/bio_susan-batdorf.html" : {
+    "\/public\/images\/photo_sandra-croteau.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/bio_susan-batdorf.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/public\/images\/foundation\/orbit\/pause-black.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/images\/foundation\/orbit\/pause-black.png",
+      "inputAbbreviatedPath" : "\/public\/images\/photo_sandra-croteau.jpg",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/public\/images\/foundation\/orbit\/pause-black.png",
-      "initialSize" : 289,
+      "outputAbbreviatedPath" : "\/public\/images\/photo_sandra-croteau.jpg",
+      "initialSize" : 29316,
+      "fileType" : 4096
+    },
+    "\/public\/images\/scroll-to-top.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/public\/images\/scroll-to-top.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/public\/images\/scroll-to-top.png",
+      "initialSize" : 5933,
       "fileType" : 8192
     },
     "\/public\/images\/foundation\/orbit\/mask-black.png" : {
@@ -991,29 +1124,25 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/public\/images\/scroll-to-top.png" : {
+    "\/public\/bio_susan-batdorf.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/images\/scroll-to-top.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/public\/images\/scroll-to-top.png",
-      "initialSize" : 5933,
-      "fileType" : 8192
+      "inputAbbreviatedPath" : "\/public\/bio_susan-batdorf.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
-    "\/public\/css\/typography.less" : {
+    "\/public\/images\/foundation\/orbit\/pause-black.png" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/css\/typography.less",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/public\/css\/typography.css",
-      "strictImports" : 0,
-      "fileType" : 1,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/public\/images\/foundation\/orbit\/pause-black.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/public\/images\/foundation\/orbit\/pause-black.png",
+      "initialSize" : 289,
+      "fileType" : 8192
     },
     "\/public\/css\/orbit.less" : {
       "ignoreWasSetByUser" : 0,
@@ -1037,6 +1166,19 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/public\/css\/typography.less" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/public\/css\/typography.less",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/public\/css\/typography.css",
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
     "\/public\/images\/casestudy1_image1.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1047,28 +1189,6 @@
       "outputAbbreviatedPath" : "\/public\/images\/casestudy1_image1.jpg",
       "initialSize" : 34181,
       "fileType" : 4096
-    },
-    "\/public\/images\/photo_sandra-croteau.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/images\/photo_sandra-croteau.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/public\/images\/photo_sandra-croteau.jpg",
-      "initialSize" : 29316,
-      "fileType" : 4096
-    },
-    "\/public\/images\/slide_arrow-left.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/images\/slide_arrow-left.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/public\/images\/slide_arrow-left.png",
-      "initialSize" : 1257,
-      "fileType" : 8192
     },
     "\/public\/images\/logo_boston-scientific.png" : {
       "ignoreWasSetByUser" : 0,
@@ -1081,25 +1201,27 @@
       "initialSize" : 3049,
       "fileType" : 8192
     },
-    "\/public\/images\/logo_cordis.png" : {
+    "\/public\/images\/slide_arrow-left.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/images\/logo_cordis.png",
+      "inputAbbreviatedPath" : "\/public\/images\/slide_arrow-left.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/public\/images\/logo_cordis.png",
-      "initialSize" : 3409,
+      "outputAbbreviatedPath" : "\/public\/images\/slide_arrow-left.png",
+      "initialSize" : 1257,
       "fileType" : 8192
     },
-    "\/public\/bio_josh-beckman.html" : {
+    "\/public\/images\/photo_victoria-sova@2x.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/bio_josh-beckman.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/public\/images\/photo_victoria-sova@2x.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/public\/images\/photo_victoria-sova@2x.jpg",
+      "initialSize" : 129734,
+      "fileType" : 4096
     },
     "\/public\/js\/jquery-1.8.2.js" : {
       "ignoreWasSetByUser" : 0,
@@ -1121,6 +1243,37 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/public\/images\/logo_intact-vascular.png",
       "initialSize" : 5309,
+      "fileType" : 8192
+    },
+    "\/public\/images\/photo_sandra-croteau@2x.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/public\/images\/photo_sandra-croteau@2x.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/public\/images\/photo_sandra-croteau@2x.jpg",
+      "initialSize" : 143429,
+      "fileType" : 4096
+    },
+    "\/public\/bio_josh-beckman.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/public\/bio_josh-beckman.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/public\/images\/logo_cordis.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/public\/images\/logo_cordis.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/public\/images\/logo_cordis.png",
+      "initialSize" : 3409,
       "fileType" : 8192
     }
   },
@@ -1299,5 +1452,11 @@
     "lessDebugStyle" : 0,
     "javascriptAutoOutputPathRelativePath" : "",
     "slimAutoOutputPathStyle" : 0
+  },
+  "projectAttributes" : {
+    "bourbonEnabled" : 0,
+    "displayValue" : "vascore",
+    "displayValueWasSetByUser" : 1,
+    "compassEnabled" : 0
   }
 }
