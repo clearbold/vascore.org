@@ -36,6 +36,33 @@ $(window).load(function() {
 
 $(document).ready(function() {
 
+    /* Add dropdown to nav for narrower views */
+    // Create the dropdown base
+    $("<form class='navdrop' />").appendTo(".nav");
+    $("<select />").appendTo(".navdrop");
+    $("<button type='submit'>Go</button>").appendTo(".navdrop");
+
+    // Create default option "Go to..."
+    $("<option />", {
+       "selected": "selected",
+       "value"   : "",
+       "text"    : "Jump to..."
+    }).appendTo(".nav select");
+
+    // Populate dropdown with menu items
+    $(".nav a").each(function() {
+     var el = $(this);
+     $("<option />", {
+         "value"   : el.attr("href"),
+         "text"    : el.text()
+     }).appendTo(".nav select");
+    });
+
+    $(".nav button").click(function() {
+      window.location = $(".nav select").find("option:selected").val();
+      return false;
+    });
+
     var $modaldiv = $('<div>').addClass('reveal-modal').addClass('xlarge').appendTo('body');
 
     /* Adding in Ajax functionality for Zurb Reveal */
@@ -164,7 +191,7 @@ $(document).ready(function() {
 
         $scrollformore.click(function(e){
             e.preventDefault();
-            $.Scroll.stop().animate({scrollTop: (destinations[1])+'px'});
+            $.Scroll.stop().animate({scrollTop: (destinations[1])+'px'}, 1000);
         });
 
         $.Window.bind('scroll', function(e) {

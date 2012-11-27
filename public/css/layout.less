@@ -22,7 +22,9 @@ div[role=navigation] a {
 		background: rgb(246, 153, 7);
 		color: rgb(255, 255, 255);
 	}
-
+.nav form {
+	display:none;
+}
 h1 {
 	background: rgb(214, 214, 211);
 	color: rgb(255, 255, 255);
@@ -101,10 +103,12 @@ h1 {
 		text-align: left;
 		width: 100%;
 	}
-			#about a:hover figure {
+			.no-touch #about a:hover figure,
+			.touch #about a figure {
 				background:url("../images/bg_figure-tiled.png") repeat 0 0;
 			}
-			#about a:hover figcaption {
+			.no-touch #about a:hover figcaption,
+			.touch #about a figcaption {
 				background:url("../images/icon_arrow-right-orange.png") no-repeat 95% 50%;
 			}
 			#about span[itemprop=name],
@@ -174,7 +178,7 @@ h1 {
 	}
 	.accordion > h3,
 	.accordion > h3.ui-state-default {
-		background: rgb(136, 191, 199) url('../images/bg_tab-services.png') no-repeat;
+
 		height: 57px;
 		line-height: 57px;
 		margin-bottom: 1px;
@@ -183,6 +187,9 @@ h1 {
 		cursor:pointer;
 		outline: none;
 	}
+		.accordion > h3.ui-state-default {
+			background: rgb(136, 191, 199) url('../images/bg_tab-services.png') no-repeat;
+		}
 		.accordion > h3.ui-state-default:hover {
 			background-position:0 -100px;
 		}
@@ -199,6 +206,7 @@ h1 {
 	.accordion > div {
 		background: rgb(83, 117, 133);
 		padding-left: 98px;
+		font-size: 1.5em;
 	}
 	.accordion > div ul {
 		float: left;
@@ -216,7 +224,7 @@ h1 {
 		}
 	.accordion > div ul li {
 		color: rgb(146, 205, 211);
-		font-size: 1.5em;
+
 		text-align: left;
 		line-height:1.5em;
 		padding-bottom:.5em;
@@ -227,6 +235,19 @@ h1 {
 	.accordion div.map {
 		padding: 0;
 	}
+
+	.no-js .accordion > h3 {
+        background: url('../images/bg_modal-head.gif') repeat;
+        height:auto;
+        line-height:1.2;
+        padding-top:1.2em;
+        padding-bottom:1em;
+    }
+    .no-js .accordion > h3,
+    .no-js .accordion > div {
+        padding-left:30px;
+        padding-right:30px;
+    }
 
 #clients {
 	background: rgb(236, 233, 229);
@@ -277,6 +298,9 @@ h1 {
 		color:rgb(146,205,211);
 		text-align:center;
 	}
+		.no-js .slidecount {
+			display:none;
+		}
 		#publications .slidecount {
 			bottom:50px;
 		}
@@ -297,9 +321,20 @@ h1 {
 		}
 
 	.slide h3 a {
-		color: rgb(255, 255, 255);
+		color: rgba(255, 255, 255, 1);
 		text-decoration:none;
 	}
+		.slide h3 a:hover {
+			color: rgba(255, 255, 255, .5);
+		}
+
+		.no-rgba .slide h3 a {
+			color: rgb(255, 255, 255);
+		}
+			.no-rgba .slide h3 a:hover {
+				color: rgb(205, 231, 234);
+			}
+
 	.slide h3 {
 		color: rgb(255, 255, 255);
 		font-size: 2.2em;

@@ -819,6 +819,9 @@ div[role=navigation] a:hover {
   background: #f69907;
   color: #ffffff;
 }
+.nav form {
+  display: none;
+}
 h1 {
   background: #d6d6d3;
   color: #ffffff;
@@ -892,10 +895,12 @@ p.subhead {
   text-align: left;
   width: 100%;
 }
-#about a:hover figure {
+.no-touch #about a:hover figure,
+.touch #about a figure {
   background: url("../images/bg_figure-tiled.png") repeat 0 0;
 }
-#about a:hover figcaption {
+.no-touch #about a:hover figcaption,
+.touch #about a figcaption {
   background: url("../images/icon_arrow-right-orange.png") no-repeat 95% 50%;
 }
 #about span[itemprop=name],
@@ -963,7 +968,6 @@ p.subhead {
 }
 .accordion > h3,
 .accordion > h3.ui-state-default {
-  background: #88bfc7 url('../images/bg_tab-services.png') no-repeat;
   height: 57px;
   line-height: 57px;
   margin-bottom: 1px;
@@ -971,6 +975,9 @@ p.subhead {
   padding-left: 78px;
   cursor: pointer;
   outline: none;
+}
+.accordion > h3.ui-state-default {
+  background: #88bfc7 url('../images/bg_tab-services.png') no-repeat;
 }
 .accordion > h3.ui-state-default:hover {
   background-position: 0 -100px;
@@ -988,6 +995,7 @@ p.subhead {
 .accordion > div {
   background: #537585;
   padding-left: 98px;
+  font-size: 1.5em;
 }
 .accordion > div ul {
   float: left;
@@ -1005,7 +1013,6 @@ p.subhead {
 }
 .accordion > div ul li {
   color: #92cdd3;
-  font-size: 1.5em;
   text-align: left;
   line-height: 1.5em;
   padding-bottom: .5em;
@@ -1015,6 +1022,18 @@ p.subhead {
 }
 .accordion div.map {
   padding: 0;
+}
+.no-js .accordion > h3 {
+  background: url('../images/bg_modal-head.gif') repeat;
+  height: auto;
+  line-height: 1.2;
+  padding-top: 1.2em;
+  padding-bottom: 1em;
+}
+.no-js .accordion > h3,
+.no-js .accordion > div {
+  padding-left: 30px;
+  padding-right: 30px;
 }
 #clients {
   background: #ece9e5;
@@ -1065,6 +1084,9 @@ p.subhead {
   color: #92cdd3;
   text-align: center;
 }
+.no-js .slidecount {
+  display: none;
+}
 #publications .slidecount {
   bottom: 50px;
 }
@@ -1086,6 +1108,15 @@ p.subhead {
 .slide h3 a {
   color: #ffffff;
   text-decoration: none;
+}
+.slide h3 a:hover {
+  color: rgba(255, 255, 255, 0.5);
+}
+.no-rgba .slide h3 a {
+  color: #ffffff;
+}
+.no-rgba .slide h3 a:hover {
+  color: #cde7ea;
 }
 .slide h3 {
   color: #ffffff;
@@ -1512,8 +1543,23 @@ ul.affiliations li {
     padding-left: 20px;
     padding-right: 20px;
   }
+  .section {
+    padding-bottom: 6em;
+  }
+  #expertise {
+    padding-bottom: 1px;
+  }
   .accordion > h3 {
-    background: url('../images/bg_tab-expanded-services2.png') no-repeat;
+    background: url('../images/bg_modal-head.gif') repeat;
+    height: auto;
+    line-height: 1.2;
+    padding-top: 1.2em;
+    padding-bottom: 1em;
+  }
+  .accordion > h3,
+  .accordion > div {
+    padding-left: 2em;
+    padding-right: 2em;
   }
   #contact {
     padding-bottom: 0;
@@ -1529,6 +1575,9 @@ ul.affiliations li {
   #services .tabs h3 {
     font-size: 1.5em;
     overflow: hidden;
+  }
+  .contact-row {
+    margin-bottom: 3em;
   }
 }
 @media only screen and (max-width: 964px) {
@@ -1591,13 +1640,21 @@ ul.affiliations li {
     width: 100%;
   }
   .infographic .circle h4 {
-    font-size: 1.6em;
+    font-size: 1.9em;
   }
   .result .circlecontent h4 {
     margin-bottom: 2em;
   }
   .infographic .circle p {
-    font-size: 1.4em;
+    font-size: 1.5em;
+    margin-bottom: 1.5em;
+  }
+  .slideactions {
+    padding-top: 3%;
+    padding-bottom: 3%;
+  }
+  #trialslideshow {
+    margin-bottom: 1em;
   }
   .result .circlecontent p {
     font-weight: normal;
@@ -1706,27 +1763,54 @@ ul.affiliations li {
     max-height: 30px;
   }
   .nav {
-    padding: 0 20px;
+    padding: 0 10px;
     text-align: center;
   }
   .nav div[role=navigation] {
+    display: none;
+  }
+  .nav form {
+    display: block;
+    margin-bottom: 2em;
+  }
+  .nav select,
+  .nav button {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
+  }
+  .no-js .nav div[role=navigation] {
+    display: block;
     position: static;
     float: none;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
   }
-  .nav div[role=navigation] a {
+  .no-js .nav div[role=navigation] a {
     float: none;
     margin-bottom: 1em;
   }
+  .no-js .nav form {
+    display: none;
+  }
   .section {
     padding-top: 0;
-    padding-bottom: 1px;
+    padding-bottom: 1em;
     min-height: 0;
   }
   .section p {
+    margin-bottom: 2em;
+    line-height: 1.5;
+  }
+  .section h1 {
     margin-bottom: 3em;
+  }
+  .section h2 {
+    margin-bottom: 1em;
+  }
+  .bubble {
+    margin-bottom: 2em;
   }
   #intro {
     padding-top: 3em;
@@ -1734,11 +1818,14 @@ ul.affiliations li {
   h2,
   #intro h2 {
     font-size: 4em;
-    margin-bottom: 1.6667em;
+    margin-bottom: .7em;
   }
   /* #intro {
           padding-top: 0;
       } */
+  #about {
+    padding-bottom: 3em;
+  }
   #about figure {
     margin: 0 auto;
     max-width: 450px;
@@ -1747,14 +1834,26 @@ ul.affiliations li {
           padding-bottom: 0;*/
   
   }
+  .accordion {
+    margin-bottom: 2em !important;
+  }
   .accordion > div ul {
     float: left;
     list-style-position: outside;
     margin-right: 5%;
     width: 90%;
   }
+  .accordion > div ul + ul {
+    position: relative;
+    padding-top: 0;
+    margin-top: -1em;
+    padding-bottom: 1em;
+  }
   .footer #scrolltotop {
     right: 0;
+  }
+  #publications {
+    padding-bottom: 3em;
   }
   #contact {
     padding-left: 0;
@@ -1762,6 +1861,15 @@ ul.affiliations li {
   }
   #email {
     float: none;
+  }
+  .reveal-modal.xlarge {
+    width: 100%;
+    margin-left: -50%;
+  }
+  .contact-info {
+    height: auto;
+    padding-top: 60px !important;
+    padding-bottom: 15px !important;
   }
 }
 @media only screen and (max-width: 926px) {
@@ -1795,9 +1903,6 @@ ul.affiliations li {
   }
 }
 @media only screen and (max-width: 480px) {
-  #services .tabs h3 {
-    font-size: 1.3em;
-  }
   .accordion > div ul {
     float: none;
   }
@@ -1836,10 +1941,19 @@ ul.affiliations li {
     padding-left: 0;
     padding-right: 0;
   }
+  .contact-info {
+    width: 90%;
+  }
 }
 @media only screen and (max-width: 439px) {
   .slideshowwrapper .slides > img {
     min-height: 460px;
+  }
+}
+@media only screen and (max-width: 410px) {
+  #clients .logos .columns img {
+    width: 128px;
+    margin: 0 5px 11px;
   }
 }
 @media only screen and (min-width: 768px) {
@@ -1870,6 +1984,10 @@ ul.affiliations li {
     top: 88px;
     width: 100%;
   }
+  .no-js .wrapper {
+    position: relative;
+    height: auto;
+  }
   .section {
     position: absolute;
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
@@ -1881,6 +1999,10 @@ ul.affiliations li {
     overflow: hidden;
     top: 0;
     width: 100%;
+  }
+  .no-js .section {
+    position: static;
+    height: auto !important;
   }
   .masthead {
     z-index: 999;
@@ -1913,5 +2035,17 @@ ul.affiliations li {
   }
   #contact {
     z-index: 300;
+  }
+  .no-js #about,
+  .no-js #expertise,
+  .no-js #services,
+  .no-js #clients {
+    height: auto !important;
+  }
+  .no-js .footer {
+    position: relative;
+  }
+  .no-js .footer #scrolltotop {
+    position: absolute;
   }
 }
