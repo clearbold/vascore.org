@@ -38,6 +38,7 @@ $(document).ready(function() {
 
     /* Add dropdown to nav for narrower views */
     // Create the dropdown base
+    /*
     $("<form class='navdrop' />").appendTo(".nav");
     $("<select />").appendTo(".navdrop");
     $("<button type='submit'>Go</button>").appendTo(".navdrop");
@@ -61,7 +62,7 @@ $(document).ready(function() {
     $(".nav button").click(function() {
       window.location = $(".nav select").find("option:selected").val();
       return false;
-    });
+    }); */
 
     var $modaldiv = $('<div>').addClass('reveal-modal').addClass('xlarge').appendTo('body');
 

@@ -1770,20 +1770,13 @@ ul.affiliations li {
     padding: 0 10px;
     text-align: center;
   }
-  .nav div[role=navigation] {
-    display: none;
-  }
-  .nav form {
-    display: block;
-    margin-bottom: 2em;
-  }
   .nav select,
   .nav button {
     display: inline-block;
     vertical-align: middle;
     font-size: 16px;
   }
-  .no-js .nav div[role=navigation] {
+  .nav div[role=navigation] {
     display: block;
     position: static;
     float: none;
@@ -1791,12 +1784,9 @@ ul.affiliations li {
     margin-right: auto;
     text-align: center;
   }
-  .no-js .nav div[role=navigation] a {
+  .nav div[role=navigation] a {
     float: none;
     margin-bottom: 1em;
-  }
-  .no-js .nav form {
-    display: none;
   }
   .section {
     padding-top: 0;
