@@ -126,7 +126,10 @@ $(document).ready(function() {
 
     var leftover = $.Window.height() - 0;
 
-    var bodyheight = destinations[7] - 140;
+    //var bodyheight = destinations[7] - 140; /* subtract footer, but not masthead */
+    //var bodyheight = destinations[7] - 88; /* subtract masthead, but not footer */
+    //var bodyheight = destinations[7] - 228; /* subtract both, but not footer */
+    var bodyheight = destinations[7] + 228; /* add both to height */
 
     var destinationslength = destinations.length;
 
@@ -194,9 +197,12 @@ $(document).ready(function() {
             $.Scroll.stop().animate({scrollTop: (destinations[1])+'px'}, 1000);
         });
 
-        $.Window.bind('scroll', function(e) {
+        /* $.Window.bind('scroll', function(e) {
             pageScroll(e);
-        });
+        }); */
+        $(document).bind('scroll', function(e) {
+            pageScroll(e);
+        })
         $logolink.click(function(e){
             $.Scroll.stop().animate({scrollTop: (destinations[0])+'px'});
         });
@@ -212,13 +218,17 @@ $(document).ready(function() {
         testPage();
     });
 
+    //console.log("Document height: " + $(document).height() + ", Window height: " + $(window).height());
+
     function pageScroll(e) {
 
         if(tooNarrow){
             return;
         } // Don't do this if it's too narrow.
 
-        var scrollTop = $(this).scrollTop();
+        var scrollTop = $(this).scrollTop();  // $(this) = document now
+
+        //console.log(scrollTop);
 
         for (var x = -1; x < destinationslength; ++x)
         {
@@ -231,7 +241,6 @@ $(document).ready(function() {
             }
         }
 
-        //console.log(scrollTop);
         //console.log($(activeSlide).attr('id'));
 
         $(activeSlide).stop().css({
