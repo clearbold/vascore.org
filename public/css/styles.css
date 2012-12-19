@@ -486,12 +486,6 @@ div.orbit-wrapper div.slider-nav span.left:hover {
 #trialslideshow div.orbit-wrapper div.slider-nav span.left:hover {
   background-position: 0 -200px;
 }
-.ie8 div.orbit-wrapper div.slider-nav span.right {
-  background: url('../images/foundation/orbit/right-arrow-small.png');
-}
-.ie8 div.orbit-wrapper div.slider-nav span.left {
-  background: url('../images/foundation/orbit/left-arrow-small.png');
-}
 /* Bullet Nav ---------------------- */
 ul.orbit-bullets {
   position: absolute;
