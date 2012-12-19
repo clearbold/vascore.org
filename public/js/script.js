@@ -198,12 +198,12 @@ $(document).ready(function() {
             $.Scroll.stop().animate({scrollTop: (destinations[1])+'px'}, 1000);
         });
 
-        /* $.Window.bind('scroll', function(e) {
+        $.Window.bind('scroll', function(e) {
             pageScroll(e);
-        }); */
-        $(document).bind('scroll', function(e) {
+        }); 
+        /* $(document).bind('scroll', function(e) {
             pageScroll(e);
-        })
+        })*/
         $logolink.click(function(e){
             $.Scroll.stop().animate({scrollTop: (destinations[0])+'px'});
         });
