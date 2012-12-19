@@ -1351,10 +1351,7 @@ span[itemprop=faxNumber] a {
   text-align: left;
   letter-spacing: 1px;
 }
-.footer #scrolltotop {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
+.scrolltotop {
   background: url('../images/scroll-to-top.png') no-repeat top center;
   color: #ffffff;
   display: block;
@@ -1366,6 +1363,14 @@ span[itemprop=faxNumber] a {
   text-decoration: none;
   width: 80px;
   -webkit-font-smoothing: antialiased;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+}
+.footer .scrolltotop {
+  display: block;
+  position: fixed;
 }
 /* Reveal modal overlay styles */
 .reveal-modal-bg {
@@ -1567,7 +1572,7 @@ ul.affiliations li {
     bottom: auto;
     left: auto;
   }
-  .footer #scrolltotop {
+  .footer .scrolltotop {
     position: absolute;
   }
   #services .tabs h3 {
@@ -1592,7 +1597,7 @@ ul.affiliations li {
   .footer p {
     width: 70%;
   }
-  .footer #scrolltotop {
+  .footer .scrolltotop {
     position: absolute;
     right: 20px;
   }
@@ -1837,7 +1842,7 @@ ul.affiliations li {
     margin-top: -1em;
     padding-bottom: 1em;
   }
-  .footer #scrolltotop {
+  .footer .scrolltotop {
     right: 0;
   }
   #publications {
@@ -2006,7 +2011,7 @@ ul.affiliations li {
   }
   #expertise {
     z-index: 700;
-    height: 1396px !important;
+    height: 1406px !important;
   }
   #services {
     z-index: 600;
@@ -2024,6 +2029,9 @@ ul.affiliations li {
   #contact {
     z-index: 300;
   }
+  .scrolltotop {
+    display: block;
+  }
   .no-js #about,
   .no-js #expertise,
   .no-js #services,
@@ -2033,7 +2041,7 @@ ul.affiliations li {
   .no-js .footer {
     position: relative;
   }
-  .no-js .footer #scrolltotop {
+  .no-js .footer .scrolltotop {
     position: absolute;
   }
 }

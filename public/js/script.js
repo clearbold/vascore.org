@@ -119,7 +119,7 @@ $(document).ready(function() {
     destinations[0] = 0;
     destinations[1] = slideheight; // #intro
     destinations[2] = destinations[1] + 2800; // #about
-    destinations[3] = destinations[2] + 1396; // #expertise
+    destinations[3] = destinations[2] + 1406; // #expertise
     destinations[4] = destinations[3] + 1425; // #services
     destinations[5] = destinations[4] + 1680; // #clients
     destinations[6] = destinations[5] + slideheight; // #publications
@@ -134,7 +134,7 @@ $(document).ready(function() {
 
     var destinationslength = destinations.length;
 
-    var $scrolltotop = $("#scrolltotop"),
+    var $scrolltotop = $(".scrolltotop"),
         $scrollformore = $("#scrollformore"),
         $logolink = $('.logo').find('a'),
         $navlink = $('div[role=navigation]').find('a');
