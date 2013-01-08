@@ -242,7 +242,7 @@ img {
   position: relative;
 }
 .logo {
-  padding-top: 25px;
+  padding-top: 20px;
 }
 /*.mainnav { display: block; margin-left: 0; margin-right: 0; max-width: none; padding: 0; text-align: center; width: 100%; }
 .mainnav ul { display: inline-block; list-style: none; margin: 0 auto; padding: 0; width: auto; }
@@ -828,7 +828,8 @@ h1 {
   width: 18.5em;
 }
 .logo {
-  padding-top: 33px;
+  /* padding-top:33px; */
+
 }
 .scrolldown {
   position: absolute;
@@ -1955,10 +1956,18 @@ ul.affiliations li {
     bottom: 0;
     left: 40%;
   }
+  .logo {
+    padding-top: 25px;
+  }
 }
 @media only screen and (min-width: 769px) {
   #about div.eighteen div.row {
     background: url('../images/bg_figure-tiled.png');
+  }
+}
+@media only screen and (min-width: 888px) {
+  .logo {
+    padding-top: 20px;
   }
 }
 /* Scrolling */
