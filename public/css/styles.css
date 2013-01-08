@@ -263,7 +263,7 @@ input[type="search"] {
 .nav div[role=navigation] {
   position: absolute;
   right: 0;
-  top: 30px;
+  top: 32px;
   list-style: none;
   width: auto;
 }
