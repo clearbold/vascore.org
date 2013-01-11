@@ -300,15 +300,6 @@
       "initialSize" : 52733,
       "fileType" : 4096
     },
-    "\/public\/casestudy5_image1.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/casestudy5_image1.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/public\/images\/logo_terumo.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -319,6 +310,15 @@
       "outputAbbreviatedPath" : "\/public\/images\/logo_terumo.png",
       "initialSize" : 2510,
       "fileType" : 8192
+    },
+    "\/public\/casestudy5_image1.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/public\/casestudy5_image1.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/public\/bio_justin-mcneil.html" : {
       "ignoreWasSetByUser" : 0,
@@ -530,6 +530,17 @@
       "initialSize" : 42131,
       "fileType" : 8192
     },
+    "\/public\/images\/icon_arrow-right-aqua.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/public\/images\/icon_arrow-right-aqua.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/public\/images\/icon_arrow-right-aqua.png",
+      "initialSize" : 315,
+      "fileType" : 8192
+    },
     "\/public\/css\/layout.less" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -542,17 +553,6 @@
       "strictImports" : 0,
       "fileType" : 1,
       "debugStyle" : 0
-    },
-    "\/public\/images\/icon_arrow-right-aqua.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/images\/icon_arrow-right-aqua.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/public\/images\/icon_arrow-right-aqua.png",
-      "initialSize" : 315,
-      "fileType" : 8192
     },
     "\/public\/images\/logo_cardiosonics.png" : {
       "ignoreWasSetByUser" : 0,
@@ -1034,6 +1034,17 @@
       "initialSize" : 49602,
       "fileType" : 4096
     },
+    "\/public\/images\/vascore-logo@2x.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/public\/images\/vascore-logo@2x.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/public\/images\/vascore-logo@2x.png",
+      "initialSize" : 8539,
+      "fileType" : 8192
+    },
     "\/public\/images\/casestudy2_image1.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1065,16 +1076,18 @@
       "initialSize" : 1307,
       "fileType" : 8192
     },
-    "\/public\/images\/logo_abbott.png" : {
+    "\/public\/css\/bootstrap.less" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/images\/logo_abbott.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/public\/images\/logo_abbott.png",
-      "initialSize" : 2805,
-      "fileType" : 8192
+      "inputAbbreviatedPath" : "\/public\/css\/bootstrap.less",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/public\/css\/bootstrap.css",
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
     },
     "\/public\/js\/modernizr-2.6.2-min.js" : {
       "ignoreWasSetByUser" : 1,
@@ -1086,6 +1099,17 @@
       "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/public\/js\/modernizr-2.6.2-min-min.js",
       "fileType" : 64
+    },
+    "\/public\/images\/logo_abbott.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/public\/images\/logo_abbott.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/public\/images\/logo_abbott.png",
+      "initialSize" : 2805,
+      "fileType" : 8192
     },
     "\/public\/images\/infographic-circ-orange.png" : {
       "ignoreWasSetByUser" : 0,
@@ -1107,19 +1131,6 @@
       "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/public\/css\/styles.css",
-      "strictImports" : 0,
-      "fileType" : 1,
-      "debugStyle" : 0
-    },
-    "\/public\/css\/bootstrap.less" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/css\/bootstrap.less",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/public\/css\/bootstrap.css",
       "strictImports" : 0,
       "fileType" : 1,
       "debugStyle" : 0

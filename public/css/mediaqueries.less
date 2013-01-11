@@ -177,16 +177,6 @@
     .push-two, .push-three, .push-four, .push-five, .push-six, .push-seven, .push-eight, .push-nine, .push-ten { left: auto; }
     .pull-two, .pull-three, .pull-four, .pull-five, .pull-six, .pull-seven, .pull-eight, .pull-nine, .pull-ten { right: auto; }
 
-    .logo {
-        padding-bottom: 25px;
-        text-align: center;
-    }
-    .logo img {
-        /* Logo is a 640x320 transparent png with the logo centered. This gives us a 320px-wide
-        HiDPI-friendly image, but it's 320px tall on a w<768px display. We constrain the height
-        there at 50% for HiDPI */
-        max-height: 30px;
-    }
     .nav {
         padding: 0 10px;
         text-align: center;
@@ -286,6 +276,15 @@
     }
 }
 
+@media only screen and (max-width:768px) {
+    .row .logo {
+        padding-bottom: 25px;
+        text-align: center;
+        margin-left:auto;
+        margin-right:auto;
+    }
+}
+
 @media only screen and (max-width: 926px) {
     .slideshowwrapper .slides > img {
         min-height:460px;
@@ -320,6 +319,11 @@
 }
 
 @media only screen and (max-width: 480px) {
+    .row .logo {
+        padding-top: 15px;
+        padding-bottom:15px;
+        width:183px !important;
+    }
     .accordion > div ul {
         float: none;
     }
@@ -381,8 +385,9 @@
         bottom:0;
         left:40%;
     }
-    .logo {
+    .row .logo {
         padding-top:25px;
+        width:20%;
     }
 }
 @media only screen and (min-width: 769px) {
@@ -392,7 +397,7 @@
 
 }
 @media only screen and (min-width: 888px) {
-    .logo {
+    .row .logo {
         padding-top:20px;
     }
 }
@@ -475,7 +480,4 @@
     .no-js .footer .scrolltotop {
         position:absolute;
     }
-    
-
-
 }
