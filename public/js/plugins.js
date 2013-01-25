@@ -360,12 +360,25 @@ $special = $event.special.debouncedresize = {
     setupFirstSlide: function () {
       //Set initial front photo z-index and fades it in
       var self = this;
-      this.$slides.first()
-        .css({"z-index" : 423})
-        .fadeIn(function() {
-          //brings in all other slides IF css declares a display: none
-          self.$slides.css({"display":"block"})
-      });
+      if (!(this.options.animation == "fade")) {
+        this.$slides.first()
+          .css({"z-index" : 423})
+          .fadeIn(function() {
+            //brings in all other slides IF css declares a display: none
+            self.$slides.css({"display":"block"})
+        });
+      } else {
+        var theAnimationSpeed = this.options.animationSpeed;
+        var theFirstSlide = this.$slides.first();
+        this.$slides.each(function() {
+          if ($(this) != theFirstSlide) {
+            //$(this).animate({"opacity" : 0}, 0);
+            $(this).hide();
+          }
+        });
+        //this.$slides.first().animate({"opacity" : 1}, theAnimationSpeed);
+        this.$slides.first().fadeTo(theAnimationSpeed, 1);
+      }
     },
 
     startClock: function () {
@@ -626,16 +639,44 @@ $special = $event.special.debouncedresize = {
         this.setActiveBullet();
 
         //set previous slide z-index to one below what new activeSlide will be
-        this.$slides
-          .eq(this.prevActiveSlide)
-          .css({"z-index" : 422});
+        //edited 1-25-2013: Only do this if it's not the "fade" animation
+        if (!(this.options.animation == "fade")) {
+          this.$slides
+            .eq(this.prevActiveSlide)
+            .css({"z-index" : 422});
+        }
 
         //fade
+        //edited 1-25-2013: Fade out previous slide then fade in new one
         if (this.options.animation == "fade") {
+
+          var $theActiveSlide = this.$slides.eq(this.activeSlide);
+          var theAnimationSpeed = this.options.animationSpeed;
+          var resetFunction = this.resetAndUnlock;
+
           this.$slides
+            .eq(this.prevActiveSlide)
+            .fadeTo(theAnimationSpeed, 0, function() {
+              $(this).hide();
+              $theActiveSlide
+                .css({"opacity" : 0, "z-index" : 423})
+                .fadeTo(theAnimationSpeed, 1, resetFunction);
+            })
+            .css({"z-index" : 422});
+
+          /* this.$slides
+            .eq(this.prevActiveSlide)
+            .animate({"opacity" : 0}, theAnimationSpeed, function() {
+              $theActiveSlide
+                .css({"opacity" : 0, "z-index" : 423})
+                .animate({"opacity" : 1}, theAnimationSpeed, resetFunction);
+            })
+            .css({"z-index" : 422}); */
+
+          /* this.$slides
             .eq(this.activeSlide)
             .css({"opacity" : 0, "z-index" : 423})
-            .animate({"opacity" : 1}, this.options.animationSpeed, this.resetAndUnlock);
+            .animate({"opacity" : 1}, this.options.animationSpeed, this.resetAndUnlock); */
         }
 
         //horizontal-slide

@@ -1,6 +1,6 @@
 {
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
-  "creatorBuild" : "8241",
+  "creatorBuild" : "8248",
   "files" : {
     "\/public\/images\/logo_silkroad.png" : {
       "ignoreWasSetByUser" : 0,
@@ -300,6 +300,15 @@
       "initialSize" : 52733,
       "fileType" : 4096
     },
+    "\/public\/casestudy5_image1.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/public\/casestudy5_image1.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/public\/images\/logo_terumo.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -310,15 +319,6 @@
       "outputAbbreviatedPath" : "\/public\/images\/logo_terumo.png",
       "initialSize" : 2510,
       "fileType" : 8192
-    },
-    "\/public\/casestudy5_image1.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/casestudy5_image1.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/public\/bio_justin-mcneil.html" : {
       "ignoreWasSetByUser" : 0,
@@ -435,16 +435,16 @@
       "initialSize" : 3164,
       "fileType" : 8192
     },
-    "\/public\/images\/photo_susan-batdorf@2x.jpg" : {
+    "\/public\/js\/jquery-1.8.2.js" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/images\/photo_susan-batdorf@2x.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/public\/images\/photo_susan-batdorf@2x.jpg",
-      "initialSize" : 163576,
-      "fileType" : 4096
+      "inputAbbreviatedPath" : "\/public\/js\/jquery-1.8.2.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/public\/js\/jquery-1.8.2-min.js",
+      "fileType" : 64
     },
     "\/public\/images\/photo_mary-ramos@2x.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -457,16 +457,16 @@
       "initialSize" : 102682,
       "fileType" : 4096
     },
-    "\/public\/js\/jquery-1.8.2.js" : {
+    "\/public\/images\/photo_susan-batdorf@2x.jpg" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/js\/jquery-1.8.2.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/public\/js\/jquery-1.8.2-min.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/public\/images\/photo_susan-batdorf@2x.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/public\/images\/photo_susan-batdorf@2x.jpg",
+      "initialSize" : 163576,
+      "fileType" : 4096
     },
     "\/public\/images\/logo_medtronic.png" : {
       "ignoreWasSetByUser" : 0,
@@ -530,17 +530,6 @@
       "initialSize" : 42131,
       "fileType" : 8192
     },
-    "\/public\/images\/icon_arrow-right-aqua.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/images\/icon_arrow-right-aqua.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/public\/images\/icon_arrow-right-aqua.png",
-      "initialSize" : 315,
-      "fileType" : 8192
-    },
     "\/public\/css\/layout.less" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -553,6 +542,17 @@
       "strictImports" : 0,
       "fileType" : 1,
       "debugStyle" : 0
+    },
+    "\/public\/images\/icon_arrow-right-aqua.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/public\/images\/icon_arrow-right-aqua.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/public\/images\/icon_arrow-right-aqua.png",
+      "initialSize" : 315,
+      "fileType" : 8192
     },
     "\/public\/images\/logo_cardiosonics.png" : {
       "ignoreWasSetByUser" : 0,
@@ -684,17 +684,6 @@
       "initialSize" : 104037,
       "fileType" : 4096
     },
-    "\/public\/images\/photo_michael-jaff.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/images\/photo_michael-jaff.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/public\/images\/photo_michael-jaff.jpg",
-      "initialSize" : 24668,
-      "fileType" : 4096
-    },
     "\/public\/images\/logo_intact-vascular.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -705,6 +694,17 @@
       "outputAbbreviatedPath" : "\/public\/images\/logo_intact-vascular.png",
       "initialSize" : 5309,
       "fileType" : 8192
+    },
+    "\/public\/images\/photo_michael-jaff.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/public\/images\/photo_michael-jaff.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/public\/images\/photo_michael-jaff.jpg",
+      "initialSize" : 24668,
+      "fileType" : 4096
     },
     "\/public\/images\/photo_michael-jaff@2x.jpg" : {
       "ignoreWasSetByUser" : 0,
