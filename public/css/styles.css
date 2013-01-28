@@ -1458,6 +1458,15 @@ a.reveal {
 .csheader h2 {
   font-size: 26px;
   padding-right: 50px;
+  text-indent: -1.55em;
+  padding-left: 1.55em;
+  line-height: 1.3em;
+}
+.csheader h2 span {
+  font-size: 1.53846153846154em;
+  color: #92cdd3;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 100;
 }
 .modalheader .title,
 .modalcontent h3 {
@@ -1539,7 +1548,7 @@ ul.affiliations li {
   border-radius: 6px;
   padding: .7em 1em .6em;
   font-size: 15px;
-  text-align: left;
+  text-align: center;
   line-height: 1.3;
 }
 .csfooter div.slider-nav a {
