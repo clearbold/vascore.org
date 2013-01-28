@@ -1068,6 +1068,18 @@ p.subhead {
 #trialslideshow .slide {
   background: #f6f7f5;
 }
+#trialslideshow .slidetitle {
+  float: left;
+  width: 66%;
+  text-align: left;
+  text-indent: -1.63em;
+  padding-left: 1.63em;
+  line-height: 1.3em;
+}
+#trialslideshow .slideactions {
+  float: right;
+  width: 32%;
+}
 .slidecount {
   position: absolute;
   left: 50%;
@@ -1129,15 +1141,32 @@ p.subhead {
 .slide h4 {
   font-size: 1.6em;
   font-weight: normal;
+  text-transform: uppercase;
 }
-.slideactions {
+.slidemeta {
   padding-top: 5%;
   padding-bottom: 2%;
 }
 .slideactions .btn {
   margin: 0 3px 10px;
 }
-.infographic {
+#trialslideshow .slideactions {
+  padding-right: 5%;
+}
+.slide h4.slidetitle {
+  text-transform: none;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 100;
+  font-size: 2.4em;
+  color: #577384;
+}
+h4.slidetitle span {
+  font-size: 1.66666666666667em;
+  /* 40 / 24 */
+
+}
+.infographic,
+.slidemeta {
   max-width: 905px;
   margin: 0 auto;
   overflow: hidden;
@@ -1194,7 +1223,7 @@ p.subhead {
   top: 15%;
   left: 17%;
 }
-.circlecontent h4 {
+.circlecontent h5 {
   font-size: 1.9em;
   font-family: "museo", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 500;
@@ -1590,10 +1619,36 @@ ul.affiliations li {
   .slideshowwrapper .slides > img {
     min-height: 390px;
   }
+  #trialslideshow .slides > img {
+    min-height: 560px;
+  }
+  #trialslideshow .slidetitle,
+  #trialslideshow .slideactions {
+    float: none;
+    width: auto;
+    text-align: center;
+  }
+  #trialslideshow .slidetitle {
+    text-indent: 0;
+    padding-left: 0;
+  }
+  #trialslideshow .slideactions {
+    padding-right: 0;
+  }
+  .slidemeta {
+    padding-top: 2%;
+    padding-bottom: 0;
+  }
+  .slideactions {
+    padding-top: 2%;
+  }
 }
 @media only screen and (max-width: 926px) {
   .slideshowwrapper .slides > img {
-    min-height: 420px;
+    min-height: 470px;
+  }
+  #trialslideshow .slides > img {
+    min-height: 560px;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -1865,11 +1920,6 @@ ul.affiliations li {
     margin-right: auto;
   }
 }
-@media only screen and (max-width: 926px) {
-  .slideshowwrapper .slides > img {
-    min-height: 460px;
-  }
-}
 @media only screen and (max-width: 620px) {
   .slide {
     font-size: .8em;
@@ -1883,6 +1933,9 @@ ul.affiliations li {
   .slideshowwrapper .slides > img {
     min-height: 390px;
   }
+  #trialslideshow .slides > img {
+    min-height: 430px;
+  }
   .csfooter div.slider-nav a.right {
     right: 10px;
   }
@@ -1893,6 +1946,9 @@ ul.affiliations li {
 @media only screen and (max-width: 533px) {
   .slideshowwrapper .slides > img {
     min-height: 420px;
+  }
+  #trialslideshow .slides > img {
+    min-height: 480px;
   }
 }
 @media only screen and (max-width: 480px) {
@@ -1910,6 +1966,9 @@ ul.affiliations li {
   }
   .slideshowwrapper .slides > img {
     min-height: 360px;
+  }
+  #trialslideshow .slides > img {
+    min-height: 530px;
   }
   div.orbit-wrapper div.slider-nav {
     width: 100%;
@@ -1947,11 +2006,22 @@ ul.affiliations li {
   .slideshowwrapper .slides > img {
     min-height: 460px;
   }
+  #trialslideshow .slides > img {
+    min-height: 560px;
+  }
 }
 @media only screen and (max-width: 410px) {
   #clients .logos .columns img {
     width: 128px;
     margin: 0 5px 11px;
+  }
+}
+@media only screen and (max-width: 340px) {
+  .slideshowwrapper .slides > img {
+    min-height: 500px;
+  }
+  #trialslideshow .slides > img {
+    min-height: 600px;
   }
 }
 @media only screen and (min-width: 768px) {

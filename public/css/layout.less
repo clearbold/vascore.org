@@ -286,6 +286,18 @@ h1 {
 	#trialslideshow .slide {
 		background:#f6f7f5;
 	}
+	#trialslideshow .slidetitle {
+      float:left;
+      width:66%;
+      text-align:left;
+      text-indent: -1.63em;
+      padding-left:1.63em;
+      line-height:1.3em;
+  }
+  #trialslideshow .slideactions {
+      float:right;
+      width:32%;
+  }
 	.slidecount {
 		position:absolute;
 		left:50%;
@@ -350,16 +362,30 @@ h1 {
 	.slide h4 {
 		font-size: 1.6em;
 		font-weight: normal;
+		text-transform:uppercase;
 	}
-	.slideactions {
+	.slidemeta {
 		padding-top:5%;
 		padding-bottom:2%;
 	}
-		.slideactions .btn {
-			margin:0 3px 10px;
-		}
-
-.infographic {
+	.slideactions .btn {
+		margin:0 3px 10px;
+	}
+	#trialslideshow .slideactions {
+	    padding-right:5%;
+	}
+.slide h4.slidetitle {
+    text-transform:none;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight:100;
+    font-size:2.4em;
+    color:#577384;
+}
+	h4.slidetitle span {
+	    font-size:1.66666666666667em; /* 40 / 24 */
+	}
+.infographic,
+.slidemeta {
 	max-width:905px;
 	margin:0 auto;
 	overflow:hidden;
@@ -416,7 +442,7 @@ h1 {
 		top:15%;
 		left:17%;
 	}
-	.circlecontent h4 {
+	.circlecontent h5 {
 		font-size:1.9em;
 		font-family: "museo", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 		font-weight: 500;
