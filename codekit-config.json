@@ -1023,17 +1023,6 @@
       "outputAbbreviatedPath" : "\/public\/js\/jquery-ui-1.9.1.custom-min.js",
       "fileType" : 64
     },
-    "\/public\/images\/vascore-logo@2x.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/images\/vascore-logo@2x.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/public\/images\/vascore-logo@2x.png",
-      "initialSize" : 8539,
-      "fileType" : 8192
-    },
     "\/public\/images\/casestudy1_image2.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1044,6 +1033,17 @@
       "outputAbbreviatedPath" : "\/public\/images\/casestudy1_image2.jpg",
       "initialSize" : 49602,
       "fileType" : 4096
+    },
+    "\/public\/images\/vascore-logo@2x.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/public\/images\/vascore-logo@2x.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/public\/images\/vascore-logo@2x.png",
+      "initialSize" : 8539,
+      "fileType" : 8192
     },
     "\/public\/images\/casestudy2_image1.jpg" : {
       "ignoreWasSetByUser" : 0,

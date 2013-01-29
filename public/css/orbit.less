@@ -37,7 +37,13 @@ div.orbit-wrapper div.timer:hover span.pause, div.orbit-wrapper span.pause.activ
 .orbit-wrapper .orbit-caption { background: #000; background: rgba(0, 0, 0, 0.6); z-index: 430; color: #fff; text-align: center; padding: 7px 0; font-size: 13px; font-size: 1.3rem; position: absolute; right: 0; bottom: 0; width: 100%; }
 
 /* Directional Nav ---------------------- */
-div.orbit-wrapper div.slider-nav { display: block; width:80%; position:absolute; left:50%; margin-left:-40%; border-top:1px solid #dee0e0; z-index:430; height:64px; bottom: 50px; }
+div.orbit-wrapper div.slider-nav { display: block; width:100%; position:absolute; left:50%; margin-left:-50%; border-top:1px solid #dee0e0; z-index:430; height:64px; bottom: 50px; }
+
+@media only screen and (min-width: 905px) {
+  div.orbit-wrapper div.slider-nav { width:905px; margin-left:-452px; }
+}
+
+
 #publications div.orbit-wrapper div.slider-nav {
     border-color:rgb(146, 191, 196);
 }

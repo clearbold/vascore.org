@@ -294,6 +294,10 @@ h1 {
       padding-left:1.63em;
       line-height:1.3em;
   }
+  .ie8 #trialslideshow .slidetitle { /* IE8 doesn't like ems apparently */
+      text-indent:-40px;
+      padding-left:40px;
+  }
   #trialslideshow .slideactions {
       float:right;
       width:32%;
@@ -372,7 +376,7 @@ h1 {
 		margin:0 3px 10px;
 	}
 	#trialslideshow .slideactions {
-	    padding-right:5%;
+	    padding-right:4%;
 	}
 .slide h4.slidetitle {
     text-transform:none;
@@ -380,6 +384,8 @@ h1 {
     font-weight:100;
     font-size:2.4em;
     color:#577384;
+    position:relative;
+    margin-top:.2em;
 }
 	h4.slidetitle span {
 	    font-size:1.66666666666667em; /* 40 / 24 */
@@ -395,7 +401,8 @@ h1 {
 		position:absolute;
 		top:0;
 		left:0;
-		width:98.5%;
+		/* width:98.5%; */
+		width:100%;
 	}
 	.infographic .circle {
 		float:left;
@@ -404,7 +411,7 @@ h1 {
 		color:#fff;
 	}
 		.infographic .circle.challenge {
-			margin-right:-4.5%;
+			margin-right:-4%;
 			z-index:2;
 		}
 			.infographic .circle.challenge:after,
@@ -416,7 +423,7 @@ h1 {
 				top:50%;
 				margin-top:-.5em;
 				line-height:1;
-				right:1%;
+				right:0;
 				font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 				-webkit-font-smoothing:antialiased;
 			}
@@ -432,7 +439,7 @@ h1 {
 			z-index:1;
 		}
 		.infographic .circle.result {
-			margin-left:-4.5%;
+			margin-left:-4%;
 			z-index:2;
 		}
 	.infographic .circle .circlecontent {

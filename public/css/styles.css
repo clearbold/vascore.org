@@ -444,14 +444,20 @@ div.orbit-wrapper span.pause.active {
 /* Directional Nav ---------------------- */
 div.orbit-wrapper div.slider-nav {
   display: block;
-  width: 80%;
+  width: 100%;
   position: absolute;
   left: 50%;
-  margin-left: -40%;
+  margin-left: -50%;
   border-top: 1px solid #dee0e0;
   z-index: 430;
   height: 64px;
   bottom: 50px;
+}
+@media only screen and (min-width: 905px) {
+  div.orbit-wrapper div.slider-nav {
+    width: 905px;
+    margin-left: -452px;
+  }
 }
 #publications div.orbit-wrapper div.slider-nav {
   border-color: #92bfc4;
@@ -1076,6 +1082,12 @@ p.subhead {
   padding-left: 1.63em;
   line-height: 1.3em;
 }
+.ie8 #trialslideshow .slidetitle {
+  /* IE8 doesn't like ems apparently */
+
+  text-indent: -40px;
+  padding-left: 40px;
+}
 #trialslideshow .slideactions {
   float: right;
   width: 32%;
@@ -1151,7 +1163,7 @@ p.subhead {
   margin: 0 3px 10px;
 }
 #trialslideshow .slideactions {
-  padding-right: 5%;
+  padding-right: 4%;
 }
 .slide h4.slidetitle {
   text-transform: none;
@@ -1159,6 +1171,8 @@ p.subhead {
   font-weight: 100;
   font-size: 2.4em;
   color: #577384;
+  position: relative;
+  margin-top: .2em;
 }
 h4.slidetitle span {
   font-size: 1.66666666666667em;
@@ -1176,7 +1190,9 @@ h4.slidetitle span {
   position: absolute;
   top: 0;
   left: 0;
-  width: 98.5%;
+  /* width:98.5%; */
+
+  width: 100%;
 }
 .infographic .circle {
   float: left;
@@ -1185,7 +1201,7 @@ h4.slidetitle span {
   color: #fff;
 }
 .infographic .circle.challenge {
-  margin-right: -4.5%;
+  margin-right: -4%;
   z-index: 2;
 }
 .infographic .circle.challenge:after,
@@ -1197,7 +1213,7 @@ h4.slidetitle span {
   top: 50%;
   margin-top: -0.5em;
   line-height: 1;
-  right: 1%;
+  right: 0;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
 }
@@ -1213,7 +1229,7 @@ h4.slidetitle span {
   z-index: 1;
 }
 .infographic .circle.result {
-  margin-left: -4.5%;
+  margin-left: -4%;
   z-index: 2;
 }
 .infographic .circle .circlecontent {
