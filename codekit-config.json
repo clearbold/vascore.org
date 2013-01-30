@@ -1065,6 +1065,17 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/public\/images\/logo_vascore.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/public\/images\/logo_vascore.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/public\/images\/logo_vascore.png",
+      "initialSize" : 1307,
+      "fileType" : 8192
+    },
     "\/public\/css\/bootstrap.less" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -1077,17 +1088,6 @@
       "strictImports" : 0,
       "fileType" : 1,
       "debugStyle" : 0
-    },
-    "\/public\/images\/logo_abbott.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/images\/logo_abbott.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/public\/images\/logo_abbott.png",
-      "initialSize" : 2805,
-      "fileType" : 8192
     },
     "\/public\/js\/modernizr-2.6.2-min.js" : {
       "ignoreWasSetByUser" : 1,
@@ -1124,15 +1124,15 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/public\/images\/logo_vascore.png" : {
+    "\/public\/images\/logo_abbott.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/images\/logo_vascore.png",
+      "inputAbbreviatedPath" : "\/public\/images\/logo_abbott.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/public\/images\/logo_vascore.png",
-      "initialSize" : 1307,
+      "outputAbbreviatedPath" : "\/public\/images\/logo_abbott.png",
+      "initialSize" : 2805,
       "fileType" : 8192
     },
     "\/public\/images\/logo_daiichi-sankyo.png" : {

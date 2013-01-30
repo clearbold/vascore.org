@@ -1085,12 +1085,13 @@ p.subhead {
 .ie8 #trialslideshow .slidetitle {
   /* IE8 doesn't like ems apparently */
 
-  text-indent: -40px;
-  padding-left: 40px;
+  text-indent: -36px;
+  padding-left: 36px;
 }
 #trialslideshow .slideactions {
   float: right;
   width: 32%;
+  padding-right: 3%;
 }
 .slidecount {
   position: absolute;
@@ -1161,9 +1162,6 @@ p.subhead {
 }
 .slideactions .btn {
   margin: 0 3px 10px;
-}
-#trialslideshow .slideactions {
-  padding-right: 4%;
 }
 .slide h4.slidetitle {
   text-transform: none;
@@ -1478,6 +1476,10 @@ a.reveal {
   text-indent: -1.4em;
   padding-left: 1.4em;
   line-height: 1.3em;
+}
+.ie8 .csheader h2 {
+  text-indent: -36px;
+  padding-left: 36px;
 }
 .csheader h2 span {
   font-size: 1.53846153846154em;
