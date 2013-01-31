@@ -89,6 +89,46 @@
     }
 }
 
+@media only screen and (max-width:850px) {
+    .masthead {
+        height: auto;
+    }
+    .row .logo {
+        float:none;
+        padding-bottom: 25px;
+        text-align: center;
+        margin-left:auto;
+        margin-right:auto;
+        width:auto !important;
+    }
+    .row .nav:last-child {
+        float:none;
+        width:auto;
+    }
+    .nav {
+        padding: 0 10px;
+        text-align: center;
+    }
+    .nav select,
+    .nav button {
+        display:inline-block;
+        vertical-align:middle;
+        font-size:16px;
+    }
+    .nav div[role=navigation] {
+        display:block;
+        position: static;
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .nav div[role=navigation] a {
+        float: none;
+        margin-bottom: 1em;
+    }
+}
+
 @media only screen and (max-width: 768px) {
     .footer p {
         width: 70%;
@@ -192,9 +232,6 @@
         padding-left: 20px;
         padding-right: 20px;
     }
-    .masthead {
-        height: auto;
-    }
     .column, .columns { float: none; width: auto !important; }
     .column:last-child, .columns:last-child { float: none; }
     [class*="column"] + [class*="column"]:last-child { float: none; }
@@ -203,29 +240,6 @@
     .offset-by-one, .offset-by-two, .offset-by-three, .offset-by-four, .offset-by-five, .offset-by-six, .offset-by-seven, .offset-by-eight, .offset-by-nine, .offset-by-ten { margin-left: 0 !important; }
     .push-two, .push-three, .push-four, .push-five, .push-six, .push-seven, .push-eight, .push-nine, .push-ten { left: auto; }
     .pull-two, .pull-three, .pull-four, .pull-five, .pull-six, .pull-seven, .pull-eight, .pull-nine, .pull-ten { right: auto; }
-
-    .nav {
-        padding: 0 10px;
-        text-align: center;
-    }
-    .nav select,
-    .nav button {
-        display:inline-block;
-        vertical-align:middle;
-        font-size:16px;
-    }
-    .nav div[role=navigation] {
-        display:block;
-        position: static;
-        float: none;
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-    }
-    .nav div[role=navigation] a {
-        float: none;
-        margin-bottom: 1em;
-    }
     .section {
         padding-top:0;
         padding-bottom: 1em;
@@ -303,14 +317,7 @@
     }
 }
 
-@media only screen and (max-width:768px) {
-    .row .logo {
-        padding-bottom: 25px;
-        text-align: center;
-        margin-left:auto;
-        margin-right:auto;
-    }
-}
+
 
 @media only screen and (max-width: 620px) {
     .slide {
@@ -349,7 +356,7 @@
     .row .logo {
         padding-top: 15px;
         padding-bottom:15px;
-        width:183px !important;
+        /* width:183px !important; */
     }
     .accordion > div ul {
         float: none;
@@ -376,9 +383,24 @@
     .infographic .circle {
         float:none;
         width:100% !important;
+        background-position:50% 0;
+        background-repeat:no-repeat;
+        padding-top:25px;
     }
+        .infographic .circle.challenge {
+            background-image:url("../images/bg_circle_challenge_sm.png");
+        }
+        .infographic .circle.solution {
+            background-image:url("../images/bg_circle_solution_sm.png");
+        }
+        .infographic .circle.result {
+            background-image:url("../images/bg_circle_result_sm.png");
+        }
     .infographic .circle h4 {
         margin-bottom:.5em !important;
+    }
+    .circlecontent h5 {
+        margin-bottom:.5em;
     }
     .infographic .circle.challenge:after,
     .infographic .circle.result:before {
@@ -429,7 +451,6 @@
     }
     .row .logo {
         padding-top:25px;
-        width:20%;
     }
 }
 @media only screen and (min-width: 769px) {
@@ -440,7 +461,7 @@
 }
 @media only screen and (min-width: 888px) {
     .row .logo {
-        padding-top:20px;
+        padding-top:27px;
     }
 }
 

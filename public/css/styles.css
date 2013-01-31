@@ -243,7 +243,7 @@ img {
 }
 .row .logo {
   padding-top: 20px;
-  max-width: 199px;
+  max-width: 394px;
 }
 /*.mainnav { display: block; margin-left: 0; margin-right: 0; max-width: none; padding: 0; text-align: center; width: 100%; }
 .mainnav ul { display: inline-block; list-style: none; margin: 0 auto; padding: 0; width: auto; }
@@ -264,7 +264,7 @@ input[type="search"] {
 .nav div[role=navigation] {
   position: absolute;
   right: 0;
-  top: 32px;
+  top: 41px;
   list-style: none;
   width: auto;
 }
@@ -800,7 +800,7 @@ p.subhead {
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
   -webkit-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
-  height: 88px;
+  height: 108px;
 }
 div[role=navigation] a {
   background: #eceae6;
@@ -1679,6 +1679,45 @@ ul.affiliations li {
     min-height: 560px;
   }
 }
+@media only screen and (max-width: 850px) {
+  .masthead {
+    height: auto;
+  }
+  .row .logo {
+    float: none;
+    padding-bottom: 25px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto !important;
+  }
+  .row .nav:last-child {
+    float: none;
+    width: auto;
+  }
+  .nav {
+    padding: 0 10px;
+    text-align: center;
+  }
+  .nav select,
+  .nav button {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
+  }
+  .nav div[role=navigation] {
+    display: block;
+    position: static;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  .nav div[role=navigation] a {
+    float: none;
+    margin-bottom: 1em;
+  }
+}
 @media only screen and (max-width: 768px) {
   .footer p {
     width: 70%;
@@ -1780,9 +1819,6 @@ ul.affiliations li {
     padding-left: 20px;
     padding-right: 20px;
   }
-  .masthead {
-    height: auto;
-  }
   .column,
   .columns {
     float: none;
@@ -1839,28 +1875,6 @@ ul.affiliations li {
   .pull-nine,
   .pull-ten {
     right: auto;
-  }
-  .nav {
-    padding: 0 10px;
-    text-align: center;
-  }
-  .nav select,
-  .nav button {
-    display: inline-block;
-    vertical-align: middle;
-    font-size: 16px;
-  }
-  .nav div[role=navigation] {
-    display: block;
-    position: static;
-    float: none;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-  }
-  .nav div[role=navigation] a {
-    float: none;
-    margin-bottom: 1em;
   }
   .section {
     padding-top: 0;
@@ -1940,14 +1954,6 @@ ul.affiliations li {
     padding-bottom: 15px !important;
   }
 }
-@media only screen and (max-width: 768px) {
-  .row .logo {
-    padding-bottom: 25px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
 @media only screen and (max-width: 620px) {
   .slide {
     font-size: .8em;
@@ -1983,7 +1989,8 @@ ul.affiliations li {
   .row .logo {
     padding-top: 15px;
     padding-bottom: 15px;
-    width: 183px !important;
+    /* width:183px !important; */
+  
   }
   .accordion > div ul {
     float: none;
@@ -2011,9 +2018,24 @@ ul.affiliations li {
   .infographic .circle {
     float: none;
     width: 100% !important;
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    padding-top: 25px;
+  }
+  .infographic .circle.challenge {
+    background-image: url("../images/bg_circle_challenge_sm.png");
+  }
+  .infographic .circle.solution {
+    background-image: url("../images/bg_circle_solution_sm.png");
+  }
+  .infographic .circle.result {
+    background-image: url("../images/bg_circle_result_sm.png");
   }
   .infographic .circle h4 {
     margin-bottom: .5em !important;
+  }
+  .circlecontent h5 {
+    margin-bottom: .5em;
   }
   .infographic .circle.challenge:after,
   .infographic .circle.result:before {
@@ -2060,7 +2082,6 @@ ul.affiliations li {
   }
   .row .logo {
     padding-top: 25px;
-    width: 20%;
   }
 }
 @media only screen and (min-width: 769px) {
@@ -2070,7 +2091,7 @@ ul.affiliations li {
 }
 @media only screen and (min-width: 888px) {
   .row .logo {
-    padding-top: 20px;
+    padding-top: 27px;
   }
 }
 /* Scrolling */
