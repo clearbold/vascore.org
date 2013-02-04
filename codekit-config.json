@@ -35,6 +35,17 @@
       "initialSize" : 40756,
       "fileType" : 4096
     },
+    "\/public\/images\/bg_circle_solution_sm@2x.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/public\/images\/bg_circle_solution_sm@2x.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/public\/images\/bg_circle_solution_sm@2x.png",
+      "initialSize" : 509,
+      "fileType" : 8192
+    },
     "\/public\/casestudy4_image2.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -192,6 +203,17 @@
       "initialSize" : 3529,
       "fileType" : 8192
     },
+    "\/public\/images\/bg_circle_challenge_sm@2x.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/public\/images\/bg_circle_challenge_sm@2x.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/public\/images\/bg_circle_challenge_sm@2x.png",
+      "initialSize" : 464,
+      "fileType" : 8192
+    },
     "\/public\/images\/sprite_modal_close.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -287,6 +309,17 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/public\/images\/logo_cordis.png",
       "initialSize" : 3409,
+      "fileType" : 8192
+    },
+    "\/public\/images\/logo_cardiosonic.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/public\/images\/logo_cardiosonic.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/public\/images\/logo_cardiosonic.png",
+      "initialSize" : 3312,
       "fileType" : 8192
     },
     "\/public\/images\/casestudy3_image1.jpg" : {
@@ -415,6 +448,15 @@
       "initialSize" : 282,
       "fileType" : 8192
     },
+    "\/public\/casestudy3_image1.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/public\/casestudy3_image1.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/public\/images\/logo_theravasc.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -425,15 +467,6 @@
       "outputAbbreviatedPath" : "\/public\/images\/logo_theravasc.png",
       "initialSize" : 2301,
       "fileType" : 8192
-    },
-    "\/public\/casestudy3_image1.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/casestudy3_image1.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/public\/images\/foundation\/orbit\/left-arrow-small.png" : {
       "ignoreWasSetByUser" : 0,
@@ -490,15 +523,6 @@
       "initialSize" : 2888,
       "fileType" : 8192
     },
-    "\/public\/casestudy2_image1.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/casestudy2_image1.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/public\/js\/script-min.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -509,6 +533,15 @@
       "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/public\/js\/script-min-min.js",
       "fileType" : 64
+    },
+    "\/public\/casestudy2_image1.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/public\/casestudy2_image1.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/public\/images\/logo_boston-scientific.png" : {
       "ignoreWasSetByUser" : 0,
@@ -695,17 +728,6 @@
       "initialSize" : 104037,
       "fileType" : 4096
     },
-    "\/public\/images\/logo_intact-vascular.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/images\/logo_intact-vascular.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/public\/images\/logo_intact-vascular.png",
-      "initialSize" : 5309,
-      "fileType" : 8192
-    },
     "\/public\/images\/photo_michael-jaff.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -717,6 +739,17 @@
       "initialSize" : 24668,
       "fileType" : 4096
     },
+    "\/public\/images\/logo_intact-vascular.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/public\/images\/logo_intact-vascular.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/public\/images\/logo_intact-vascular.png",
+      "initialSize" : 5309,
+      "fileType" : 8192
+    },
     "\/public\/images\/photo_michael-jaff@2x.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -727,17 +760,6 @@
       "outputAbbreviatedPath" : "\/public\/images\/photo_michael-jaff@2x.jpg",
       "initialSize" : 67384,
       "fileType" : 4096
-    },
-    "\/public\/images\/scroll-to-learn-more.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/images\/scroll-to-learn-more.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/public\/images\/scroll-to-learn-more.png",
-      "initialSize" : 4260,
-      "fileType" : 8192
     },
     "\/public\/css\/reveal.less" : {
       "ignoreWasSetByUser" : 0,
@@ -752,15 +774,15 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/public\/images\/photo_josh-beckman.jpg" : {
+    "\/public\/images\/photo_mary-ramos.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/images\/photo_josh-beckman.jpg",
+      "inputAbbreviatedPath" : "\/public\/images\/photo_mary-ramos.jpg",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/public\/images\/photo_josh-beckman.jpg",
-      "initialSize" : 24330,
+      "outputAbbreviatedPath" : "\/public\/images\/photo_mary-ramos.jpg",
+      "initialSize" : 18923,
       "fileType" : 4096
     },
     "\/public\/images\/640x140.png" : {
@@ -774,6 +796,19 @@
       "initialSize" : 2479,
       "fileType" : 8192
     },
+    "\/public\/css\/typography.less" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/public\/css\/typography.less",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/public\/css\/typography.css",
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
     "\/public\/images\/photo_gail-hadley@2x.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -785,16 +820,16 @@
       "initialSize" : 169685,
       "fileType" : 4096
     },
-    "\/public\/images\/photo_mary-ramos.jpg" : {
+    "\/public\/images\/scroll-to-learn-more.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/images\/photo_mary-ramos.jpg",
+      "inputAbbreviatedPath" : "\/public\/images\/scroll-to-learn-more.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/public\/images\/photo_mary-ramos.jpg",
-      "initialSize" : 18923,
-      "fileType" : 4096
+      "outputAbbreviatedPath" : "\/public\/images\/scroll-to-learn-more.png",
+      "initialSize" : 4260,
+      "fileType" : 8192
     },
     "\/public\/index.html" : {
       "ignoreWasSetByUser" : 0,
@@ -816,18 +851,16 @@
       "initialSize" : 19422,
       "fileType" : 4096
     },
-    "\/public\/css\/typography.less" : {
+    "\/public\/images\/photo_josh-beckman.jpg" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/css\/typography.less",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/public\/css\/typography.css",
-      "strictImports" : 0,
-      "fileType" : 1,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/public\/images\/photo_josh-beckman.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/public\/images\/photo_josh-beckman.jpg",
+      "initialSize" : 24330,
+      "fileType" : 4096
     },
     "\/public\/images\/bg_circle_result_sm.png" : {
       "ignoreWasSetByUser" : 0,
@@ -1078,14 +1111,16 @@
       "initialSize" : 64234,
       "fileType" : 4096
     },
-    "\/public\/bio_susan-batdorf.html" : {
+    "\/public\/images\/bg_circle_result_sm@2x.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/bio_susan-batdorf.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/public\/images\/bg_circle_result_sm@2x.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/public\/images\/bg_circle_result_sm@2x.png",
+      "initialSize" : 508,
+      "fileType" : 8192
     },
     "\/public\/images\/logo_vascore.png" : {
       "ignoreWasSetByUser" : 0,
@@ -1143,6 +1178,15 @@
       "outputAbbreviatedPath" : "\/public\/images\/infographic-circ-orange.png",
       "initialSize" : 100107,
       "fileType" : 8192
+    },
+    "\/public\/bio_susan-batdorf.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/public\/bio_susan-batdorf.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/public\/css\/styles.less" : {
       "ignoreWasSetByUser" : 0,

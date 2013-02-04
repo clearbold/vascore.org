@@ -463,7 +463,14 @@ div.orbit-wrapper div.slider-nav {
   border-color: #92bfc4;
 }
 #trialslideshow div.orbit-wrapper div.slider-nav {
-  bottom: 10px;
+  bottom: 70px;
+  border-top: none;
+  border-bottom: 1px solid #dee0e0;
+}
+@media only screen and (min-width: 991px) {
+  #trialslideshow div.orbit-wrapper div.slider-nav {
+    bottom: 95px;
+  }
 }
 div.orbit-wrapper div.slider-nav span {
   width: 26px;
@@ -475,15 +482,18 @@ div.orbit-wrapper div.slider-nav span {
   /*margin-top: -25px;*/
   cursor: pointer;
 }
+#trialslideshow div.orbit-wrapper div.slider-nav span {
+  bottom: 10px;
+}
 div.orbit-wrapper div.slider-nav span.right {
   background: url('/images/slide_arrow-left.png');
   background-size: 100%;
-  right: 20%;
+  right: 30%;
 }
 div.orbit-wrapper div.slider-nav span.left {
   background: url('/images/slide_arrow-right.png');
   background-size: 100%;
-  left: 20%;
+  left: 30%;
 }
 div.orbit-wrapper div.slider-nav span.right:hover,
 div.orbit-wrapper div.slider-nav span.left:hover {
@@ -802,6 +812,10 @@ p.subhead {
   -webkit-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
   height: 108px;
 }
+.masthead .row {
+  padding-left: 0;
+  padding-right: 0;
+}
 div[role=navigation] a {
   background: #eceae6;
   color: #737f83;
@@ -932,7 +946,7 @@ p.subhead {
   webkit-border-radius: 12px;
   border-radius: 12px;
   padding: 1em;
-  margin-bottom: 4em;
+  margin-bottom: 2em;
 }
 .bubble:after,
 .bubble:before {
@@ -1073,30 +1087,14 @@ p.subhead {
 }
 #trialslideshow .slide {
   background: #f6f7f5;
+  padding-bottom: 120px;
 }
 #trialslideshow .slidetitle {
-  float: left;
-  width: 66%;
-  text-align: left;
-  text-indent: -1.5em;
-  padding-left: 1.5em;
   line-height: 1.3em;
-}
-.ie8 #trialslideshow .slidetitle {
-  /* IE8 doesn't like ems apparently */
-
-  text-indent: -36px;
-  padding-left: 36px;
-}
-#trialslideshow .slideactions {
-  float: right;
-  width: 32%;
-  padding-right: 3%;
 }
 .slidecount {
   position: absolute;
   left: 50%;
-  bottom: 10px;
   margin-left: -10%;
   font-family: "museo-sans-rounded", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 100;
@@ -1107,6 +1105,9 @@ p.subhead {
 }
 .no-js .slidecount {
   display: none;
+}
+#trialslideshow .slidecount {
+  bottom: 85px;
 }
 #publications .slidecount {
   bottom: 50px;
@@ -1156,9 +1157,10 @@ p.subhead {
   font-weight: normal;
   text-transform: uppercase;
 }
-.slidemeta {
-  padding-top: 5%;
-  padding-bottom: 2%;
+.slideactions {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
 }
 .slideactions .btn {
   margin: 0 3px 10px;
@@ -1167,16 +1169,10 @@ p.subhead {
   text-transform: none;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 100;
-  font-size: 2.4em;
+  font-size: 2.8em;
   color: #577384;
   position: relative;
-  margin-top: .2em;
-}
-h4.slidetitle span {
-  font-family: "museo-sans-rounded", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 1.66666666666667em;
-  /* 40 / 24 */
-
+  margin-bottom: 1em;
 }
 .infographic,
 .slidemeta {
@@ -1264,6 +1260,8 @@ h4.slidetitle span {
 }
 .resultbig .circlecontent p {
   font-size: 3.2em;
+  position: relative;
+  margin-top: -0.4em;
 }
 #contact {
   background: url('../images/bg_contact-tiled.png');
@@ -1473,19 +1471,6 @@ a.reveal {
 .csheader h2 {
   font-size: 26px;
   padding-right: 50px;
-  text-indent: -1.4em;
-  padding-left: 1.4em;
-  line-height: 1.3em;
-}
-.ie8 .csheader h2 {
-  text-indent: -36px;
-  padding-left: 36px;
-}
-.csheader h2 span {
-  font-size: 1.53846153846154em;
-  color: #92cdd3;
-  font-family: "museo-sans-rounded", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 100;
 }
 .modalheader .title,
 .modalcontent h3 {
@@ -1643,6 +1628,11 @@ ul.affiliations li {
     margin-bottom: 3em;
   }
 }
+@media only screen and (max-width: 979px) {
+  .spacer {
+    display: none;
+  }
+}
 @media only screen and (max-width: 964px) {
   .slideshowwrapper .slides > img {
     min-height: 390px;
@@ -1650,26 +1640,13 @@ ul.affiliations li {
   #trialslideshow .slides > img {
     min-height: 560px;
   }
-  #trialslideshow .slidetitle,
-  #trialslideshow .slideactions {
-    float: none;
-    width: auto;
-    text-align: center;
-  }
-  #trialslideshow .slidetitle {
-    text-indent: 0;
-    padding-left: 0;
-  }
-  #trialslideshow .slideactions {
-    padding-right: 0;
-  }
-  .slidemeta {
-    padding-top: 2%;
-    padding-bottom: 0;
-  }
-  .slideactions {
-    padding-top: 2%;
-  }
+  /*.slidemeta {
+          padding-top:2%;
+          padding-bottom:0;
+      }
+      .slideactions {
+          padding-top:2%;
+      }*/
 }
 @media only screen and (max-width: 926px) {
   .slideshowwrapper .slides > img {
@@ -1771,9 +1748,11 @@ ul.affiliations li {
   .infographic .circle.challenge {
     margin: 0;
   }
-  .infographic .circle,
-  .infographic .circle p {
+  .infographic .circle {
     color: #737F83;
+  }
+  .infographic .circle p {
+    color: #5b6668;
   }
   .infographic img {
     display: none;
@@ -1792,9 +1771,8 @@ ul.affiliations li {
     font-size: 1.5em;
     margin-bottom: 1.5em;
   }
-  .slideactions {
-    padding-top: 3%;
-    padding-bottom: 3%;
+  .resultbig .circlecontent p {
+    margin-top: 0;
   }
   #trialslideshow {
     margin-bottom: 1em;
@@ -1907,7 +1885,7 @@ ul.affiliations li {
     margin-bottom: 1em;
   }
   .bubble {
-    margin-bottom: 2em;
+    margin-bottom: 1em;
   }
   #intro {
     padding-top: 3em;
@@ -1997,7 +1975,7 @@ ul.affiliations li {
     min-height: 420px;
   }
   #trialslideshow .slides > img {
-    min-height: 480px;
+    min-height: 530px;
   }
 }
 @media only screen and (max-width: 480px) {
@@ -2018,7 +1996,7 @@ ul.affiliations li {
     min-height: 360px;
   }
   #trialslideshow .slides > img {
-    min-height: 530px;
+    min-height: 580px;
   }
   div.orbit-wrapper div.slider-nav {
     width: 100%;
@@ -2104,6 +2082,11 @@ ul.affiliations li {
 @media only screen and (min-width: 888px) {
   .row .logo {
     padding-top: 27px;
+  }
+}
+@media only screen and (min-width: 991px) {
+  #trialslideshow .slidecount {
+    bottom: 110px;
   }
 }
 /* Scrolling */

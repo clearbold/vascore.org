@@ -50,6 +50,12 @@
     }
 }
 
+@media only screen and (max-width: 979px) {
+    .spacer {
+        display:none;
+    }
+}
+
 @media only screen and (max-width: 964px) {
     .slideshowwrapper .slides > img {
         min-height:390px;
@@ -57,26 +63,13 @@
     #trialslideshow .slides > img {
         min-height:560px;
     }
-    #trialslideshow .slidetitle,
-    #trialslideshow .slideactions {
-        float:none;
-        width:auto;
-        text-align:center;
-    }
-    #trialslideshow .slidetitle {
-      text-indent: 0;
-      padding-left:0;
-  }
-    #trialslideshow .slideactions {
-        padding-right:0;
-    }
-    .slidemeta {
+    /*.slidemeta {
         padding-top:2%;
         padding-bottom:0;
     }
     .slideactions {
         padding-top:2%;
-    }
+    }*/
     
 }
 
@@ -182,9 +175,11 @@
     .infographic .circle.challenge {
         margin:0;
     }
-    .infographic .circle,
-    .infographic .circle p {
+    .infographic .circle {
         color:#737F83;
+    }
+    .infographic .circle p {
+        color:#5b6668;
     }
     .infographic img {
         display:none;
@@ -203,9 +198,8 @@
         font-size:1.5em;
         margin-bottom:1.5em;
     }
-    .slideactions {
-        padding-top:3%;
-        padding-bottom:3%;
+    .resultbig .circlecontent p {
+        margin-top:0;
     }
     #trialslideshow {
         margin-bottom:1em;
@@ -271,7 +265,7 @@
         margin-bottom:1em;
     }
     .bubble {
-        margin-bottom:2em;
+        margin-bottom:1em;
     }
     #intro {
         padding-top: 3em;
@@ -363,7 +357,7 @@
         min-height:420px;
     }
     #trialslideshow .slides > img {
-        min-height:480px;
+        min-height:530px;
     }
 }
 
@@ -384,7 +378,7 @@
         min-height:360px;
     }
     #trialslideshow .slides > img {
-        min-height:530px;
+        min-height:580px;
     }
     div.orbit-wrapper div.slider-nav {
         width:100%; margin-left:-50%;
@@ -474,6 +468,12 @@
 @media only screen and (min-width: 888px) {
     .row .logo {
         padding-top:27px;
+    }
+}
+
+@media only screen and (min-width: 991px) {
+    #trialslideshow .slidecount {
+        bottom:110px;
     }
 }
 

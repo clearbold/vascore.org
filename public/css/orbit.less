@@ -47,18 +47,31 @@ div.orbit-wrapper div.slider-nav { display: block; width:100%; position:absolute
 #publications div.orbit-wrapper div.slider-nav {
     border-color:rgb(146, 191, 196);
 }
-#trialslideshow div.orbit-wrapper div.slider-nav {bottom: 10px;}
+#trialslideshow div.orbit-wrapper div.slider-nav {
+  bottom: 70px;
+  border-top:none;
+  border-bottom:1px solid #dee0e0;
+}
+@media only screen and (min-width: 991px) {
+    #trialslideshow div.orbit-wrapper div.slider-nav {
+        bottom:95px;
+    }
+}
 
 div.orbit-wrapper div.slider-nav span { width: 26px; height: 49px; text-indent: -9999px; position: absolute; z-index: 430; bottom: 0; /*margin-top: -25px;*/ cursor: pointer; }
+#trialslideshow div.orbit-wrapper div.slider-nav span {
+    bottom:10px;
+}
 
-div.orbit-wrapper div.slider-nav span.right { background: url('/images/slide_arrow-left.png'); background-size: 100%; right: 20%; }
+div.orbit-wrapper div.slider-nav span.right { background: url('/images/slide_arrow-left.png'); background-size: 100%; right: 30%; }
 
-div.orbit-wrapper div.slider-nav span.left { background: url('/images/slide_arrow-right.png'); background-size: 100%; left: 20%; }
+div.orbit-wrapper div.slider-nav span.left { background: url('/images/slide_arrow-right.png'); background-size: 100%; left: 30%; }
 
 div.orbit-wrapper div.slider-nav span.right:hover,
 div.orbit-wrapper div.slider-nav span.left:hover {
     background-position:0 -100px;
 }
+
 #trialslideshow div.orbit-wrapper div.slider-nav span.right:hover,
 #trialslideshow div.orbit-wrapper div.slider-nav span.left:hover {
     background-position:0 -200px;
