@@ -523,6 +523,15 @@
       "initialSize" : 2888,
       "fileType" : 8192
     },
+    "\/public\/casestudy2_image1.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/public\/casestudy2_image1.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/public\/js\/script-min.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -533,15 +542,6 @@
       "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/public\/js\/script-min-min.js",
       "fileType" : 64
-    },
-    "\/public\/casestudy2_image1.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/casestudy2_image1.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/public\/images\/logo_boston-scientific.png" : {
       "ignoreWasSetByUser" : 0,
@@ -761,6 +761,17 @@
       "initialSize" : 67384,
       "fileType" : 4096
     },
+    "\/public\/images\/scroll-to-learn-more.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/public\/images\/scroll-to-learn-more.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/public\/images\/scroll-to-learn-more.png",
+      "initialSize" : 4260,
+      "fileType" : 8192
+    },
     "\/public\/css\/reveal.less" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -774,15 +785,15 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/public\/images\/photo_mary-ramos.jpg" : {
+    "\/public\/images\/photo_josh-beckman.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/images\/photo_mary-ramos.jpg",
+      "inputAbbreviatedPath" : "\/public\/images\/photo_josh-beckman.jpg",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/public\/images\/photo_mary-ramos.jpg",
-      "initialSize" : 18923,
+      "outputAbbreviatedPath" : "\/public\/images\/photo_josh-beckman.jpg",
+      "initialSize" : 24330,
       "fileType" : 4096
     },
     "\/public\/images\/640x140.png" : {
@@ -796,6 +807,17 @@
       "initialSize" : 2479,
       "fileType" : 8192
     },
+    "\/public\/images\/photo_gail-hadley@2x.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/public\/images\/photo_gail-hadley@2x.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/public\/images\/photo_gail-hadley@2x.jpg",
+      "initialSize" : 169685,
+      "fileType" : 4096
+    },
     "\/public\/css\/typography.less" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -808,28 +830,6 @@
       "strictImports" : 0,
       "fileType" : 1,
       "debugStyle" : 0
-    },
-    "\/public\/images\/photo_gail-hadley@2x.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/images\/photo_gail-hadley@2x.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/public\/images\/photo_gail-hadley@2x.jpg",
-      "initialSize" : 169685,
-      "fileType" : 4096
-    },
-    "\/public\/images\/scroll-to-learn-more.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/images\/scroll-to-learn-more.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/public\/images\/scroll-to-learn-more.png",
-      "initialSize" : 4260,
-      "fileType" : 8192
     },
     "\/public\/index.html" : {
       "ignoreWasSetByUser" : 0,
@@ -851,15 +851,15 @@
       "initialSize" : 19422,
       "fileType" : 4096
     },
-    "\/public\/images\/photo_josh-beckman.jpg" : {
+    "\/public\/images\/photo_mary-ramos.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/images\/photo_josh-beckman.jpg",
+      "inputAbbreviatedPath" : "\/public\/images\/photo_mary-ramos.jpg",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/public\/images\/photo_josh-beckman.jpg",
-      "initialSize" : 24330,
+      "outputAbbreviatedPath" : "\/public\/images\/photo_mary-ramos.jpg",
+      "initialSize" : 18923,
       "fileType" : 4096
     },
     "\/public\/images\/bg_circle_result_sm.png" : {
@@ -1146,17 +1146,6 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/public\/js\/modernizr-2.6.2-min.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/js\/modernizr-2.6.2-min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/public\/js\/modernizr-2.6.2-min-min.js",
-      "fileType" : 64
-    },
     "\/public\/images\/logo_abbott.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1201,6 +1190,17 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
+    "\/public\/js\/modernizr-2.6.2-min.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/public\/js\/modernizr-2.6.2-min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/public\/js\/modernizr-2.6.2-min-min.js",
+      "fileType" : 64
+    },
     "\/public\/images\/logo_daiichi-sankyo.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1223,6 +1223,17 @@
       "initialSize" : 3752,
       "fileType" : 8192
     },
+    "\/public\/images\/infographic-circ-blue.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/public\/images\/infographic-circ-blue.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/public\/images\/infographic-circ-blue.png",
+      "initialSize" : 98561,
+      "fileType" : 8192
+    },
     "\/public\/css\/mediaqueries.less" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -1235,17 +1246,6 @@
       "strictImports" : 0,
       "fileType" : 1,
       "debugStyle" : 0
-    },
-    "\/public\/images\/infographic-circ-blue.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/images\/infographic-circ-blue.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/public\/images\/infographic-circ-blue.png",
-      "initialSize" : 98561,
-      "fileType" : 8192
     },
     "\/public\/images\/casestudy4_image2.jpg" : {
       "ignoreWasSetByUser" : 0,
