@@ -449,7 +449,8 @@ div.orbit-wrapper div.slider-nav {
   left: 50%;
   margin-left: -50%;
   border-top: 1px solid #dee0e0;
-  z-index: 430;
+  /*z-index:430;*/
+  z-index: 1001;
   height: 64px;
   bottom: 50px;
 }
