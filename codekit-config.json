@@ -137,17 +137,6 @@
       "initialSize" : 1723,
       "fileType" : 4096
     },
-    "\/public\/images\/logo_spectranetics.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/images\/logo_spectranetics.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/public\/images\/logo_spectranetics.png",
-      "initialSize" : 4785,
-      "fileType" : 8192
-    },
     "\/public\/images\/foundation\/orbit\/timer-black.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -157,6 +146,17 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/public\/images\/foundation\/orbit\/timer-black.png",
       "initialSize" : 527,
+      "fileType" : 8192
+    },
+    "\/public\/images\/logo_spectranetics.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/public\/images\/logo_spectranetics.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/public\/images\/logo_spectranetics.png",
+      "initialSize" : 4785,
       "fileType" : 8192
     },
     "\/public\/images\/foundation\/orbit\/left-arrow.png" : {
@@ -635,17 +635,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/public\/images\/casestudy4_image1.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/images\/casestudy4_image1.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/public\/images\/casestudy4_image1.jpg",
-      "initialSize" : 26812,
-      "fileType" : 4096
-    },
     "\/public\/images\/bg_contact-tiled.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -656,6 +645,17 @@
       "outputAbbreviatedPath" : "\/public\/images\/bg_contact-tiled.png",
       "initialSize" : 1023,
       "fileType" : 8192
+    },
+    "\/public\/images\/casestudy4_image1.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/public\/images\/casestudy4_image1.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/public\/images\/casestudy4_image1.jpg",
+      "initialSize" : 26812,
+      "fileType" : 4096
     },
     "\/public\/images\/photo_erin-lacey@2x.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -861,6 +861,26 @@
       "initialSize" : 20042,
       "fileType" : 4096
     },
+    "\/public\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/public\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/public\/images\/photo_justin-mcneil.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/public\/images\/photo_justin-mcneil.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/public\/images\/photo_justin-mcneil.jpg",
+      "initialSize" : 22732,
+      "fileType" : 4096
+    },
     "\/public\/css\/typography.less" : {
       "ieCompatibility" : 1,
       "inputAbbreviatedPath" : "\/public\/css\/typography.less",
@@ -877,26 +897,6 @@
       "outputStyle" : 0,
       "fileType" : 1,
       "debugStyle" : 0
-    },
-    "\/public\/images\/photo_justin-mcneil.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/images\/photo_justin-mcneil.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/public\/images\/photo_justin-mcneil.jpg",
-      "initialSize" : 22732,
-      "fileType" : 4096
-    },
-    "\/public\/index.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/public\/images\/bg_circle_result_sm.png" : {
       "ignoreWasSetByUser" : 0,
@@ -938,26 +938,6 @@
       "initialSize" : 31257,
       "fileType" : 4096
     },
-    "\/public\/images\/logo_medrad.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/images\/logo_medrad.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/public\/images\/logo_medrad.png",
-      "initialSize" : 2566,
-      "fileType" : 8192
-    },
-    "\/public\/bio_gail-hadley.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/bio_gail-hadley.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/public\/images\/foundation\/orbit\/mask-black.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -969,6 +949,15 @@
       "initialSize" : 527,
       "fileType" : 8192
     },
+    "\/public\/bio_gail-hadley.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/public\/bio_gail-hadley.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/public\/images\/logo_biotronik.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -978,6 +967,17 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/public\/images\/logo_biotronik.png",
       "initialSize" : 2541,
+      "fileType" : 8192
+    },
+    "\/public\/images\/logo_medrad.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/public\/images\/logo_medrad.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/public\/images\/logo_medrad.png",
+      "initialSize" : 2566,
       "fileType" : 8192
     },
     "\/logo\/vascore-logo.png" : {
@@ -1013,6 +1013,17 @@
       "initialSize" : 5159,
       "fileType" : 8192
     },
+    "\/public\/images\/photo_katie-mccullough.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/public\/images\/photo_katie-mccullough.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/public\/images\/photo_katie-mccullough.jpg",
+      "initialSize" : 42571,
+      "fileType" : 4096
+    },
     "\/public\/css\/orbit.less" : {
       "ieCompatibility" : 1,
       "inputAbbreviatedPath" : "\/public\/css\/orbit.less",
@@ -1030,16 +1041,16 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/public\/images\/photo_katie-mccullough.jpg" : {
+    "\/public\/images\/vascore-logo.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/images\/photo_katie-mccullough.jpg",
+      "inputAbbreviatedPath" : "\/public\/images\/vascore-logo.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/public\/images\/photo_katie-mccullough.jpg",
-      "initialSize" : 42571,
-      "fileType" : 4096
+      "outputAbbreviatedPath" : "\/public\/images\/vascore-logo.png",
+      "initialSize" : 7190,
+      "fileType" : 8192
     },
     "\/public\/images\/logo_vessix-vascular.png" : {
       "ignoreWasSetByUser" : 0,
@@ -1050,17 +1061,6 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/public\/images\/logo_vessix-vascular.png",
       "initialSize" : 2867,
-      "fileType" : 8192
-    },
-    "\/public\/images\/vascore-logo.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/images\/vascore-logo.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/public\/images\/vascore-logo.png",
-      "initialSize" : 7190,
       "fileType" : 8192
     },
     "\/public\/images\/photo_justin-mcneil@2x.jpg" : {
@@ -1206,16 +1206,22 @@
       "initialSize" : 1307,
       "fileType" : 8192
     },
-    "\/public\/images\/logo_abbott.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
+    "\/public\/css\/bootstrap.less" : {
+      "ieCompatibility" : 1,
+      "inputAbbreviatedPath" : "\/public\/css\/bootstrap.less",
+      "outputAbbreviatedPath" : "\/public\/css\/bootstrap.css",
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/images\/logo_abbott.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/public\/images\/logo_abbott.png",
-      "initialSize" : 2805,
-      "fileType" : 8192
+      "strictUnits" : 0,
+      "relativeURLS" : 0,
+      "ignore" : 1,
+      "strictImports" : 0,
+      "ignoreWasSetByUser" : 0,
+      "shouldRunBless" : 0,
+      "hidden" : 0,
+      "strictMath" : 0,
+      "outputStyle" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
     },
     "\/public\/js\/modernizr-2.6.2-min.js" : {
       "ignoreWasSetByUser" : 0,
@@ -1237,6 +1243,17 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/public\/images\/logo_abbott.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/public\/images\/logo_abbott.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/public\/images\/logo_abbott.png",
+      "initialSize" : 2805,
+      "fileType" : 8192
+    },
     "\/public\/images\/infographic-circ-orange.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1256,23 +1273,6 @@
       "strictUnits" : 0,
       "relativeURLS" : 0,
       "ignore" : 0,
-      "strictImports" : 0,
-      "ignoreWasSetByUser" : 0,
-      "shouldRunBless" : 0,
-      "hidden" : 0,
-      "strictMath" : 0,
-      "outputStyle" : 0,
-      "fileType" : 1,
-      "debugStyle" : 0
-    },
-    "\/public\/css\/bootstrap.less" : {
-      "ieCompatibility" : 1,
-      "inputAbbreviatedPath" : "\/public\/css\/bootstrap.less",
-      "outputAbbreviatedPath" : "\/public\/css\/bootstrap.css",
-      "outputPathIsSetByUser" : 0,
-      "strictUnits" : 0,
-      "relativeURLS" : 0,
-      "ignore" : 1,
       "strictImports" : 0,
       "ignoreWasSetByUser" : 0,
       "shouldRunBless" : 0,
@@ -1304,46 +1304,6 @@
       "initialSize" : 3752,
       "fileType" : 8192
     },
-    "\/public\/images\/infographic-circ-blue.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/images\/infographic-circ-blue.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/public\/images\/infographic-circ-blue.png",
-      "initialSize" : 16791,
-      "fileType" : 8192
-    },
-    "\/public\/index-bak.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/index-bak.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/public\/images\/casestudy4_image2.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/images\/casestudy4_image2.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/public\/images\/casestudy4_image2.jpg",
-      "initialSize" : 17790,
-      "fileType" : 4096
-    },
-    "\/public\/css\/styles-old-production.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/css\/styles-old-production.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
     "\/public\/css\/mediaqueries.less" : {
       "ieCompatibility" : 1,
       "inputAbbreviatedPath" : "\/public\/css\/mediaqueries.less",
@@ -1360,6 +1320,46 @@
       "outputStyle" : 0,
       "fileType" : 1,
       "debugStyle" : 0
+    },
+    "\/public\/index-bak.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/public\/index-bak.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/public\/css\/styles-old-production.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/public\/css\/styles-old-production.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/public\/images\/infographic-circ-blue.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/public\/images\/infographic-circ-blue.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/public\/images\/infographic-circ-blue.png",
+      "initialSize" : 16791,
+      "fileType" : 8192
+    },
+    "\/public\/images\/casestudy4_image2.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/public\/images\/casestudy4_image2.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/public\/images\/casestudy4_image2.jpg",
+      "initialSize" : 17790,
+      "fileType" : 4096
     },
     "\/public\/js\/script.js" : {
       "ignoreWasSetByUser" : 0,
