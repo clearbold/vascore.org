@@ -118,7 +118,7 @@ $(document).ready(function() {
     var destinations = [];
     destinations[0] = 0;
     destinations[1] = slideheight; // #intro
-    destinations[2] = destinations[1] + 3000; // #about
+    destinations[2] = destinations[1] + 2571; // #about
     destinations[3] = destinations[2] + 1416; // #expertise
     destinations[4] = destinations[3] + 1425; // #services
     destinations[5] = destinations[4] + 1680; // #clients
@@ -128,9 +128,10 @@ $(document).ready(function() {
     var leftover = $.Window.height() - 0;
 
     //var bodyheight = destinations[7] - 140; /* subtract footer, but not masthead */
-    //var bodyheight = destinations[7] - 88; /* subtract masthead, but not footer */
-    //var bodyheight = destinations[7] - 228; /* subtract both, but not footer */
-    var bodyheight = destinations[7] + 228; /* add both to height */
+    //var bodyheight = destinations[7] - 108; /* subtract masthead, but not footer */
+    //var bodyheight = destinations[7] - 268; /* subtract both, but not footer */
+    //var bodyheight = destinations[7] + 268; /* add both to height */
+    var bodyheight = destinations[7] + 108; /* add just masthead to height */
 
     var destinationslength = destinations.length;
 

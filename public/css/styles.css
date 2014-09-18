@@ -1370,6 +1370,7 @@ span[itemprop=faxNumber] a {
   background: #547080;
   color: #ffffff;
   width: 100%;
+  z-index: 1;
 }
 .footer .columns {
   height: 140px;
@@ -2085,7 +2086,8 @@ ul.affiliations li {
     /* height: 1000px; */
     height: 1075px;
     overflow: hidden;
-    top: 88px;
+    /* top: 88px; */
+    top: 108px;
     width: 100%;
   }
   .no-js .wrapper {
