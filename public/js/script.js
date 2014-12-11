@@ -173,7 +173,7 @@ $(document).ready(function() {
     }
 
     function resetPage() {
-        $.Slides.attr("style", "");
+        $.Slides.attr("style", "").removeClass("active");
         $.Body.attr("style", "");
         $.Window.unbind('scroll');
         $logolink.unbind('click');
@@ -248,16 +248,16 @@ $(document).ready(function() {
 
         $(activeSlide).stop().css({
             'margin-top' : (-scrollTop + destinations[eq]) + 'px'
-        });
+        }).addClass("active");
 
         $.Slides.eq(eq+1).css({
             'margin-top' : '0'
-        });
+        }).removeClass("active");
 
         //console.log($.Slides.eq(eq+1).attr('id'));
 
         $.Slides.slice(0,eq).each(function(i){
-            $(this).css('margin-top', -(destinations[i+1]-destinations[i])+'px');
+            $(this).css('margin-top', -(destinations[i+1]-destinations[i])+'px').removeClass("active");
         });
 
         //console.log($.Slides.eq(eq+1).css('margin-top'));
