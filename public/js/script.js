@@ -119,7 +119,7 @@ $(document).ready(function() {
     destinations[0] = 0;
     destinations[1] = slideheight; // #intro
     //destinations[2] = destinations[1] + 2571; // #about
-    destinations[2] = destinations[1] + 3000; // #about
+    destinations[2] = destinations[1] + 3429; // #about
     destinations[3] = destinations[2] + 1416; // #expertise
     destinations[4] = destinations[3] + 1425; // #services
     destinations[5] = destinations[4] + 1680; // #clients

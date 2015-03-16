@@ -2119,8 +2119,7 @@ ul.affiliations li {
   }
   #about {
     z-index: 800;
-    height: 3000px !important;
-    /* height:2571px !important; */
+    height: 3429px !important;
   }
   #expertise {
     z-index: 700;
@@ -2128,7 +2127,6 @@ ul.affiliations li {
   }
   #services {
     z-index: 600;
-    /* height: 1680px !important; */
     height: 1425px !important;
   }
   #clients {
