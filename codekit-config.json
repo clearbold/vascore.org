@@ -137,17 +137,6 @@
       "initialSize" : 1723,
       "fileType" : 4096
     },
-    "\/public\/images\/foundation\/orbit\/timer-black.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/images\/foundation\/orbit\/timer-black.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/public\/images\/foundation\/orbit\/timer-black.png",
-      "initialSize" : 527,
-      "fileType" : 8192
-    },
     "\/public\/images\/logo_spectranetics.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -157,6 +146,17 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/public\/images\/logo_spectranetics.png",
       "initialSize" : 4785,
+      "fileType" : 8192
+    },
+    "\/public\/images\/foundation\/orbit\/timer-black.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/public\/images\/foundation\/orbit\/timer-black.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/public\/images\/foundation\/orbit\/timer-black.png",
+      "initialSize" : 527,
       "fileType" : 8192
     },
     "\/public\/images\/foundation\/orbit\/left-arrow.png" : {
@@ -225,17 +225,6 @@
       "initialSize" : 464,
       "fileType" : 8192
     },
-    "\/public\/images\/sprite_modal_close.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/images\/sprite_modal_close.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/public\/images\/sprite_modal_close.png",
-      "initialSize" : 761,
-      "fileType" : 8192
-    },
     "\/public\/images\/logo_idev.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -245,6 +234,17 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/public\/images\/logo_idev.png",
       "initialSize" : 6539,
+      "fileType" : 8192
+    },
+    "\/public\/images\/sprite_modal_close.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/public\/images\/sprite_modal_close.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/public\/images\/sprite_modal_close.png",
+      "initialSize" : 761,
       "fileType" : 8192
     },
     "\/public\/casestudy1_image2.html" : {
@@ -333,14 +333,16 @@
       "initialSize" : 3409,
       "fileType" : 8192
     },
-    "\/public\/bio_ido-weinberg.html" : {
+    "\/public\/images\/logo_cardiosonic.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/bio_ido-weinberg.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/public\/images\/logo_cardiosonic.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/public\/images\/logo_cardiosonic.png",
+      "initialSize" : 3312,
+      "fileType" : 8192
     },
     "\/public\/images\/casestudy3_image1.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -353,16 +355,32 @@
       "initialSize" : 52733,
       "fileType" : 4096
     },
-    "\/public\/images\/logo_cardiosonic.png" : {
+    "\/public\/index-updated.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/images\/logo_cardiosonic.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/public\/images\/logo_cardiosonic.png",
-      "initialSize" : 3312,
-      "fileType" : 8192
+      "inputAbbreviatedPath" : "\/public\/index-updated.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/public\/bio_ido-weinberg.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/public\/bio_ido-weinberg.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/public\/casestudy5_image1.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/public\/casestudy5_image1.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/public\/images\/logo_terumo.png" : {
       "ignoreWasSetByUser" : 0,
@@ -374,15 +392,6 @@
       "outputAbbreviatedPath" : "\/public\/images\/logo_terumo.png",
       "initialSize" : 2510,
       "fileType" : 8192
-    },
-    "\/public\/casestudy5_image1.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/casestudy5_image1.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/public\/bio_justin-mcneil.html" : {
       "ignoreWasSetByUser" : 0,
@@ -433,17 +442,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/public\/images\/bg_h3-contact.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/images\/bg_h3-contact.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/public\/images\/bg_h3-contact.png",
-      "initialSize" : 1324,
-      "fileType" : 8192
-    },
     "\/public\/images\/logo_pervasis.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -453,6 +451,17 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/public\/images\/logo_pervasis.png",
       "initialSize" : 4432,
+      "fileType" : 8192
+    },
+    "\/public\/images\/bg_h3-contact.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/public\/images\/bg_h3-contact.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/public\/images\/bg_h3-contact.png",
+      "initialSize" : 1324,
       "fileType" : 8192
     },
     "\/public\/js\/respond.min.js" : {
@@ -488,15 +497,6 @@
       "initialSize" : 282,
       "fileType" : 8192
     },
-    "\/public\/casestudy3_image1.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/casestudy3_image1.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/public\/images\/logo_theravasc.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -507,6 +507,15 @@
       "outputAbbreviatedPath" : "\/public\/images\/logo_theravasc.png",
       "initialSize" : 3776,
       "fileType" : 8192
+    },
+    "\/public\/casestudy3_image1.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/public\/casestudy3_image1.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/public\/images\/photo_justin-thompson.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -633,17 +642,6 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/public\/images\/icon_arrow-right-aqua.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/images\/icon_arrow-right-aqua.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/public\/images\/icon_arrow-right-aqua.png",
-      "initialSize" : 315,
-      "fileType" : 8192
-    },
     "\/public\/images\/bg_infographic_circles.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -653,6 +651,17 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/public\/images\/bg_infographic_circles.png",
       "initialSize" : 42131,
+      "fileType" : 8192
+    },
+    "\/public\/images\/icon_arrow-right-aqua.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/public\/images\/icon_arrow-right-aqua.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/public\/images\/icon_arrow-right-aqua.png",
+      "initialSize" : 315,
       "fileType" : 8192
     },
     "\/public\/images\/logo_cardiosonics.png" : {
@@ -675,6 +684,17 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/public\/images\/photo_ritu-shrestha@2x.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/public\/images\/photo_ritu-shrestha@2x.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/public\/images\/photo_ritu-shrestha@2x.jpg",
+      "initialSize" : 104717,
+      "fileType" : 4096
+    },
     "\/public\/images\/bg_contact-tiled.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -695,17 +715,6 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/public\/images\/casestudy4_image1.jpg",
       "initialSize" : 26812,
-      "fileType" : 4096
-    },
-    "\/public\/images\/photo_ritu-shrestha@2x.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/images\/photo_ritu-shrestha@2x.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/public\/images\/photo_ritu-shrestha@2x.jpg",
-      "initialSize" : 104717,
       "fileType" : 4096
     },
     "\/public\/images\/photo_erin-lacey@2x.jpg" : {
@@ -730,15 +739,15 @@
       "initialSize" : 4627,
       "fileType" : 8192
     },
-    "\/public\/images\/foundation\/orbit\/pause-black.png" : {
+    "\/public\/images\/icon_arrow-right-orange.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/images\/foundation\/orbit\/pause-black.png",
+      "inputAbbreviatedPath" : "\/public\/images\/icon_arrow-right-orange.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/public\/images\/foundation\/orbit\/pause-black.png",
-      "initialSize" : 289,
+      "outputAbbreviatedPath" : "\/public\/images\/icon_arrow-right-orange.png",
+      "initialSize" : 315,
       "fileType" : 8192
     },
     "\/public\/images\/bg_publications-slides.png" : {
@@ -763,6 +772,17 @@
       "initialSize" : 1139,
       "fileType" : 8192
     },
+    "\/public\/images\/foundation\/orbit\/pause-black.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/public\/images\/foundation\/orbit\/pause-black.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/public\/images\/foundation\/orbit\/pause-black.png",
+      "initialSize" : 289,
+      "fileType" : 8192
+    },
     "\/public\/images\/slide_arrow-left.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -772,17 +792,6 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/public\/images\/slide_arrow-left.png",
       "initialSize" : 1608,
-      "fileType" : 8192
-    },
-    "\/public\/images\/icon_arrow-right-orange.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/images\/icon_arrow-right-orange.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/public\/images\/icon_arrow-right-orange.png",
-      "initialSize" : 315,
       "fileType" : 8192
     },
     "\/public\/images\/foundation\/orbit\/rotator-black.png" : {
@@ -807,17 +816,6 @@
       "initialSize" : 112377,
       "fileType" : 4096
     },
-    "\/public\/images\/photo_michael-jaff.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/images\/photo_michael-jaff.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/public\/images\/photo_michael-jaff.jpg",
-      "initialSize" : 30592,
-      "fileType" : 4096
-    },
     "\/public\/images\/photo_justin-thompson@2x.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -840,22 +838,27 @@
       "initialSize" : 5309,
       "fileType" : 8192
     },
-    "\/public\/css\/typography.less" : {
-      "ieCompatibility" : 1,
-      "inputAbbreviatedPath" : "\/public\/css\/typography.less",
-      "outputAbbreviatedPath" : "\/public\/css\/typography.css",
-      "outputPathIsSetByUser" : 0,
-      "strictUnits" : 0,
-      "relativeURLS" : 0,
-      "ignore" : 1,
-      "strictImports" : 0,
+    "\/public\/images\/photo_michael-jaff.jpg" : {
       "ignoreWasSetByUser" : 0,
-      "shouldRunBless" : 0,
+      "ignore" : 0,
       "hidden" : 0,
-      "strictMath" : 0,
-      "outputStyle" : 0,
-      "fileType" : 1,
-      "debugStyle" : 0
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/public\/images\/photo_michael-jaff.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/public\/images\/photo_michael-jaff.jpg",
+      "initialSize" : 30592,
+      "fileType" : 4096
+    },
+    "\/public\/images\/photo_michael-jaff@2x.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/public\/images\/photo_michael-jaff@2x.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/public\/images\/photo_michael-jaff@2x.jpg",
+      "initialSize" : 89157,
+      "fileType" : 4096
     },
     "\/public\/images\/scroll-to-learn-more.png" : {
       "ignoreWasSetByUser" : 0,
@@ -918,16 +921,22 @@
       "initialSize" : 184168,
       "fileType" : 4096
     },
-    "\/public\/images\/photo_michael-jaff@2x.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
+    "\/public\/css\/typography.less" : {
+      "ieCompatibility" : 1,
+      "inputAbbreviatedPath" : "\/public\/css\/typography.less",
+      "outputAbbreviatedPath" : "\/public\/css\/typography.css",
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/images\/photo_michael-jaff@2x.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/public\/images\/photo_michael-jaff@2x.jpg",
-      "initialSize" : 89157,
-      "fileType" : 4096
+      "strictUnits" : 0,
+      "relativeURLS" : 0,
+      "ignore" : 1,
+      "strictImports" : 0,
+      "ignoreWasSetByUser" : 0,
+      "shouldRunBless" : 0,
+      "hidden" : 0,
+      "strictMath" : 0,
+      "outputStyle" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
     },
     "\/public\/index.html" : {
       "ignoreWasSetByUser" : 0,
@@ -1020,26 +1029,15 @@
       "initialSize" : 475850,
       "fileType" : 4096
     },
-    "\/public\/images\/foundation\/orbit\/mask-black.png" : {
+    "\/public\/images\/logo_biotronik.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/images\/foundation\/orbit\/mask-black.png",
+      "inputAbbreviatedPath" : "\/public\/images\/logo_biotronik.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/public\/images\/foundation\/orbit\/mask-black.png",
-      "initialSize" : 527,
-      "fileType" : 8192
-    },
-    "\/public\/images\/logo_gore.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/images\/logo_gore.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/public\/images\/logo_gore.png",
-      "initialSize" : 5122,
+      "outputAbbreviatedPath" : "\/public\/images\/logo_biotronik.png",
+      "initialSize" : 2541,
       "fileType" : 8192
     },
     "\/logo\/vascore-logo.png" : {
@@ -1053,6 +1051,17 @@
       "initialSize" : 9390,
       "fileType" : 8192
     },
+    "\/public\/images\/logo_gore.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/public\/images\/logo_gore.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/public\/images\/logo_gore.png",
+      "initialSize" : 5122,
+      "fileType" : 8192
+    },
     "\/public\/images\/logo_proteon.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1064,6 +1073,17 @@
       "initialSize" : 5159,
       "fileType" : 8192
     },
+    "\/public\/images\/photo_sabina-dhami.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/public\/images\/photo_sabina-dhami.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/public\/images\/photo_sabina-dhami.jpg",
+      "initialSize" : 35034,
+      "fileType" : 4096
+    },
     "\/public\/images\/photo_katie-mccullough.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1074,6 +1094,26 @@
       "outputAbbreviatedPath" : "\/public\/images\/photo_katie-mccullough.jpg",
       "initialSize" : 42571,
       "fileType" : 4096
+    },
+    "\/public\/bio_sabina-dhami.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/public\/bio_sabina-dhami.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/public\/images\/foundation\/orbit\/mask-black.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/public\/images\/foundation\/orbit\/mask-black.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/public\/images\/foundation\/orbit\/mask-black.png",
+      "initialSize" : 527,
+      "fileType" : 8192
     },
     "\/public\/css\/orbit.less" : {
       "ieCompatibility" : 1,
@@ -1092,36 +1132,16 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/public\/bio_sabina-dhami.html" : {
+    "\/public\/images\/vascore-logo.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/bio_sabina-dhami.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/public\/images\/logo_biotronik.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/images\/logo_biotronik.png",
+      "inputAbbreviatedPath" : "\/public\/images\/vascore-logo.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/public\/images\/logo_biotronik.png",
-      "initialSize" : 2541,
+      "outputAbbreviatedPath" : "\/public\/images\/vascore-logo.png",
+      "initialSize" : 7190,
       "fileType" : 8192
-    },
-    "\/public\/images\/photo_sabina-dhami.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/images\/photo_sabina-dhami.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/public\/images\/photo_sabina-dhami.jpg",
-      "initialSize" : 35034,
-      "fileType" : 4096
     },
     "\/public\/images\/logo_vessix-vascular.png" : {
       "ignoreWasSetByUser" : 0,
@@ -1134,16 +1154,14 @@
       "initialSize" : 2867,
       "fileType" : 8192
     },
-    "\/public\/images\/vascore-logo.png" : {
+    "\/public\/bio_ritu-shrestha.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/images\/vascore-logo.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/public\/images\/vascore-logo.png",
-      "initialSize" : 7190,
-      "fileType" : 8192
+      "inputAbbreviatedPath" : "\/public\/bio_ritu-shrestha.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/public\/images\/photo_heather-marino.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -1155,15 +1173,6 @@
       "outputAbbreviatedPath" : "\/public\/images\/photo_heather-marino.jpg",
       "initialSize" : 36527,
       "fileType" : 4096
-    },
-    "\/public\/bio_ritu-shrestha.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/bio_ritu-shrestha.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/public\/images\/photo_justin-mcneil@2x.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -1297,22 +1306,27 @@
       "initialSize" : 508,
       "fileType" : 8192
     },
-    "\/public\/css\/bootstrap.less" : {
-      "ieCompatibility" : 1,
-      "inputAbbreviatedPath" : "\/public\/css\/bootstrap.less",
-      "outputAbbreviatedPath" : "\/public\/css\/bootstrap.css",
-      "outputPathIsSetByUser" : 0,
-      "strictUnits" : 0,
-      "relativeURLS" : 0,
-      "ignore" : 1,
-      "strictImports" : 0,
+    "\/public\/images\/logo_vascore.png" : {
       "ignoreWasSetByUser" : 0,
-      "shouldRunBless" : 0,
+      "ignore" : 0,
       "hidden" : 0,
-      "strictMath" : 0,
-      "outputStyle" : 0,
-      "fileType" : 1,
-      "debugStyle" : 0
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/public\/images\/logo_vascore.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/public\/images\/logo_vascore.png",
+      "initialSize" : 1307,
+      "fileType" : 8192
+    },
+    "\/public\/images\/photo_ido-weinberg@2x.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/public\/images\/photo_ido-weinberg@2x.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/public\/images\/photo_ido-weinberg@2x.jpg",
+      "initialSize" : 111159,
+      "fileType" : 4096
     },
     "\/public\/images\/photo_sabina-dhami@2x.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -1336,14 +1350,22 @@
       "outputAbbreviatedPath" : "\/public\/js\/modernizr-2.6.2-min-min.js",
       "fileType" : 64
     },
-    "\/public\/bio_erin-lacey.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
+    "\/public\/css\/bootstrap.less" : {
+      "ieCompatibility" : 1,
+      "inputAbbreviatedPath" : "\/public\/css\/bootstrap.less",
+      "outputAbbreviatedPath" : "\/public\/css\/bootstrap.css",
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/bio_erin-lacey.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "strictUnits" : 0,
+      "relativeURLS" : 0,
+      "ignore" : 1,
+      "strictImports" : 0,
+      "ignoreWasSetByUser" : 0,
+      "shouldRunBless" : 0,
+      "hidden" : 0,
+      "strictMath" : 0,
+      "outputStyle" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
     },
     "\/public\/images\/logo_abbott.png" : {
       "ignoreWasSetByUser" : 0,
@@ -1367,6 +1389,26 @@
       "initialSize" : 17491,
       "fileType" : 8192
     },
+    "\/public\/bio_erin-lacey.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/public\/bio_erin-lacey.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/public\/images\/logo_daiichi-sankyo.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/public\/images\/logo_daiichi-sankyo.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/public\/images\/logo_daiichi-sankyo.png",
+      "initialSize" : 5659,
+      "fileType" : 8192
+    },
     "\/public\/css\/styles.less" : {
       "ieCompatibility" : 1,
       "inputAbbreviatedPath" : "\/public\/css\/styles.less",
@@ -1383,39 +1425,6 @@
       "outputStyle" : 0,
       "fileType" : 1,
       "debugStyle" : 0
-    },
-    "\/public\/images\/photo_ido-weinberg@2x.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/images\/photo_ido-weinberg@2x.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/public\/images\/photo_ido-weinberg@2x.jpg",
-      "initialSize" : 111159,
-      "fileType" : 4096
-    },
-    "\/public\/images\/logo_daiichi-sankyo.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/images\/logo_daiichi-sankyo.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/public\/images\/logo_daiichi-sankyo.png",
-      "initialSize" : 5659,
-      "fileType" : 8192
-    },
-    "\/public\/images\/logo_vascore.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/images\/logo_vascore.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/public\/images\/logo_vascore.png",
-      "initialSize" : 1307,
-      "fileType" : 8192
     },
     "\/public\/images\/logo_getinge-group.png" : {
       "ignoreWasSetByUser" : 0,
@@ -1454,6 +1463,24 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/public\/css\/styles-old-production.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/public\/css\/styles-old-production.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/public\/bio_heather-marino.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/public\/bio_heather-marino.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/public\/images\/infographic-circ-blue.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1465,34 +1492,16 @@
       "initialSize" : 16791,
       "fileType" : 8192
     },
-    "\/public\/images\/casestudy4_image2.jpg" : {
+    "\/public\/js\/script.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/images\/casestudy4_image2.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/public\/images\/casestudy4_image2.jpg",
-      "initialSize" : 17790,
-      "fileType" : 4096
-    },
-    "\/public\/bio_heather-marino.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/bio_heather-marino.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/public\/css\/styles-old-production.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/css\/styles-old-production.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
+      "inputAbbreviatedPath" : "\/public\/js\/script.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/public\/js\/script-min.js",
+      "fileType" : 64
     },
     "\/public\/images\/casestudy5_image1.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -1516,16 +1525,16 @@
       "initialSize" : 26958,
       "fileType" : 4096
     },
-    "\/public\/js\/script.js" : {
+    "\/public\/images\/casestudy4_image2.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/js\/script.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/public\/js\/script-min.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/public\/images\/casestudy4_image2.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/public\/images\/casestudy4_image2.jpg",
+      "initialSize" : 17790,
+      "fileType" : 4096
     },
     "\/public\/bio_michael-jaff.html" : {
       "ignoreWasSetByUser" : 0,
@@ -1591,17 +1600,6 @@
       "initialSize" : 294,
       "fileType" : 8192
     },
-    "\/public\/images\/photo_victoria-sova@2x.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/public\/images\/photo_victoria-sova@2x.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/public\/images\/photo_victoria-sova@2x.jpg",
-      "initialSize" : 117515,
-      "fileType" : 4096
-    },
     "\/public\/images\/bg_tab-services.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1612,6 +1610,17 @@
       "outputAbbreviatedPath" : "\/public\/images\/bg_tab-services.png",
       "initialSize" : 1497,
       "fileType" : 8192
+    },
+    "\/public\/images\/photo_victoria-sova@2x.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/public\/images\/photo_victoria-sova@2x.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/public\/images\/photo_victoria-sova@2x.jpg",
+      "initialSize" : 117515,
+      "fileType" : 4096
     },
     "\/public\/images\/logo_480-biomedical.png" : {
       "ignoreWasSetByUser" : 0,
