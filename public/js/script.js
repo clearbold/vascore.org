@@ -119,7 +119,7 @@ $(document).ready(function() {
     destinations[0] = 0;
     destinations[1] = slideheight; // #intro
     //if ($("body").hasClass("temp")) {
-        destinations[2] = destinations[1] + 3858; // #about
+        destinations[2] = destinations[1] + 3429; // #about
     //} else {
     //    destinations[2] = destinations[1] + 3000; // #about
     //}
