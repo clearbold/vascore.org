@@ -119,11 +119,11 @@ $(document).ready(function() {
     destinations[0] = 0;
     destinations[1] = slideheight; // #intro
     //if ($("body").hasClass("temp")) {
-        destinations[2] = destinations[1] + 3429; // #about
+        destinations[2] = destinations[1] + 3858; // #about
     //} else {
     //    destinations[2] = destinations[1] + 3000; // #about
     //}
-    
+
     destinations[3] = destinations[2] + 1416; // #expertise
     destinations[4] = destinations[3] + 1425; // #services
     destinations[5] = destinations[4] + 1680; // #clients
@@ -206,7 +206,7 @@ $(document).ready(function() {
 
         $.Window.bind('scroll', function(e) {
             pageScroll(e);
-        }); 
+        });
         /* $(document).bind('scroll', function(e) {
             pageScroll(e);
         })*/
