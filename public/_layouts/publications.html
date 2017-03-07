@@ -1,0 +1,120 @@
+<!doctype html>
+<!--[if IEMobile 7]><html class="no-js iem7" lang="en"><![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js ie7" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js ie8" lang="en"><![endif]-->
+<!--[if (IE 9)&!(IEMobile)]><html class="no-js ie9" lang="en"><![endif]-->
+<!--[if (gt IEMobile 7)|!(IEMobile)|(gt IE 9)]><!--> <html class="no-js modern" lang="en"><!--<![endif]-->
+<head>
+    <meta charset="utf-8" />
+    <meta name="description" content="" />
+    <meta name="author" name="Mark J. Reeves / Clearbold, LLC" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>VasCore - The Vascular Ultrasound Core Laboratory - A division the MGPO - Massachusetts General Hospital - Boston, MA</title>
+
+    <!-- enable HTML5 elements in IE7+8 -->
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!--[if gte IE 8]><!-->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="stylesheet" href="/css/publications.css" />
+    <!-- <![endif]-->
+
+    <meta name="viewport" content="width=device-width" />
+
+    <script type="text/javascript" src="//use.typekit.net/ncj1rzb.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+    <script src="/js/modernizr-2.6.2-min.js"></script>
+
+    <!--[if (lt IE 9) & (!IEMobile)]>
+    <script src="/js/respond.min.js"></script>
+    <![endif]-->
+
+    <meta http-equiv="cleartype" content="on" />
+
+</head>
+<body>
+    <div class="masthead">
+        <div class="row" role="banner">
+            <div class="eight columns logo">
+                <a href="#intro">
+                    <img src="/images/vascore-logo@2x.png" alt="Vascore" />
+                </a>
+            </div>
+            <div class="twelve columns nav">
+                <div role="navigation">
+                    <a href="/#about">About</a>
+                    <a href="/#expertise">Expertise</a>
+                    <a href="/#services">Services</a>
+                    <a href="/#clients">Clients</a>
+                    <a href="/#publications">Publications</a>
+                    <a href="/#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper">
+
+        <div class="section page" id="publications">
+            <div class="row">
+                <div class="twenty columns">
+                    <h1>Publications</h1>
+                    <h2>Read about our work.</h2>
+                </div>
+            </div>
+            <div class="pubs-list-wrapper"><div class="row pubs-list">
+                <div class="col-first">
+{% for post in site.categories.publications %}
+                    <div class="slide pub">
+                        <h3>{{ forloop.index }}. <a href="{{ post.link }}" target="_blank">{{ post.title }}</a></h3>
+                        <p class="date">{{ post.pubdate }}</p>
+                        <h4>{{ post.source }}</h4>
+                        <p>{{ post.byline }}</p>
+                    </div>
+{% assign halfway = forloop.length | divided_by:2 %}
+{% if forloop.index == halfway %}
+                </div>
+                <div class="col-second">
+{% endif %}
+{% endfor %}
+                </div>
+            </div></div>
+            <div class="footer"><div class="row">
+                <div class="twenty columns">
+                    <p>&copy; 2016 VasCore. All rights reserved.</p>
+                </div>
+            </div></div>
+        </div>
+    </div>
+
+    <!--<script src="/js/script-min.js"></script>-->
+	<script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-38344891-1']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+	</script>
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-54887156-1', 'auto');
+    ga('send', 'pageview');
+
+    </script>
+</body>
+</html>
