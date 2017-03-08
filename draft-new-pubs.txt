@@ -1,0 +1,125 @@
+2014-03-01-catheter-cardiovasc-interv.html
+byline: <b>Weinberg I</b>, Keyes MJ, Giri J, Rogers KR, Olin JW, White CJ, <b>Jaff MR</b>.
+title: "Blood pressure response to renal artery stenting in 901 patients from five prospective multicenter FDA-approved trials."
+source: "Catherization & Cardiovascular Intervention: Office journal for the society of Cardio Angiography & interventions"
+pubdate: "2014 Mar 1;83(4):603-9"
+link: https://www.ncbi.nlm.nih.gov/pubmed/24307609
+
+2016-11-01-j-vasc-interv-radiol.html
+byline: "Burket MW, Brodmann M, Metzger C, Tan K, <b>Jaff MR</b>."
+title: "Twelve-Month Results of the Nitinol Astron Stent in Iliac Artery Lesions."
+source: "Journal of Vascular & interventional Radiology"
+pubdate: "2016 Nov;27(11):1650-1656"
+link: https://www.ncbi.nlm.nih.gov/pubmed/27542591
+
+2016-06-13-jacc-cardiovasc-interv.html
+byline: Lammer J, Bosiers M, Deloose K, Schmidt A, Zeller T, Wolf F, Lansink W, Sauguet A, Vermassen F, Lauwers G, Scheinert D, Popma JJ, McGreevy R, Rapoza R, Schwartz LB, <b>Jaff MR</b>.
+title: "Bioresorbable Everolimus-Eluting Vascular Scaffold for Patients With Peripheral Artery Disease (ESPRIT I): 2-Year Clinical and Imaging Results."
+source: "JACC Cardivascular Interventions"
+pubdate: "2016 Jun 13;9(11):1178-87"
+link: https://www.ncbi.nlm.nih.gov/pubmed/27282601
+
+2016-04-01-am-heart-j.html
+byline: Adams GL, Mustapha J, Gray W, Hargus NJ, Martinsen BJ, Ansel G, <b>Jaff MR</b>.
+title: "The LIBERTY study: Design of a prospective, observational, multicenter trial to evaluate the acute and long-term clinical and economic outcomes of real-world endovascular device interventions in treating peripheral artery disease."
+source: "American Heart Journal"
+pubdate: "2016 Apr;174:14-21"
+link: https://www.ncbi.nlm.nih.gov/pubmed/26995365
+
+2016-04-12-circulation.html
+byline: Dake MD, Ansel GM, <b>Jaff MR</b>, Ohki T, Saxon RR, Smouse HB, Machan LS, Snyder SA, O'Leary EE, Ragheb AO, Zeller T; Zilver PTX Investigators..
+title: "Durable Clinical Effectiveness With Paclitaxel-Eluting Stents in the Femoropopliteal Artery: 5-Year Results of the Zilver PTX Randomized Trial."
+source: "Circulation"
+pubdate: "2016 Apr 12;133(15):1472-83"
+link: https://www.ncbi.nlm.nih.gov/pubmed/26969758
+
+2016-03-17-n-engl-j-med.html
+byline: Rosenfield K, Matsumura JS, Chaturvedi S, Riles T, Ansel GM, Metzger DC, Wechsler L, <b>Jaff MR</b>, Gray W; ACT I Investigators..
+title: "Randomized Trial of Stent versus Surgery for Asymptomatic Carotid Stenosis."
+source: "The New England Journal of Medicine"
+pubdate: "2016 Mar 17;374(11):1011-20"
+link: https://www.ncbi.nlm.nih.gov/pubmed/26886419
+
+2015-11-01-j-vasc-surg.html
+byline: Kwolek CJ, <b>Jaff MR</b>, Leal JI, Hopkins LN, Shah RM, Hanover TM, Macdonald S, Cambria RP.
+title: "Results of the ROADSTER multicenter trial of transcarotid stenting with dynamic flow reversal."
+source: "Journal of Vascular Surgery"
+pubdate: "2015 Nov;62(5):1227-34"
+link: https://www.ncbi.nlm.nih.gov/pubmed/26506270
+
+2016-02-01-j-vasc-surg.html
+byline: Ohki T, Angle JF, Yokoi H, <b>Jaff MR</b>, Popma J, Piegari G, Kanaoka Y; OSPREY investigators..
+title: "One-year outcomes of the U.S. and Japanese regulatory trial of the Misago stent for treatment of superficial femoral artery disease (OSPREY study)."
+source: "Journal of Vascular Surgery"
+pubdate: "2016 Feb;63(2):370-6"
+link: https://www.ncbi.nlm.nih.gov/pubmed/26483003
+
+2015-12-01-j-am-coll-cardiol.html
+byline: Laird JR, Schneider PA, Tepe G, Brodmann M, Zeller T, Metzger C, Krishnan P, Scheinert D, Micari A, Cohen DJ, Wang H, Hasenbank MS, <b>Jaff MR</b>; IN.PACT SFA Trial Investigators..
+title: "Durability of Treatment Effect Using a Drug-Coated Balloon for Femoropopliteal Lesions: 24-Month Results of IN.PACT SFA."
+source: "Circulation"
+pubdate: "2015 Dec 1;66(21):2329-38"
+link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4323569/
+
+2015-12-01-j-endovasc-ther.html
+byline: Rastan A, McKinsey JF, Garcia LA, Rocha-Singh KJ, <b>Jaff MR</b>, Noory E, Zeller T; DEFINITIVE LE Investigators..
+title: "One-Year Outcomes Following Directional Atherectomy of Infrapopliteal Artery Lesions: Subgroup Results of the Prospective, Multicenter DEFINITIVE LE Trial."
+source: "Journal of the International society of endovascular Specialist"
+pubdate: "2015 Dec;22(6):839-46"
+link: https://www.ncbi.nlm.nih.gov/pubmed/26445814
+
+2015-10-01-j-endovasc-ther.html
+byline: Garcia LA, <b>Jaff MR</b>, Rocha-Singh KJ, Zeller T, Bosarge C, Kamat S, McKinsey JF.
+title: "A Comparison of Clinical Outcomes for Diabetic and Nondiabetic Patients Following Directional Atherectomy in the DEFINITIVE LE Claudicant Cohort."
+source: "Journal of Endovascular Therapy: An official Journal of the International society of endovascular"
+pubdate: "2015 Oct;22(5):701-11"
+link: https://www.ncbi.nlm.nih.gov/pubmed/26250748
+
+2015-07-09-n-engl-j-med.html
+byline: Rosenfield K, <b>Jaff MR</b>, White CJ, Rocha-Singh K, Mena-Hurtado C, Metzger DC, Brodmann M, Pilger E, Zeller T, Krishnan P, Gammon R, Müller-Hülsbeck S, Nehler MR, Benenati JF, Scheinert D; LEVANT 2 Investigators..
+title: "Trial of a Paclitaxel-Coated Balloon for Femoropopliteal Artery Disease."
+source: "New England Journal of Medicine"
+pubdate: "2015 Jul 9;373(2):145-53"
+link: https://www.ncbi.nlm.nih.gov/pubmed/26106946
+
+2015-05-01-circ-cardiovasc-interv.html
+byline: Garcia L, <b>Jaff MR</b>, Metzger C, Sedillo G, Pershad A, Zidar F, Patlola R, Wilkins RG, Espinoza A, Iskander A, Khammar GS, Khatib Y, Beasley R, Makam S, Kovach R, Kamat S, Leon LR Jr, Eaves WB, Popma JJ, Mauri L, Donohoe D, Base CC, Rosenfield K; SUPERB Trial Investigators..
+title: "Wire-Interwoven Nitinol Stent Outcome in the Superficial Femoral and Proximal Popliteal Arteries: Twelve-Month Results of the SUPERB Trial."
+source: "Circulation Cardiovascular Intervention"
+pubdate: "2015 May;8(5)"
+link: https://www.ncbi.nlm.nih.gov/pubmed/25969545
+
+2015-04-01-am-heart-j.html
+byline: <b>Jaff MR</b>, Rosenfield K, Scheinert D, Rocha-Singh K, Benenati J, Nehler M, White CJ.
+title: "Drug-coated balloons to improve femoropopliteal artery patency: Rationale and design of the LEVANT 2 trial."
+source: "American Heart Journal"
+pubdate: "2015 Apr;169(4):479-85"
+link: https://www.ncbi.nlm.nih.gov/pubmed/25819854
+
+2017-07-01-catheter-cardiovasc-interv.html
+byline: Rocha-Singh KJ, Bosiers M, Schultz G, <b>Jaff MR</b>, Mehta M, Matsumura JS; Durability II Investigators..
+title: "A single stent strategy in patients with lifestyle limiting claudication: 3-year results from the Durability II trial."
+source: "Catherization & Cardiovascular Intervention: Office journal for the society of Cardio Angiography & interventions"
+pubdate: "2015 Jul;86(1):164-70"
+link: https://www.ncbi.nlm.nih.gov/pubmed/25676568
+
+2015-02-03-circulation.html
+byline: Tepe G, Laird J, Schneider P, Brodmann M, Krishnan P, Micari A, Metzger C, Scheinert D, Zeller T, Cohen DJ, Snead DB, Alexander B, Landini M, <b>Jaff MR</b>; IN.PACT SFA Trial Investigators..
+title: "Drug-coated balloon versus standard percutaneous transluminal angioplasty for the treatment of superficial femoral and popliteal peripheral artery disease: 12-month results from the IN.PACT SFA randomized trial."
+source: "Circulation"
+pubdate: "2015 Feb 3;131(5):495-502"
+link: https://www.ncbi.nlm.nih.gov/pubmed/25472980
+
+2015-01-01-j-vasc-interv-radiol.html
+byline: Gray WA, Feiring A, Cioppi M, Hibbard R, Gray B, Khatib Y, Jessup D, Bachinsky W, Rivera E, Tauth J, Patarca R, Massaro J, Stoll HP, <b>Jaff MR</b>; STROLL Study Investigators..
+title: "S.M.A.R.T. self-expanding nitinol stent for the treatment of atherosclerotic lesions in the superficial femoral artery (STROLL): 1-year outcomes."
+source: "Journal of Vascular & Interventional Radiology"
+pubdate: "2015 Jan;26(1):21-8"
+link: https://www.ncbi.nlm.nih.gov/pubmed/25454735
+
+2014-10-01-j-endovasc-ther.html
+byline: Ohki T, Yokoi H, Kichikawa K, Kimura T, Snyder SA, Ragheb AO, O'Leary EE, <b>Jaff MR</b>, Ansel GM, Dake MD.
+title: "Two-year analysis of the Japanese cohort from the Zilver PTX randomized controlled trial supports the validity of multinational clinical trials."
+source: "Journal of Endovascular: An official journal of the international society of Endovascular Specialists"
+pubdate: "2014 Oct;21(5):644-53"
+link: https://www.ncbi.nlm.nih.gov/pubmed/25290792
