@@ -146,7 +146,6 @@ $(document).ready(function() {
         $navlink = $('div[role=navigation]').find('a');
 
 
-
     $.Body = $('body');
     $.Scroll = ($.browser.mozilla || $.browser.msie) ? $('html') : $.Body;
 
@@ -215,7 +214,10 @@ $(document).ready(function() {
         });
         $navlink.click(function(e){
             linkindex = $navlink.index($(this));
-            $.Scroll.stop().animate({scrollTop: (destinations[linkindex+1])+'px'});
+            console.log(linkindex);
+            console.log((destinations[linkindex+1])+'px');
+            // $.Scroll.stop().animate({scrollTop: (destinations[linkindex+1])+'px'});
+            $('html, body').stop().animate({scrollTop: (destinations[linkindex+1])+'px'});
         });
     }
 
