@@ -148,6 +148,7 @@ $(document).ready(function() {
 
     $.Body = $('body');
     $.Scroll = ($.browser.mozilla || $.browser.msie) ? $('html') : $.Body;
+    $.Scroll = $('html, body');
 
     if ($(this).width() < 1025) {
         if (window.location.href.indexOf('#') > 0)
@@ -216,8 +217,8 @@ $(document).ready(function() {
             linkindex = $navlink.index($(this));
             console.log(linkindex);
             console.log((destinations[linkindex+1])+'px');
-            // $.Scroll.stop().animate({scrollTop: (destinations[linkindex+1])+'px'});
-            $('html, body').stop().animate({scrollTop: (destinations[linkindex+1])+'px'});
+            $.Scroll.stop().animate({scrollTop: (destinations[linkindex+1])+'px'});
+            // $('html, body').stop().animate({scrollTop: (destinations[linkindex+1])+'px'});
         });
     }
 

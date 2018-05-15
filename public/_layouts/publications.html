@@ -71,7 +71,7 @@
                 <div class="col-first">
 {% for post in site.categories.publications %}
                     <div class="slide pub">
-                        <h3>{{ forloop.index }}. <a href="{{ post.link }}" target="_blank">{{ post.title }}</a></h3>
+                        <h3>{{ forloop.index }}. <a href="{{ post.link }}" target="_blank">{% if post.long_title %}{{post.long_title}}{% else %}{{ post.title }}{% endif %}</a></h3>
                         <p class="date">{{ post.pubdate }}</p>
                         <h4>{{ post.source }}</h4>
                         <p>{{ post.byline }}</p>
