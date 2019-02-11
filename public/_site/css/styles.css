@@ -2120,6 +2120,7 @@ ul.affiliations li {
   #about {
     z-index: 800;
     height: 3858px !important;
+    height: 3429px !important;
   }
   /*  .temp #about {
         height : 3858px !important;
@@ -2130,7 +2131,7 @@ ul.affiliations li {
   }
   #services {
     z-index: 600;
-    height: 1425px !important;
+    height: 1485px !important;
   }
   #clients {
     z-index: 500;

@@ -1,0 +1,17 @@
+.wrapper {
+    height: auto !important;
+    overflow: visible;
+    position: relative;
+}
+#services {
+    height: auto !important;
+    padding-bottom: 0;
+}
+
+.footer {
+    position: static;
+}
+#services .footer p {
+    color: white;
+    font-size: 1.1em;
+}

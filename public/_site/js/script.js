@@ -120,12 +120,13 @@ $(document).ready(function() {
     destinations[1] = slideheight; // #intro
     //if ($("body").hasClass("temp")) {
         destinations[2] = destinations[1] + 3858; // #about
+        destinations[2] = destinations[1] + 3429; // #about
     //} else {
     //    destinations[2] = destinations[1] + 3000; // #about
     //}
 
     destinations[3] = destinations[2] + 1416; // #expertise
-    destinations[4] = destinations[3] + 1425; // #services
+    destinations[4] = destinations[3] + 1485; // #services
     destinations[5] = destinations[4] + 1680; // #clients
     destinations[6] = destinations[5] + slideheight; // #publications
     destinations[7] = destinations[6] + slideheight; // #contact
