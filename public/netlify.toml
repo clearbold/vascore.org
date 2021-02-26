@@ -1,3 +1,4 @@
 [[redirects]]
   from = "/casestudy5_image1.html"
   to = "/"
+  force = true
