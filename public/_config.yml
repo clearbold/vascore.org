@@ -7,6 +7,8 @@ google_analytics: false
 # Where things are
 destination:      ./_site
 
+include:          ["_redirects"]
+
 # Handling Reading
 exclude:          ["design", "templates", "Gemfile", "Gemfile.lock", "README.md", ".gitignore"]
 
