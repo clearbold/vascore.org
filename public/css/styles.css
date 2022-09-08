@@ -1726,30 +1726,61 @@ ul.affiliations li {
     padding-left: 20px;
     padding-right: 20px; }
 
-  .column, .columns {
+  .column,
+  .columns {
     float: none;
     width: auto !important; }
 
-  .column:last-child, .columns:last-child {
+  .column:last-child,
+  .columns:last-child {
     float: none; }
 
   [class*="column"] + [class*="column"]:last-child {
     float: none; }
 
-  .column:before, .columns:before, .column:after, .columns:after {
+  .column:before,
+  .columns:before,
+  .column:after,
+  .columns:after {
     content: "";
     display: table; }
 
-  .column:after, .columns:after {
+  .column:after,
+  .columns:after {
     clear: both; }
 
-  .offset-by-one, .offset-by-two, .offset-by-three, .offset-by-four, .offset-by-five, .offset-by-six, .offset-by-seven, .offset-by-eight, .offset-by-nine, .offset-by-ten {
+  .offset-by-one,
+  .offset-by-two,
+  .offset-by-three,
+  .offset-by-four,
+  .offset-by-five,
+  .offset-by-six,
+  .offset-by-seven,
+  .offset-by-eight,
+  .offset-by-nine,
+  .offset-by-ten {
     margin-left: 0 !important; }
 
-  .push-two, .push-three, .push-four, .push-five, .push-six, .push-seven, .push-eight, .push-nine, .push-ten {
+  .push-two,
+  .push-three,
+  .push-four,
+  .push-five,
+  .push-six,
+  .push-seven,
+  .push-eight,
+  .push-nine,
+  .push-ten {
     left: auto; }
 
-  .pull-two, .pull-three, .pull-four, .pull-five, .pull-six, .pull-seven, .pull-eight, .pull-nine, .pull-ten {
+  .pull-two,
+  .pull-three,
+  .pull-four,
+  .pull-five,
+  .pull-six,
+  .pull-seven,
+  .pull-eight,
+  .pull-nine,
+  .pull-ten {
     right: auto; }
 
   .section {
@@ -1787,9 +1818,9 @@ ul.affiliations li {
   #about figure {
     margin: 0 auto;
     max-width: 450px;
-                  /*
-min-height: 0;
-padding-bottom: 0;*/ }
+    /*
+    min-height: 0;
+    padding-bottom: 0;*/ }
 
   .accordion {
     margin-bottom: 2em !important; }
@@ -1992,7 +2023,7 @@ padding-bottom: 0;*/ }
 
   #about {
     z-index: 800;
-    height: 3429px !important; }
+    height: 4287px !important; }
 
   /*  .temp #about {
       height : 3858px !important;

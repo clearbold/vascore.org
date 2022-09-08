@@ -5,8 +5,7 @@ $(window).load(function() {
     var $publicationsslidecurrentlabel = $("#publication-currentslide");
     var $publicationslidetotallabel = $("#publication-totalslides");
     $publicationslidetotallabel.html(publicationslidenumber);
-    $('#publicationslideshow').find('.slides').orbit(
-    {
+    $('#publicationslideshow').find('.slides').orbit({
         fluid: '16x6',
         timer: false,
         afterSlideChange: function() {
@@ -21,8 +20,7 @@ $(window).load(function() {
     var $trialslidecurrentlabel = $("#trial-currentslide");
     var $trialslidetotallabel = $("#trial-totalslides");
     $trialslidetotallabel.html(trialslidenumber);
-    $('#trialslideshow').find('.slides').orbit(
-    {
+    $('#trialslideshow').find('.slides').orbit({
         fluid: '16x9',
         timer: false,
         afterSlideChange: function() {
@@ -68,11 +66,11 @@ $(document).ready(function() {
 
     /* Adding in Ajax functionality for Zurb Reveal */
     $('a.reveal').click(function(event) {
-      event.preventDefault();
-      var $this = $(this);
-      $.get($this.attr('href'), function(data) {
-        return $modaldiv.empty().html(data).append('<a class="close-reveal-modal">&#215;</a>').reveal();
-      });
+        event.preventDefault();
+        var $this = $(this);
+        $.get($this.attr('href'), function(data) {
+            return $modaldiv.empty().html(data).append('<a class="close-reveal-modal">&#215;</a>').reveal();
+        });
     });
 
     /* Code for in-modal links calling content into the same modal */
@@ -94,7 +92,7 @@ $(document).ready(function() {
 
     function testWidth() {
         howwide = $.Window.width();
-        if(howwide < 1025){
+        if (howwide < 1025) {
             tooNarrow = 1;
         } else {
             tooNarrow = 0;
@@ -119,8 +117,9 @@ $(document).ready(function() {
     destinations[0] = 0;
     destinations[1] = slideheight; // #intro
     //if ($("body").hasClass("temp")) {
-        destinations[2] = destinations[1] + 3858; // #about
-        destinations[2] = destinations[1] + 3429; // #about
+    // destinations[2] = destinations[1] + 3858; // #about
+    // destinations[2] = destinations[1] + 3429; // #about
+    destinations[2] = destinations[1] + 4287; // #about
     //} else {
     //    destinations[2] = destinations[1] + 3000; // #about
     //}
@@ -153,10 +152,10 @@ $(document).ready(function() {
 
     if ($(this).width() < 1025) {
         if (window.location.href.indexOf('#') > 0)
-            $.Scroll.stop().animate({scrollTop: $( window.location.href.slice(-1*(window.location.href.length - window.location.href.indexOf('#'))) ).position().top+'px'});
-        $navlink.click(function(e){
+            $.Scroll.stop().animate({ scrollTop: $(window.location.href.slice(-1 * (window.location.href.length - window.location.href.indexOf('#')))).position().top + 'px' });
+        $navlink.click(function(e) {
             //e.preventDefault();
-            $.Scroll.stop().animate({scrollTop: $( $(this).attr('href') ).position().top+'px'});
+            $.Scroll.stop().animate({ scrollTop: $($(this).attr('href')).position().top + 'px' });
         });
     };
 
@@ -166,7 +165,7 @@ $(document).ready(function() {
             resetPage();
             return;
         } else {
-            $( ".accordion" ).accordion({
+            $(".accordion").accordion({
                 event: "click",
                 animated: true,
                 collapsible: true,
@@ -189,20 +188,19 @@ $(document).ready(function() {
 
     function enhancePage() {
         $.Body.height(bodyheight);
-        if ( window.location.href.indexOf('#') > 0 )
-        {
-            requestedpage = window.location.href.slice(-1*(window.location.href.length - window.location.href.indexOf('#')));
-            pageindex = $navlink.index( $('div[role=navigation] a[href='+requestedpage+']') );
-            $.Scroll.stop().animate({scrollTop: (destinations[pageindex+1])+'px'});
+        if (window.location.href.indexOf('#') > 0) {
+            requestedpage = window.location.href.slice(-1 * (window.location.href.length - window.location.href.indexOf('#')));
+            pageindex = $navlink.index($('div[role=navigation] a[href=' + requestedpage + ']'));
+            $.Scroll.stop().animate({ scrollTop: (destinations[pageindex + 1]) + 'px' });
         }
-        $scrolltotop.click(function(e){
+        $scrolltotop.click(function(e) {
             e.preventDefault();
-            $.Scroll.stop().animate({scrollTop: '0px'});
+            $.Scroll.stop().animate({ scrollTop: '0px' });
         });
 
-        $scrollformore.click(function(e){
+        $scrollformore.click(function(e) {
             e.preventDefault();
-            $.Scroll.stop().animate({scrollTop: (destinations[1])+'px'}, 1000);
+            $.Scroll.stop().animate({ scrollTop: (destinations[1]) + 'px' }, 1000);
         });
 
         $.Window.bind('scroll', function(e) {
@@ -211,21 +209,21 @@ $(document).ready(function() {
         /* $(document).bind('scroll', function(e) {
             pageScroll(e);
         })*/
-        $logolink.click(function(e){
-            $.Scroll.stop().animate({scrollTop: (destinations[0])+'px'});
+        $logolink.click(function(e) {
+            $.Scroll.stop().animate({ scrollTop: (destinations[0]) + 'px' });
         });
-        $navlink.click(function(e){
+        $navlink.click(function(e) {
             linkindex = $navlink.index($(this));
             console.log(linkindex);
-            console.log((destinations[linkindex+1])+'px');
-            $.Scroll.stop().animate({scrollTop: (destinations[linkindex+1])+'px'});
+            console.log((destinations[linkindex + 1]) + 'px');
+            $.Scroll.stop().animate({ scrollTop: (destinations[linkindex + 1]) + 'px' });
             // $('html, body').stop().animate({scrollTop: (destinations[linkindex+1])+'px'});
         });
     }
 
     testPage();
 
-    $.Window.bind('debouncedresize', function(){
+    $.Window.bind('debouncedresize', function() {
         testPage();
     });
 
@@ -233,18 +231,16 @@ $(document).ready(function() {
 
     function pageScroll(e) {
 
-        if(tooNarrow){
+        if (tooNarrow) {
             return;
         } // Don't do this if it's too narrow.
 
-        var scrollTop = $(this).scrollTop();  // $(this) = document now
+        var scrollTop = $(this).scrollTop(); // $(this) = document now
 
         //console.log(scrollTop);
 
-        for (var x = -1; x < destinationslength; ++x)
-        {
-            if (scrollTop >= (destinations[x]+1) && scrollTop <= destinations[(x+1)])
-            {
+        for (var x = -1; x < destinationslength; ++x) {
+            if (scrollTop >= (destinations[x] + 1) && scrollTop <= destinations[(x + 1)]) {
                 eq = x;
                 activeSlide = $.Slides.eq(x);
 
@@ -255,17 +251,17 @@ $(document).ready(function() {
         //console.log($(activeSlide).attr('id'));
 
         $(activeSlide).stop().css({
-            'margin-top' : (-scrollTop + destinations[eq]) + 'px'
+            'margin-top': (-scrollTop + destinations[eq]) + 'px'
         }).addClass("active");
 
-        $.Slides.eq(eq+1).css({
-            'margin-top' : '0'
+        $.Slides.eq(eq + 1).css({
+            'margin-top': '0'
         }).removeClass("active");
 
         //console.log($.Slides.eq(eq+1).attr('id'));
 
-        $.Slides.slice(0,eq).each(function(i){
-            $(this).css('margin-top', -(destinations[i+1]-destinations[i])+'px').removeClass("active");
+        $.Slides.slice(0, eq).each(function(i) {
+            $(this).css('margin-top', -(destinations[i + 1] - destinations[i]) + 'px').removeClass("active");
         });
 
         //console.log($.Slides.eq(eq+1).css('margin-top'));
@@ -273,9 +269,9 @@ $(document).ready(function() {
         var height = $(activeSlide).height();
         var margintop = $(activeSlide).css('marginTop').replace('px', '');
 
-        if (height - Math.abs(margintop) < (slideheight/2)){inView = eq+1;}
+        if (height - Math.abs(margintop) < (slideheight / 2)) { inView = eq + 1; }
 
-        $.Slides.slice(eq+1, 7).hide();
-        $.Slides.eq(eq+1).show();
+        $.Slides.slice(eq + 1, 7).hide();
+        $.Slides.eq(eq + 1).show();
     }
 });
