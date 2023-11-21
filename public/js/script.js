@@ -105,22 +105,22 @@ $(document).ready(function() {
 
     var eq = 0;
 
-    /*alert('#intro: ' + $('#intro').height() + '\n' +
+    console.log('#intro: ' + $('#intro').height() + '\n' +
             '#about: ' + $('#about').height() + '\n' +
             '#expertise: ' + $('#expertise').height() + '\n' +
             '#services: ' + $('#expertise').height() + '\n' +
             '#clients: ' + $('#expertise').height() + '\n' +
             '#publications: ' + $('#expertise').height() + '\n' +
-            '#contact: ' + $('#expertise').height());*/
+            '#contact: ' + $('#expertise').height());
 
     var destinations = [];
     destinations[0] = 0;
     destinations[1] = slideheight; // #intro
     //if ($("body").hasClass("temp")) {
-    // destinations[2] = destinations[1] + 3858; // #about
+    destinations[2] = destinations[1] + 3858; // #about
     // destinations[2] = destinations[1] + 3429; // #about
     // destinations[2] = destinations[1] + 4287; // #about
-    destinations[2] = destinations[1] + 4716; // #about
+    // destinations[2] = destinations[1] + 4716; // #about
     //} else {
     //    destinations[2] = destinations[1] + 3000; // #about
     //}
