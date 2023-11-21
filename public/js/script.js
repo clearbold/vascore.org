@@ -119,7 +119,8 @@ $(document).ready(function() {
     //if ($("body").hasClass("temp")) {
     // destinations[2] = destinations[1] + 3858; // #about
     // destinations[2] = destinations[1] + 3429; // #about
-    destinations[2] = destinations[1] + 4287; // #about
+    // destinations[2] = destinations[1] + 4287; // #about
+    destinations[2] = destinations[1] + 4716; // #about
     //} else {
     //    destinations[2] = destinations[1] + 3000; // #about
     //}
